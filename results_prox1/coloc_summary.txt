@@ -1,0 +1,32 @@
+=== Credible sets that contain each variant ===
+  rs17712208: 136 credible sets (22 T2D)
+  rs340874: 67 credible sets (22 T2D)
+
+  T2D credible sets used:
+    rs340874: GCST90475667 'Type 2 diabetes (PheCode 250.2)' (PIP of the variant 1.00)
+    rs17712208: FINNGEN_R12_T2D 'Type 2 diabetes, definitions combined' (PIP of the variant 0.67)
+
+=== PART A  Open Targets pre-computed colocalisation with the T2D credible set ===
+  rs340874: 63 colocalisation tests; traits of interest:
+    glucose   Glucose (fasting status unknown, minimum, inv COLOC_PIP_ECAVIAR H4=1.0    CLPP=0.95615052441694
+    HbA1c     Glycated hemoglobin HbA1c levels              COLOC_PIP_ECAVIAR H4=0.999688400716815 CLPP=0.7251333371177355
+    LDL       Free Cholesterol to Total Lipids in Large LDL COLOC_PIP_ECAVIAR H4=0.945906232849532 CLPP=0.016457685996320165
+    BCAA      Total concentration of branched-chain amino a COLOC_PIP_ECAVIAR H4=0.9276075718545572 CLPP=0.012051081782439455
+  rs17712208: 136 colocalisation tests; traits of interest:
+    alanine   Alanine levels                                COLOC_PIP_ECAVIAR H4=0.999451559914392 CLPP=0.6449270428502506
+    glutamine Glutamine levels                              COLOC_PIP_ECAVIAR H4=0.9994212650875985 CLPP=0.6325400087828853
+    GGT       Gamma glutamyl transferase levels             COLOC_PIP_ECAVIAR H4=0.9992781835052706 CLPP=0.5780244944142292
+    glucose   Blood glucose levels                          COLOC_PIP_ECAVIAR H4=0.9992250370167534 CLPP=0.5625395468080702
+    HbA1c     Serum glycated hemoglobin levels              COLOC_PIP_ECAVIAR H4=0.999210099400362 CLPP=0.5578391573128945
+    BCAA      Valine levels                                 COLOC_PIP_ECAVIAR H4=0.9991473982318358 CLPP=0.5388391320963553
+    albumin   Albumin (maximum, inv-norm transformed)       COLOC_PIP_ECAVIAR H4=0.9991118271204639 CLPP=0.5271092376689122
+    LDL       Low density lipoprotein cholesterol levels    COLOC_PIP_ECAVIAR H4=0.999055763859236 CLPP=0.5128128318439421
+
+=== PART B  Own CLPP = sum PIP(T2D) x PIP(trait) ===
+
+=== VERDICT ===
+  alanine: COLOCALISES with the rs17712208 T2D signal (CLPP 0.64); rs340874 T2D signal CLPP 0.00; risk allele raises alanine (beta +0.175)
+  glutamine: COLOCALISES with the rs17712208 T2D signal (CLPP 0.63); rs340874 T2D signal CLPP 0.00; risk allele raises glutamine (beta +0.155)
+  BCAA: COLOCALISES with the rs17712208 T2D signal (CLPP 0.54); rs340874 T2D signal CLPP 0.00; risk allele raises BCAA (beta +0.047)
+  HbA1c: COLOCALISES with the rs17712208 T2D signal (CLPP 0.56); rs340874 T2D signal CLPP 0.00; risk allele raises HbA1c (beta +0.016)
+  CLPP >= 0.1: same causal variant likely; ~0: different variants. Open Targets H4 >= 0.8 = colocalised.

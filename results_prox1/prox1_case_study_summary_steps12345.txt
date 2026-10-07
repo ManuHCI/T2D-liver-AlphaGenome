@@ -1,0 +1,32 @@
+
+=== TEST 1  Is rs17712208 a separate signal from the studied rs340874? (LD, 1000G EUR) ===
+  allele-frequency ceiling: r2 between rs17712208 (MAF 0.051) and rs340874 (MAF 0.469) cannot exceed 0.060
+  perfect/strong proxies of rs17712208 (r2 >= 0.8): ['rs79687284'] -> genetics alone cannot separate them
+  Test 1: PASS - Ensembl reports no LD (r2 < 0.05) and the ceiling is 0.060 -> separate signal
+
+=== TEST 2  Liver or pancreas? AlphaGenome effect in every tissue ===
+  per output (liver vs islet/endocrine): CHIP_HISTONE both (-1.07 vs -0.99), DNASE liver (-1.64 vs -0.44), RNA_SEQ both (-0.06 vs -0.09)
+  Test 2: SHARED - the enhancer closes in liver AND in endocrine pancreas (beta-cell route not excluded); DNase liver rank among 305 biosamples = top 6%
+          for comparison rs340874: DNase liver 0.021, islet/endocrine 0.035
+
+=== TEST 3  Does the risk allele lower PROX1 in real human tissue? (GTEx v8) ===
+  Test 3: SAME DIRECTION, NOT SIGNIFICANT (NES -0.33, p 0.067; GTEx liver n~208, low power for a low-frequency variant)
+
+=== TEST 4  Which transcription-factor site does rs17712208 break? ===
+  ISM: critical bases (z <= -1.5) at offsets [-1, 0, 1, 2, 3, 4, 6, 7, 8, 11] from the variant
+  Motif + ChIP agreement (motif loss in top 20 AND TF in top 40 ChIP drops): ['Sox5 (MA0087.3)']
+  Test 4: top motif losses -> BARX1 (MA0875.2), Lhx8 (MA0705.2), MNX1 (MA0707.3), NR2C2 (MA1536.2), HOXA1 (MA1495.2)
+  Test 4 is descriptive: it names candidate TFs for the wet-lab test, it does not pass/fail.
+
+=== TEST 5  Liver pattern or beta-cell pattern? (PheWAS of fine-mapped signals) ===
+
+  rs17712208: 75 GWAS traits
+    by group: glycaemia / diabetes 38, other 32, lipids / bile 4, liver 1
+
+  rs340874: 49 GWAS traits
+    by group: glycaemia / diabetes 27, other 12, lipids / bile 8, beta-cell / insulin secretion 2
+  rs17712208: strongest non-diabetes signals (PIP >= 0.5): Alanine levels (beta +0.175, p 5e-222); Glutamine levels (beta +0.155, p 3e-170); Glycine levels (beta +0.063, p 9e-38); Histidine levels (beta +0.051, p 4e-19); Valine levels (beta +0.047, p 9e-18); chloride  (mean, inv-norm transformed) (beta -0.086, p 2e-17); Total concentration of branched-chain amino acids (leucine + isoleucine + valine) (beta +0.044, p 5e-16); Tyrosine levels (beta +0.054, p 2e-12); chloride  (minimum, inv-norm transformed) (beta -0.068, p 7e-12); Isoleucine levels (beta +0.037, p 3e-11); chloride  (maximum, inv-norm transformed) (beta -0.068, p 6e-11); Albumin (maximum,
+  rs340874: strongest non-diabetes signals (PIP >= 0.5): Mean sphered cell volume (UKB data field 30270) (beta -0.015, p 2e-13); Urea levels (UKB data field 30670) (beta +0.014, p 5e-11); Glycemic traits (pleiotropy) (beta +nan, p 7e-09)
+  Test 5: WEAK SUPPORT - liver-type traits 5, beta-cell traits 0 (but HOMA-B GWAS rarely cover a 3-5% variant, so absence is not evidence)
+
+=== VERDICTS ===

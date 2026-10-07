@@ -1,0 +1,259 @@
+study,type,trait,project,qtl_gene,qtl_tissue,beta_alt,pip,p,rsid,risk_sign,source,beta,direction,or,risk_allele,group,beta_risk
+gtex-v10_ge_brain_putamen_ensg00000230461,eqtl,ENSG00000230461,GTEx-v10,PROX1-AS1,putamen,0.221074,0.06079457442766173,4.3940000534057613e-11,rs340874,1.0,Open Targets credible set,,,,,other,0.221074
+GCST002897,gwas,Triglycerides,GCST,,,,0.01234253763274094,,rs340874,1.0,Open Targets credible set,,,,,lipids / bile,
+GCST90256417,gwas,Glycated hemoglobin HbA1c levels,GCST,,,0.00850781,0.7251333377230373,1.9420000314712525e-11,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.00850781
+GCST006867,gwas,Type 2 diabetes,GCST,,,0.010816159137349473,0.9988970681682905,,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.010816159137349473
+GCST90479626,gwas,"Glucose (fasting status unknown, mean, inv-norm transformed)",GCST,,,0.03426,0.9832770451670789,1.3300000429153443e-32,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.03426
+GCST90038633,gwas,Diabetes,GCST,,,0.006749837840818928,0.07068273999221117,,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.006749837840818928
+GCST90479627,gwas,"Glucose (fasting status unknown, minimum, inv-norm transformed)",GCST,,,0.02334,0.9561505252150824,1.6200000047683715e-24,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.02334
+GCST90479892,gwas,Diabetes mellitus (PheCode 250),GCST,,,0.04416089578576984,0.8777059858511019,8.289999961853027e-17,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.04416089578576984
+GCST008674,gwas,Glycemic traits (pleiotropy),GCST,,,,0.5921562873839715,7.000000000000001e-09,rs340874,1.0,Open Targets credible set,,,,,other,
+GCST90132183,gwas,Type 2 diabetes,GCST,,,0.04879016416943205,0.8926559011856461,1e-17,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.04879016416943205
+GCST90029024,gwas,Type 2 diabetes,GCST,,,0.00840870312788085,0.7525835980853406,,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.00840870312788085
+GCST90827738,gwas,Fluid reasoning (multivariate analysis),GCST,,,,0.006013664685430859,,rs340874,1.0,Open Targets credible set,,,,,other,
+GCST90475268,gwas,Takes medication for Diabetes/sugar?,GCST,,,0.01602303891642355,0.025837326916981443,,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.01602303891642355
+GCST90479885,gwas,Type 2 diabetes (PheCode 250.2),GCST,,,0.04395188752918277,0.8732542479420364,1.4700000286102295e-16,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.04395188752918277
+GCST90475689,gwas,Diabetic retinopathy (PheCode 250.7),GCST,,,0.00813090881653412,0.1371297424681133,,rs340874,1.0,Open Targets credible set,,,,,other,0.00813090881653412
+GCST90475326,gwas,"Glucose (finger stick, mean, inv-norm transformed)",GCST,,,0.022178463982260328,0.9157622170539101,,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.022178463982260328
+GCST90501305,gwas,Triglycerides to Total Lipids in Very Large HDL percentage,GCST,,,,0.013264142831947743,,rs340874,1.0,Open Targets credible set,,,,,lipids / bile,
+GCST90018926,gwas,Type 2 diabetes,GCST,,,0.0535,0.8840505418672654,3.510999917984009e-17,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.0535
+gtex-v10_ge_brain_cortex_ensg00000274895,eqtl,ENSG00000274895,GTEx-v10,ENSG00000274895,frontal cortex,0.31903,0.0854880236465498,2.496999979019165e-07,rs340874,1.0,Open Targets credible set,,,,,other,0.31903
+GCST90500279,gwas,Average diameter for VLDL particles,GCST,,,,0.015969460330382032,,rs340874,1.0,Open Targets credible set,,,,,lipids / bile,
+GCST90692860,gwas,Diabetes diagnosed by doctor (UKB data field 2443),GCST,,,0.007146636666109328,0.03956368049458827,1.3664897680282594e-09,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.007146636666109328
+GCST90132184,gwas,Type 2 diabetes,GCST,,,0.055,0.9065953098185415,1e-18,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.055
+GCST90018981,gwas,Medication use (drugs used in diabetes),GCST,,,0.0488,0.6820762759518807,1.6670000553131103e-10,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.0488
+GCST90476435,gwas,"triglyceride (mean, inv-norm transformed)",GCST,,,0.00758213276546801,0.04370978730239082,,rs340874,1.0,Open Targets credible set,,,,,lipids / bile,0.00758213276546801
+GCST90500275,gwas,Average diameter for VLDL particles,GCST,,,,0.013405499521932774,,rs340874,1.0,Open Targets credible set,,,,,lipids / bile,
+GCST004894,gwas,Type 2 diabetes,GCST,,,0.049,0.6534465330912124,6e-10,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.049
+GCST90256408,gwas,Fasting glucose,GCST,,,0.014961,0.8176006663421012,4.258999824523926e-14,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.014961
+GCST90693212,gwas,Type 2 diabetes,GCST,,,0.0572,0.9728498258502392,1e-30,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.0572
+GCST90256405,gwas,Fasting glucose,GCST,,,0.0146262,0.7542445375020099,3.710999965667725e-12,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.0146262
+GCST90479883,gwas,Type 2 diabetes with neurological manifestations (PheCode 250.24),GCST,,,0.048035449038556874,0.786446243663523,4.590000152587891e-13,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.048035449038556874
+GCST90501151,gwas,Free Cholesterol to Total Lipids in Large LDL percentage,GCST,,,,0.016457686010058144,,rs340874,1.0,Open Targets credible set,,,,,lipids / bile,
+GCST90499054,gwas,Triglycerides to Total Lipids in Medium VLDL percentage,GCST,,,,0.01596170331500353,,rs340874,1.0,Open Targets credible set,,,,,lipids / bile,
+GCST90498940,gwas,Cholesteryl Esters to Total Lipids in Medium VLDL percentage,GCST,,,,0.013193679805601863,,rs340874,1.0,Open Targets credible set,,,,,lipids / bile,
+GCST90501207,gwas,Cholesterol to Total Lipids in Medium VLDL percentage,GCST,,,,0.015500238776958544,,rs340874,1.0,Open Targets credible set,,,,,lipids / bile,
+GCST90492734,gwas,Type 2 diabetes,GCST,,,,0.9997131256991804,1e-70,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,
+GCST90500177,gwas,Valine levels,GCST,,,,0.008912363728810073,,rs340874,1.0,Open Targets credible set,,,,,other,
+GCST90474586,gwas,Mean sphered cell volume (UKB data field 30270),GCST,,,-0.0152423,0.7975359381638935,2.0629999637603761e-13,rs340874,1.0,Open Targets credible set,,,,,other,-0.0152423
+GCST90475658,gwas,Diabetes mellitus (PheCode 250),GCST,,,0.021698834335978037,0.9999999931875153,,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.021698834335978037
+GCST012078,gwas,Fasting glucose,GCST,,,0.015662,0.8569414802441824,1e-15,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.015662
+GCST90501292,gwas,Average diameter for VLDL particles,GCST,,,,0.013039606217442143,,rs340874,1.0,Open Targets credible set,,,,,lipids / bile,
+GCST90475667,gwas,Type 2 diabetes (PheCode 250.2),GCST,,,0.022558089497729698,0.9999999991652545,,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.022558089497729698
+gtex-v10_ge_brain_caudate_ensg00000230461,eqtl,ENSG00000230461,GTEx-v10,PROX1-AS1,caudate nucleus,0.203813,0.04198119093166222,8.364999771118164e-09,rs340874,1.0,Open Targets credible set,,,,,other,0.203813
+GCST90256420,gwas,Glycated hemoglobin HbA1c levels,GCST,,,0.00810225,0.713882332098447,3.5109999179840085e-11,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.00810225
+GCST90691658,gwas,Diabetes diagnosed by doctor (UKB data field 2443),GCST,,,0.007220087438717626,0.03962807054627253,1.3664897680282594e-09,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.007220087438717626
+GCST007077,gwas,Type 2 diabetes,GCST,,,,0.7577462454291995,3e-12,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,
+GCST010557,gwas,Type 2 diabetes,GCST,,,0.0543,0.9957573081504533,6e-45,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.0543
+GCST90500487,gwas,Triglycerides to Total Lipids in Very Large HDL percentage,GCST,,,,0.014552363389392246,,rs340874,1.0,Open Targets credible set,,,,,lipids / bile,
+FINNGEN_R12_T2D_WIDE,gwas,"Type 2 diabetes, wide definition",FINNGEN_R12,,,0.00144718776383896,0.035972181760705,3.59500002861023e-09,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.00144718776383896
+GCST009379,gwas,Type 2 diabetes,GCST,,,0.06765864847381486,0.9428653649260421,2e-22,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.06765864847381486
+GCST90444488,gwas,Metabolic syndrome,GCST,,,0.005565210884133233,0.7243345716376719,,rs340874,1.0,Open Targets credible set,,,,,other,0.005565210884133233
+GCST010555,gwas,Type 2 diabetes,GCST,,,0.0668,0.99695297516252,5e-48,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.0668
+GCST90498906,gwas,Cholesterol to Total Lipids in Medium VLDL percentage,GCST,,,,0.0145801560359333,,rs340874,1.0,Open Targets credible set,,,,,lipids / bile,
+GCST90479589,gwas,Diabetes / �Sugar�,GCST,,,0.050872330373756505,0.849678165773112,2.1700000762939454e-15,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.050872330373756505
+GCST90501209,gwas,Cholesteryl Esters to Total Lipids in Medium VLDL percentage,GCST,,,,0.01392490731081464,,rs340874,1.0,Open Targets credible set,,,,,lipids / bile,
+GCST90429602,gwas,Glucose levels (UKB data field 30740),GCST,,,0.028736,0.9246078032968561,2.624000072479248e-20,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.028736
+GCST90497978,gwas,Free Cholesterol to Total Lipids in Large LDL percentage,GCST,,,,0.015410296017783329,,rs340874,1.0,Open Targets credible set,,,,,lipids / bile,
+GCST012076,gwas,Fasting glucose,GCST,,,0.020339,0.7979531138741617,2e-13,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.020339
+GCST90474329,gwas,Urea levels (UKB data field 30670),GCST,,,0.0140686,0.705486663561672,5.38100004196167e-11,rs340874,1.0,Open Targets credible set,,,,,other,0.0140686
+GCST90027092,gwas,Sex hormone-binding globulin levels,GCST,,,,0.008608201023368333,,rs340874,1.0,Open Targets credible set,,,,,other,
+GCST90499999,gwas,Total concentration of branched-chain amino acids (leucine + isoleucine + valine),GCST,,,,0.012051081792499042,,rs340874,1.0,Open Targets credible set,,,,,other,
+GCST90475673,gwas,Type 2 diabetes with ophthalmic manifestations (PheCode 250.23),GCST,,,0.007874894268135393,0.1256438520212429,,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.007874894268135393
+GCST90302887,gwas,Type 2 diabetes,GCST,,,,0.010613433032993126,,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,
+GCST001527,gwas,Fasting blood glucose (BMI interaction),GCST,,,-0.0011,0.6068477964931998,4e-09,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,-0.0011
+GCST90018966,gwas,Mean corpuscular volume,GCST,,,,0.014036746008377,,rs340874,1.0,Open Targets credible set,,,,,other,
+GCST90838681,gwas,Glucose levels (adjusted for time of day),GCST,,,0.0256236,0.93147003259039,5e-21,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.0256236
+GCST90692175,gwas,Diabetes diagnosed by doctor (UKB data field 2443),GCST,,,0.0562683251008394,0.08424230482908507,1.3664897680282594e-09,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.0562683251008394
+GCST90043627,gwas,Diabetes mellitus (UKB data field 2443),GCST,,,0.008800877510974244,0.888387716288105,,rs340874,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.008800877510974244
+,gwas,blood glucose amount,,,,,,7e-12,rs340874,1.0,GWAS Catalog,0.013,increase,,rs340874-C,glycaemia / diabetes,
+,gwas,body mass index; blood glucose amount,,,,,,4e-09,rs340874,1.0,GWAS Catalog,0.0011,increase,,rs340874-T,glycaemia / diabetes,
+,gwas,blood glucose amount,,,,,,2e-13,rs340874,1.0,GWAS Catalog,0.020339,increase,,rs340874-C,glycaemia / diabetes,
+,gwas,glucose measurement,,,,,,1e-32,rs340874,1.0,GWAS Catalog,0.03426,decrease,,rs340874-T,glycaemia / diabetes,
+,gwas,blood glucose amount,,,,,,1e-15,rs340874,1.0,GWAS Catalog,0.015662,increase,,rs340874-C,glycaemia / diabetes,
+,gwas,type 2 diabetes mellitus,,,,,,1e-17,rs340874,1.0,GWAS Catalog,,,1.05,rs340874-C,glycaemia / diabetes,
+,gwas,type 2 diabetes mellitus,,,,,,5e-48,rs340874,1.0,GWAS Catalog,0.0668,increase,,rs340874-C,glycaemia / diabetes,
+,gwas,Drugs used in diabetes use measurement,,,,,,2e-10,rs340874,1.0,GWAS Catalog,0.0488,increase,,rs340874-C,glycaemia / diabetes,
+,gwas,glucose measurement,,,,,,2e-24,rs340874,1.0,GWAS Catalog,0.02334,decrease,,rs340874-T,glycaemia / diabetes,
+,gwas,psoriasis; type 2 diabetes mellitus,,,,,,3.0000000000000004e-08,rs340874,1.0,GWAS Catalog,,,1.06,rs340874-C,glycaemia / diabetes,
+,gwas,type 2 diabetes mellitus,,,,,,3e-12,rs340874,1.0,GWAS Catalog,,,,rs340874-?,glycaemia / diabetes,
+,gwas,type 2 diabetes mellitus,,,,,,1e-30,rs340874,1.0,GWAS Catalog,0.0572,increase,,rs340874-C,glycaemia / diabetes,
+,gwas,diabetic retinopathy,,,,,,5e-12,rs340874,1.0,GWAS Catalog,0.05623,decrease,,rs340874-T,other,
+,gwas,type 2 diabetes mellitus,,,,,,4e-27,rs340874,1.0,GWAS Catalog,0.0844,increase,,rs340874-C,glycaemia / diabetes,
+,gwas,type 2 diabetes mellitus,,,,,,6e-45,rs340874,1.0,GWAS Catalog,0.0543,increase,,rs340874-C,glycaemia / diabetes,
+,gwas,type 2 diabetes mellitus,,,,,,1e-70,rs340874,1.0,GWAS Catalog,,,,rs340874-C,glycaemia / diabetes,
+,gwas,type 2 diabetes mellitus,,,,,,2e-22,rs340874,1.0,GWAS Catalog,,,1.07,rs340874-C,glycaemia / diabetes,
+,gwas,blood glucose amount,,,,,,9e-07,rs340874,1.0,GWAS Catalog,0.0159,decrease,,rs340874-T,glycaemia / diabetes,
+,gwas,type 2 diabetes mellitus,,,,,,8e-18,rs340874,1.0,GWAS Catalog,0.0626,decrease,,rs340874-T,glycaemia / diabetes,
+,gwas,HOMA-B,,,,,,4.9999999999999996e-06,rs340874,1.0,GWAS Catalog,0.008,decrease,,rs340874-C,beta-cell / insulin secretion,
+,gwas,type 2 diabetes mellitus,,,,,,1e-18,rs340874,1.0,GWAS Catalog,0.055,increase,,rs340874-C,glycaemia / diabetes,
+,gwas,diabetes mellitus,,,,,,8e-17,rs340874,1.0,GWAS Catalog,0.04415,decrease,,rs340874-T,glycaemia / diabetes,
+,gwas,type 2 diabetes mellitus,,,,,,4e-17,rs340874,1.0,GWAS Catalog,0.0535,increase,,rs340874-C,glycaemia / diabetes,
+,gwas,type 2 diabetes mellitus,,,,,,1e-07,rs340874,1.0,GWAS Catalog,,,1.0869565,rs340874-C,glycaemia / diabetes,
+,gwas,type 2 diabetes mellitus,,,,,,1e-08,rs340874,1.0,GWAS Catalog,0.0597,increase,,rs340874-C,glycaemia / diabetes,
+,gwas,type 2 diabetes mellitus,,,,,,6e-10,rs340874,1.0,GWAS Catalog,0.049,increase,,rs340874-C,glycaemia / diabetes,
+,gwas,type 2 diabetes mellitus,,,,,,1e-16,rs340874,1.0,GWAS Catalog,0.044,decrease,,rs340874-T,glycaemia / diabetes,
+,gwas,diabetic neuropathy,,,,,,5e-13,rs340874,1.0,GWAS Catalog,0.04805,decrease,,rs340874-T,other,
+,gwas,blood glucose amount,,,,,,5e-21,rs340874,1.0,GWAS Catalog,0.0256236,increase,,rs340874-C,glycaemia / diabetes,
+,gwas,diabetes mellitus,,,,,,2e-15,rs340874,1.0,GWAS Catalog,0.05089,decrease,,rs340874-T,glycaemia / diabetes,
+,gwas,blood glucose amount; blood insulin amount; HOMA-B,,,,,,7.000000000000001e-09,rs340874,1.0,GWAS Catalog,,,,rs340874-?,beta-cell / insulin secretion,
+GCST90014005,gwas,Glucose levels (UKB data field 30740),GCST,,,0.01854282032782107,0.45586292238454146,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.01854282032782107
+GCST90200432,gwas,Threonine levels,GCST,,,0.061933722206382456,0.5080311452341317,,rs17712208,1.0,Open Targets credible set,,,,,other,0.061933722206382456
+GCST90475197,gwas,"chloride  (minimum, inv-norm transformed)",GCST,,,-0.06801,0.5907946770500329,7.380000114440917e-12,rs17712208,1.0,Open Targets credible set,,,,,other,-0.06801
+GCST90319640,gwas,Serum glucose levels,GCST,,,0.013847344677195306,0.5476248784539841,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.013847344677195306
+GCST90501096,gwas,Alanine levels,GCST,,,0.1754,0.9305679351200437,5.2480001449584965e-222,rs17712208,1.0,Open Targets credible set,,,,,other,0.1754
+GCST90692815,gwas,"LDL direct, adjusted by medication",GCST,,,0.008674650388573868,0.42574133304695616,5.205171585083008e-09,rs17712208,1.0,Open Targets credible set,,,,,lipids / bile,0.008674650388573868
+GCST90475667,gwas,Type 2 diabetes (PheCode 250.2),GCST,,,0.014777660266749901,0.5826996967590425,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.014777660266749901
+GCST90092820,gwas,Glycine levels,GCST,,,0.017488243581101074,0.27998072568563853,,rs17712208,1.0,Open Targets credible set,,,,,other,0.017488243581101074
+GCST90692860,gwas,Diabetes diagnosed by doctor (UKB data field 2443),GCST,,,0.00979886047463837,0.5071228496538748,4.705741882324219e-13,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.00979886047463837
+GCST90475676,gwas,Type 2 diabetes with neurological manifestations (PheCode 250.24),GCST,,,0.008772008391028449,0.5315784748719115,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.008772008391028449
+GCST90271559,gwas,Random glucose levels,GCST,,,0.014203551021636554,0.3093394228851374,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.014203551021636554
+GCST90691927,gwas,ICD10 E11: Non-insulin-dependent diabetes mellitus,GCST,,,0.00950810637548994,0.32235218166856117,1.354241132736206e-12,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.00950810637548994
+GCST90497278,gwas,Glutamine levels,GCST,,,0.154442,0.8922221368032679,2.716000080108643e-168,rs17712208,1.0,Open Targets credible set,,,,,other,0.154442
+GCST90501120,gwas,Histidine levels,GCST,,,0.0507,0.6221820872252248,3.890000104904175e-19,rs17712208,1.0,Open Targets credible set,,,,,other,0.0507
+GCST90497295,gwas,Glucose levels,GCST,,,,0.3595507735386786,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,
+GCST90014006,gwas,Glycated haemoglobin HbA1c levels (UKB data field 30750),GCST,,,0.021808940875445354,0.15476914186186047,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.021808940875445354
+GCST90019493,gwas,Serum albumin levels,GCST,,,0.012410995342248498,0.4819508327909579,,rs17712208,1.0,Open Targets credible set,,,,,other,0.012410995342248498
+GCST90475194,gwas,"chloride  (mean, inv-norm transformed)",GCST,,,-0.08571,0.6156128739306715,1.8990000486373903e-17,rs17712208,1.0,Open Targets credible set,,,,,other,-0.08571
+GCST90497095,gwas,Alanine levels,GCST,,,0.174615,0.9285843486596194,1.4550000429153444e-218,rs17712208,1.0,Open Targets credible set,,,,,other,0.174615
+GCST90693000,gwas,Type 2 diabetes (PheCode 250.2),GCST,,,0.009459738979321355,0.3501872863121185,1.0478819608688355e-12,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.009459738979321355
+GCST90239673,gwas,Total cholesterol levels,GCST,,,,0.4062938193776059,,rs17712208,1.0,Open Targets credible set,,,,,lipids / bile,
+GCST90092806,gwas,Alanine levels,GCST,,,0.03562089898718906,0.35503447767331386,,rs17712208,1.0,Open Targets credible set,,,,,other,0.03562089898718906
+GCST90691952,gwas,Type 2 diabetes (PheCode 250.2),GCST,,,0.00955878549352283,0.35019037996134944,1.0478819608688355e-12,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.00955878549352283
+GCST90038633,gwas,Diabetes,GCST,,,0.01003065547283948,0.4085392929254687,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.01003065547283948
+GCST90092819,gwas,Glucose levels,GCST,,,0.017593284664395012,0.30251566049658085,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.017593284664395012
+GCST90473174,gwas,ICD10 E11: Non-insulin-dependent diabetes mellitus,GCST,,,0.172705,0.6182588719446368,4.0510001182556156e-18,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.172705
+GCST90002412,gwas,Low density lipoprotein cholesterol levels,GCST,,,0.007937628434140039,0.5409605558767435,,rs17712208,1.0,Open Targets credible set,,,,,lipids / bile,0.007937628434140039
+GCST90501285,gwas,Valine levels,GCST,,,0.047,0.6168356719081177,9.333000183105469e-18,rs17712208,1.0,Open Targets credible set,,,,,other,0.047
+GCST90319613,gwas,Serum glycated hemoglobin levels,GCST,,,0.016023480057136053,0.6728806458065127,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.016023480057136053
+GCST90043627,gwas,Diabetes mellitus (UKB data field 2443),GCST,,,0.009055010058648163,0.5602227836574518,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.009055010058648163
+GCST90827745,gwas,Alanine levels,GCST,,,,0.2946934298148144,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90501110,gwas,Glycine levels,GCST,,,0.0631,0.6823023799334144,8.710000038146972e-38,rs17712208,1.0,Open Targets credible set,,,,,other,0.0631
+GCST90475094,gwas,"Hemoglobin A1c (HbA1c, mean, inv-norm transformed)",GCST,,,0.02139984227813922,0.51444410175107,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.02139984227813922
+GCST90691951,gwas,Diabetes mellitus (PheCode 250),GCST,,,0.00902826674538923,0.40337294157396625,1.7208045721054077e-11,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.00902826674538923
+GCST90503747,gwas,Glycine levels,GCST,,,,0.4121230484719454,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90692403,gwas,ICD10 E11: Non-insulin-dependent diabetes mellitus,GCST,,,0.07045420327193312,0.3263524330044353,1.354241132736206e-12,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.07045420327193312
+GCST90309362,gwas,Diabetes (confirmatory factor analysis Factor 28),GCST,,,0.009323641259018144,0.5220487905319757,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.009323641259018144
+GCST90692755,gwas,Gamma glutamyl transferase levels,GCST,,,0.009079616761220634,0.735810113231954,9.274566650390625e-06,rs17712208,1.0,Open Targets credible set,,,,,liver,0.009079616761220634
+GCST90475329,gwas,"Glucose (fasting status unknown, maximum, inv-norm transformed)",GCST,,,0.01443252706613827,0.5055229878498391,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.01443252706613827
+GCST90092818,gwas,Glutamine levels,GCST,,,0.038370498551454454,0.17293009233624185,,rs17712208,1.0,Open Targets credible set,,,,,other,0.038370498551454454
+GCST90475192,gwas,"chloride  (maximum, inv-norm transformed)",GCST,,,-0.009743081147925487,0.5030679179183504,,rs17712208,1.0,Open Targets credible set,,,,,other,-0.009743081147925487
+GCST90013892,gwas,Type 2 diabetes (Firth correction),GCST,,,0.009206009489882833,0.36671515542805905,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.009206009489882833
+GCST90301965,gwas,Glutamine levels,GCST,,,0.13987528,0.6443041747960646,2.394000053405762e-25,rs17712208,1.0,Open Targets credible set,,,,,other,0.13987528
+GCST90497085,gwas,Alanine levels,GCST,,,0.167637,0.8210216321802722,2.2590000629425046e-106,rs17712208,1.0,Open Targets credible set,,,,,other,0.167637
+GCST90501274,gwas,Total concentration of branched-chain amino acids (leucine + isoleucine + valine),GCST,,,0.0444,0.6098283567495668,5.01200008392334e-16,rs17712208,1.0,Open Targets credible set,,,,,other,0.0444
+GCST90475091,gwas,"Hemoglobin A1c (HbA1c, maximum, inv-norm transformed)",GCST,,,0.01977855475100934,0.5109510304611101,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.01977855475100934
+GCST90497483,gwas,Histidine levels,GCST,,,0.0498726,0.6197159840102385,1.7089999914169313e-18,rs17712208,1.0,Open Targets credible set,,,,,other,0.0498726
+GCST90827757,gwas,Glutamine levels,GCST,,,,0.292173152053059,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90500143,gwas,Tyrosine levels,GCST,,,,0.3923321477771873,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90692987,gwas,ICD10 E11: Non-insulin-dependent diabetes mellitus,GCST,,,0.009409608811669303,0.32235682947356264,1.354241132736206e-12,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.009409608811669303
+GCST90691658,gwas,Diabetes diagnosed by doctor (UKB data field 2443),GCST,,,0.009897007343859381,0.5071190301342706,4.705741882324219e-13,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.009897007343859381
+GCST90474364,gwas,Glucose levels (UKB data field 30740),GCST,,,,0.30431694515265056,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,
+GCST90497086,gwas,Alanine levels,GCST,,,0.04730569902168611,0.771184727998341,1.3212275505065919e-111,rs17712208,1.0,Open Targets credible set,,,,,other,0.04730569902168611
+GCST90497109,gwas,Albumin levels,GCST,,,,0.394062225248328,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90475268,gwas,Takes medication for Diabetes/sugar?,GCST,,,0.014669148235502255,0.514803717937845,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.014669148235502255
+GCST90503746,gwas,Glutamine levels,GCST,,,,0.3041412385755504,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90479502,gwas,"Hemoglobin A1c (HbA1c, minimum, inv-norm transformed)",GCST,,,0.1493,0.6557362739478598,7.420000076293945e-29,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.1493
+GCST90319599,gwas,Serum albumin levels,GCST,,,0.015609138115134537,0.22851963463739822,,rs17712208,1.0,Open Targets credible set,,,,,other,0.015609138115134537
+GCST90475658,gwas,Diabetes mellitus (PheCode 250),GCST,,,0.015096046620854772,0.5803336549600573,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.015096046620854772
+GCST90500004,gwas,Total concentration of branched-chain amino acids (leucine + isoleucine + valine),GCST,,,,0.39038245550639256,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90497316,gwas,Glycine levels,GCST,,,0.0472156,0.5940669085859728,1.6380000114440917e-12,rs17712208,1.0,Open Targets credible set,,,,,other,0.0472156
+GCST90691894,gwas,"LDL direct, adjusted by medication",GCST,,,0.008871268758467355,0.40362711196126166,4.272871017456055e-09,rs17712208,1.0,Open Targets credible set,,,,,lipids / bile,0.008871268758467355
+GCST90475103,gwas,"Albumin (mean, inv-norm transformed)",GCST,,,0.009371771206443927,0.5014436157088881,,rs17712208,1.0,Open Targets credible set,,,,,other,0.009371771206443927
+FINNGEN_R12_T2D,gwas,"Type 2 diabetes, definitions combined",FINNGEN_R12,,,0.0870922076454505,0.668392273643485,1.5390000343322753e-12,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.0870922076454505
+GCST90500144,gwas,Tyrosine levels,GCST,,,,0.3502831458485522,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90301943,gwas,Alanine levels,GCST,,,0.12441144,0.6272173400600426,1.759999990463257e-20,rs17712208,1.0,Open Targets credible set,,,,,other,0.12441144
+GCST90013942,gwas,Type 2 diabetes (SPA correction),GCST,,,0.008927850233418405,0.37781999575186087,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.008927850233418405
+GCST90479588,gwas,Takes medication for Diabetes/sugar?,GCST,,,0.20456716574127437,0.6068562347782406,2.5399999618530274e-15,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.20456716574127437
+FINNGEN_R12_KELA_DIAB_INSUL_EXMORE,gwas,"Diabetes, insulin treatment (Kela reimbursement) (more control exclusions)",FINNGEN_R12,,,0.0811326524642939,0.620161927649281,2.234999895095825e-12,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.0811326524642939
+GCST90692416,gwas,Diabetes mellitus (PheCode 250),GCST,,,0.06670506812136538,0.41523700941152974,1.7208045721054077e-11,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.06670506812136538
+GCST90018955,gwas,Glucose levels,GCST,,,,0.3297027078302158,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,
+GCST90501108,gwas,Glutamine levels,GCST,,,0.1549,0.8939155211457683,3.1619999408721925e-170,rs17712208,1.0,Open Targets credible set,,,,,other,0.1549
+GCST90239676,gwas,Total cholesterol levels,GCST,,,,0.4106018209186414,,rs17712208,1.0,Open Targets credible set,,,,,lipids / bile,
+GCST90019508,gwas,Blood glucose levels,GCST,,,0.01822881279369678,0.6867887871157925,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.01822881279369678
+GCST90310139,gwas,Albumin levels (UKB data field 30600),GCST,,,,0.4063625400442675,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90271558,gwas,Random glucose levels,GCST,,,0.013058378176321125,0.4531906865690045,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.013058378176321125
+GCST90475673,gwas,Type 2 diabetes with ophthalmic manifestations (PheCode 250.23),GCST,,,0.007103744031864273,0.5000247782104519,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.007103744031864273
+GCST90269557,gwas,Alanine levels (UKB data field 23460),GCST,,,0.03961311032311801,0.21750533290448676,,rs17712208,1.0,Open Targets credible set,,,,,other,0.03961311032311801
+GCST90474294,gwas,Albumin levels (UKB data field 30600),GCST,,,,0.3815187176015004,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90692999,gwas,Diabetes mellitus (PheCode 250),GCST,,,0.00894058185221559,0.40331942507853796,1.7208045721054077e-11,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.00894058185221559
+GCST90479541,gwas,"chloride  (minimum, inv-norm transformed)",GCST,,,-0.06654,0.5783639978715167,1.190000057220459e-09,rs17712208,1.0,Open Targets credible set,,,,,other,-0.06654
+GCST90497300,gwas,Glucose levels,GCST,,,,0.40816558737512376,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,
+GCST90501109,gwas,Glucose levels,GCST,,,0.0573,0.641190611740908,1.9950000047683716e-24,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.0573
+GCST90013990,gwas,Albumin levels (UKB data field 30600),GCST,,,0.013145485910351968,0.4202691496659188,,rs17712208,1.0,Open Targets credible set,,,,,other,0.013145485910351968
+GCST90479540,gwas,"chloride  (mean, inv-norm transformed)",GCST,,,-0.08553,0.6020498794156096,3.2000000476837156e-14,rs17712208,1.0,Open Targets credible set,,,,,other,-0.08553
+GCST90691575,gwas,Gamma glutamyl transferase levels,GCST,,,0.009369575484221217,0.7338400942334495,5.10000467300415e-06,rs17712208,1.0,Open Targets credible set,,,,,liver,0.009369575484221217
+GCST90245218,gwas,Glutamine levels,GCST,,,,0.5830233120050707,2e-10,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90319641,gwas,Serum glycated hemoglobin levels,GCST,,,0.018910220401362046,0.20027625935198795,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.018910220401362046
+GCST90500176,gwas,Valine levels,GCST,,,0.0485669,0.5729155671920114,7.935999870300294e-09,rs17712208,1.0,Open Targets credible set,,,,,other,0.0485669
+GCST90445851,gwas,Glycine levels (UKB data field 23462),GCST,,,,0.40797967432999843,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90019509,gwas,Glycated hemoglobin levels,GCST,,,0.01910498258476037,0.30724432835261406,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.01910498258476037
+GCST90827746,gwas,Albumin levels,GCST,,,,0.4203026174586206,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90827758,gwas,Glucose levels,GCST,,,,0.4134138850826827,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,
+GCST90473178,gwas,ICD10 E14: Unspecified diabetes mellitus,GCST,,,0.183078,0.5946586248529161,1.2389999628067017e-12,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.183078
+GCST90473167,gwas,ICD10 E08-E13: Diabetes mellitus,GCST,,,0.171061,0.6188788016401436,2.8090000152587892e-18,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.171061
+GCST90239667,gwas,Non-HDL cholesterol levels,GCST,,,,0.41633298112426587,,rs17712208,1.0,Open Targets credible set,,,,,lipids / bile,
+GCST90497285,gwas,Glutamine levels,GCST,,,0.14094,0.7694582775398722,1.253999948501587e-75,rs17712208,1.0,Open Targets credible set,,,,,other,0.14094
+GCST90239670,gwas,Non-HDL cholesterol levels,GCST,,,0.004529644095134472,0.38428621936609697,,rs17712208,1.0,Open Targets credible set,,,,,lipids / bile,0.004529644095134472
+GCST90475689,gwas,Diabetic retinopathy (PheCode 250.7),GCST,,,0.008242635784653408,0.5183195140083212,,rs17712208,1.0,Open Targets credible set,,,,,other,0.008242635784653408
+GCST90010722,gwas,Alanine levels,GCST,,,,0.6029585048283593,2e-14,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90271557,gwas,Random glucose levels,GCST,,,0.013308058216552461,0.4522967970241988,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.013308058216552461
+GCST90250911,gwas,Medication use for T2D (number of purchases),GCST,,,,0.38702707390828606,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90497108,gwas,Albumin levels,GCST,,,,0.4168328624773977,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90269559,gwas,Glycine levels (UKB data field 23462),GCST,,,0.01972132985049623,0.46470372180806985,,rs17712208,1.0,Open Targets credible set,,,,,other,0.01972132985049623
+GCST90018945,gwas,Serum albumin levels,GCST,,,,0.40189764986312176,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90501133,gwas,Isoleucine levels,GCST,,,0.0372,0.58726694879734,3.4670000076293945e-11,rs17712208,1.0,Open Targets credible set,,,,,other,0.0372
+GCST90503745,gwas,Alanine levels,GCST,,,,0.33627838960177764,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90692417,gwas,Type 2 diabetes (PheCode 250.2),GCST,,,0.07062833982769073,0.3581962391200791,1.0478819608688355e-12,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.07062833982769073
+GCST90010727,gwas,Glutamine levels,GCST,,,,0.390405119194367,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90500187,gwas,Valine levels,GCST,,,0.0468058,0.6159791906231403,1.5360000133514405e-17,rs17712208,1.0,Open Targets credible set,,,,,other,0.0468058
+GCST90475100,gwas,"Albumin (maximum, inv-norm transformed)",GCST,,,0.0627,0.5850220527897758,8.894000053405761e-11,rs17712208,1.0,Open Targets credible set,,,,,other,0.0627
+GCST90501283,gwas,Tyrosine levels,GCST,,,,0.349358539825975,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90500156,gwas,Tyrosine levels,GCST,,,0.0535683,0.5940565422495109,1.6460000276565552e-12,rs17712208,1.0,Open Targets credible set,,,,,other,0.0535683
+GCST90497479,gwas,Histidine levels,GCST,,,0.0447266,0.572210997142683,9.996000289916993e-09,rs17712208,1.0,Open Targets credible set,,,,,other,0.0447266
+GCST90692780,gwas,Glycated hemoglobin HbA1c levels,GCST,,,0.02381511817995188,0.23402090742546147,2.3931119441986084e-70,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.02381511817995188
+GCST90691576,gwas,Glycated hemoglobin HbA1c levels,GCST,,,0.024255837426914055,0.20270053129545365,6.214144706726074e-71,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.024255837426914055
+GCST90497481,gwas,Histidine levels,GCST,,,0.0548694,0.5851430232012254,8.461000442504882e-11,rs17712208,1.0,Open Targets credible set,,,,,other,0.0548694
+GCST90468071,gwas,Glucose levels (UKB data field 30740),GCST,,,,0.32266346825654985,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,
+GCST90691564,gwas,Albumin levels,GCST,,,0.014553702065631384,0.18329673820587536,3.63804292678833e-19,rs17712208,1.0,Open Targets credible set,,,,,other,0.014553702065631384
+GCST90269558,gwas,Glutamine levels (UKB data field 23461),GCST,,,0.04156948302920573,0.37282149968346123,,rs17712208,1.0,Open Targets credible set,,,,,other,0.04156948302920573
+GCST90692175,gwas,Diabetes diagnosed by doctor (UKB data field 2443),GCST,,,0.07390719169679232,0.5197814681711124,4.705741882324219e-13,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.07390719169679232
+GCST90475265,gwas,Diabetes / �Sugar�,GCST,,,0.013927908547336347,0.5133829748768841,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.013927908547336347
+GCST007923,gwas,Medication use (drugs used in diabetes),GCST,,,,0.4141661790347854,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,
+GCST90029024,gwas,Type 2 diabetes,GCST,,,0.008618681525776965,0.47006234186086704,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.008618681525776965
+GCST90479539,gwas,"chloride  (maximum, inv-norm transformed)",GCST,,,-0.06798,0.5858606679896688,6.280000209808349e-11,rs17712208,1.0,Open Targets credible set,,,,,other,-0.06798
+GCST90497282,gwas,Glutamine levels,GCST,,,0.172535,0.8033052440812207,7.054999828338623e-95,rs17712208,1.0,Open Targets credible set,,,,,other,0.172535
+GCST90497308,gwas,Glycine levels,GCST,,,0.0629678,0.6811681414830485,2.207000017166138e-37,rs17712208,1.0,Open Targets credible set,,,,,other,0.0629678
+GCST90501181,gwas,Leucine levels,GCST,,,,0.3984471911008098,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90692684,gwas,Albumin levels,GCST,,,0.014397882966292323,0.18142962044903232,2.1085143089294433e-19,rs17712208,1.0,Open Targets credible set,,,,,other,0.014397882966292323
+GCST90497315,gwas,Glycine levels,GCST,,,0.0997872,0.6726843795913459,1.9939999580383297e-34,rs17712208,1.0,Open Targets credible set,,,,,other,0.0997872
+GCST90498485,gwas,Leucine levels,GCST,,,,0.39941042632493134,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90501097,gwas,Albumin levels,GCST,,,,0.3937194981654831,,rs17712208,1.0,Open Targets credible set,,,,,other,
+GCST90497691,gwas,Isoleucine levels,GCST,,,0.0371559,0.5869525238978185,3.9639999866485596e-11,rs17712208,1.0,Open Targets credible set,,,,,other,0.0371559
+GCST90269567,gwas,Glucose levels (UKB data field 23470),GCST,,,0.01820145739102584,0.3114538217237125,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.01820145739102584
+GCST90479501,gwas,"Hemoglobin A1c (HbA1c, mean, inv-norm transformed)",GCST,,,0.1497,0.650356369663715,3.5199999809265135e-27,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.1497
+GCST90319612,gwas,Serum glucose levels,GCST,,,0.018056369598038448,0.549742591196211,,rs17712208,1.0,Open Targets credible set,,,,,glycaemia / diabetes,0.018056369598038448
+,gwas,amino acid measurement,,,,,,5e-16,rs17712208,1.0,GWAS Catalog,0.04,increase,,rs17712208-A,other,
+,gwas,HbA1c measurement,,,,,,4e-27,rs17712208,1.0,GWAS Catalog,0.1497,decrease,,rs17712208-T,glycaemia / diabetes,
+,gwas,isoleucine measurement,,,,,,3e-11,rs17712208,1.0,GWAS Catalog,0.04,increase,,rs17712208-A,other,
+,gwas,Drugs used in diabetes use measurement,,,,,,3.0000000000000002e-15,rs17712208,1.0,GWAS Catalog,0.2045,decrease,,rs17712208-T,glycaemia / diabetes,
+,gwas,chloride level,,,,,,3e-11,rs17712208,1.0,GWAS Catalog,0.06389,increase,,rs17712208-T,other,
+,gwas,HbA1c measurement,,,,,,4e-40,rs17712208,1.0,GWAS Catalog,0.0887,increase,,rs17712208-A,glycaemia / diabetes,
+,gwas,glutamine measurement,,,,,,2.9999999999999998e-170,rs17712208,1.0,GWAS Catalog,0.15,increase,,rs17712208-A,other,
+,gwas,histidine measurement,,,,,,4e-19,rs17712208,1.0,GWAS Catalog,0.05,increase,,rs17712208-A,other,
+,gwas,alanine measurement,,,,,,2e-14,rs17712208,1.0,GWAS Catalog,7.663,increase,,rs17712208-A,other,
+,gwas,glutamine measurement,,,,,,2e-10,rs17712208,1.0,GWAS Catalog,0.17628793,increase,,rs17712208-A,other,
+,gwas,glucose measurement,,,,,,8e-34,rs17712208,1.0,GWAS Catalog,0.0825,increase,,rs17712208-A,glycaemia / diabetes,
+,gwas,valine measurement,,,,,,9.000000000000001e-18,rs17712208,1.0,GWAS Catalog,0.05,increase,,rs17712208-A,other,
+,gwas,type 2 diabetes mellitus,,,,,,6e-54,rs17712208,1.0,GWAS Catalog,,,,rs17712208-A,glycaemia / diabetes,
+,gwas,chloride level,,,,,,7e-12,rs17712208,1.0,GWAS Catalog,0.06801,increase,,rs17712208-T,other,
+,gwas,serum albumin amount,,,,,,4e-13,rs17712208,1.0,GWAS Catalog,0.0494,increase,,rs17712208-A,other,
+,gwas,alanine measurement,,,,,,5e-222,rs17712208,1.0,GWAS Catalog,0.18,increase,,rs17712208-A,other,
+,gwas,diabetes mellitus,,,,,,2e-09,rs17712208,1.0,GWAS Catalog,,,,rs17712208-?,glycaemia / diabetes,
+,gwas,chloride level,,,,,,2e-17,rs17712208,1.0,GWAS Catalog,0.08571,increase,,rs17712208-T,other,
+,gwas,glutamine measurement,,,,,,2e-25,rs17712208,1.0,GWAS Catalog,0.1399,increase,,rs17712208-A,other,
+,gwas,chloride level,,,,,,3e-14,rs17712208,1.0,GWAS Catalog,0.08553,increase,,rs17712208-T,other,
+,gwas,glucose measurement,,,,,,2e-24,rs17712208,1.0,GWAS Catalog,0.06,increase,,rs17712208-A,glycaemia / diabetes,
+,gwas,alanine measurement,,,,,,2e-20,rs17712208,1.0,GWAS Catalog,0.1244,increase,,rs17712208-A,other,
+,gwas,HbA1c measurement,,,,,,7e-29,rs17712208,1.0,GWAS Catalog,0.1493,decrease,,rs17712208-T,glycaemia / diabetes,
+,gwas,glycine measurement,,,,,,8.999999999999999e-38,rs17712208,1.0,GWAS Catalog,0.06,increase,,rs17712208-A,other,

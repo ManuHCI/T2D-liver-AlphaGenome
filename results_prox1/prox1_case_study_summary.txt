@@ -1,0 +1,11 @@
+
+=== TEST 2  Liver or pancreas? AlphaGenome effect in every tissue ===
+  Test 2: SHARED - enhancer closes in liver AND pancreas (liver not specific) (DNase liver -1.373, pancreas -1.164, liver rank 0.12)
+          for comparison rs340874: DNase liver 0.019, pancreas 0.044
+
+=== TEST 4  Which transcription-factor site does rs17712208 break? ===
+  Motif + ChIP agreement (motif loss in top 20 AND TF in top 40 ChIP drops): ['Sox5 (MA0087.3)']
+  Test 4: top motif losses -> BARX1 (MA0875.2), Lhx8 (MA0705.2), MNX1 (MA0707.3), NR2C2 (MA1536.2), HOXA1 (MA1495.2)
+  Test 4 is descriptive: it names candidate TFs for the wet-lab test, it does not pass/fail.
+
+=== VERDICTS ===

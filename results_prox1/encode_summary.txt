@@ -1,0 +1,38 @@
+
+=== PART A  ENCODE TF clusters + cCRE (UCSC, all ENCODE cell types) ===
+  rs17712208: 8 TFs have a ChIP-seq peak over the variant
+     HNF1 factors among them: ['HNF1A']
+  rs17712208: inside ENCODE cCRE -> enhD; dELS; EH38E1421025; EH38E1421025 distal enhancer-like signature
+  rs340874: 6 TFs have a ChIP-seq peak over the variant
+     HNF1 factors among them: NONE
+  rs340874: inside ENCODE cCRE -> prom; PLS; EH38E1421043; EH38E1421043 promoter-like signature
+
+=== PART B  ENCODE peak files for selected TFs (any cell type) ===
+  HNF1A: 2 experiments; peak over rs17712208 in 2 (liver/HepG2: 2 of 2)
+      BOUND  HepG2                        ENCSR800QIT  summit +31 bp from variant, signal 61.87701
+      BOUND  HepG2                        ENCSR633HRJ  summit +13 bp from variant, signal 76.06627
+  HNF1B: 1 experiments; peak over rs17712208 in 0 (liver/HepG2: 0 of 1)
+  HNF4A: 5 experiments; peak over rs17712208 in 1 (liver/HepG2: 1 of 5)
+      BOUND  liver                        ENCSR601OGE  summit -2 bp from variant, signal 24.53091
+  FOXA1: 13 experiments; peak over rs17712208 in 0 (liver/HepG2: 0 of 6)
+  FOXA2: 6 experiments; peak over rs17712208 in 2 (liver/HepG2: 2 of 5)
+      BOUND  liver                        ENCSR310NYI  summit +119 bp from variant, signal 24.67402
+      BOUND  liver                        ENCSR080XEY  summit +0 bp from variant, signal 16.95037
+  CEBPA: 1 experiments; peak over rs17712208 in 1 (liver/HepG2: 1 of 1)
+      BOUND  HepG2                        ENCSR142IGM  summit -46 bp from variant, signal 34.94021
+  CEBPB: 28 experiments; peak over rs17712208 in 0 (liver/HepG2: 0 of 3)
+  ONECUT1: 1 experiments; peak over rs17712208 in 1 (liver/HepG2: 1 of 1)
+      BOUND  HepG2                        ENCSR956OSX  summit -5 bp from variant, signal 113.97321
+  NR2F2: 5 experiments; peak over rs17712208 in 0 (liver/HepG2: 0 of 3)
+  MNX1: 1 experiments; peak over rs17712208 in 0 (liver/HepG2: 0 of 1)
+  BARX1: no released ENCODE TF ChIP-seq experiment
+  LHX8: no released ENCODE TF ChIP-seq experiment
+  HOXA1: no released ENCODE TF ChIP-seq experiment
+  SOX5: 1 experiments; peak over rs17712208 in 0 (liver/HepG2: 0 of 1)
+  YY1: 18 experiments; peak over rs17712208 in 1 (liver/HepG2: 1 of 3)
+      BOUND  liver                        ENCSR994YLZ  summit +75 bp from variant, signal 45.789
+
+=== VERDICT (laboratory ChIP-seq data) ===
+  HNF1 SUPPORTED: real HNF1 ChIP peak over rs17712208 in liver/HepG2, summit within 50 bp (HNF1A)
+  other selected TFs with a peak here: CEBPA (HepG2), FOXA2 (liver), HNF4A (liver), ONECUT1 (HepG2), YY1 (liver)
+  comparison rs340874: 1 of the selected TFs bound there

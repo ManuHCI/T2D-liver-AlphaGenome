@@ -1,0 +1,17 @@
+t2d_signal,trait,trait_study,trait_name,clpp,beta_risk_on_trait,n_t2d_variants,n_trait_variants
+rs340874,alanine,GCST90501096,Alanine levels,0.0,0.1754,1,2
+rs340874,glutamine,GCST90501108,Glutamine levels,0.0,0.1549,1,2
+rs340874,GGT,GCST90692755,Gamma glutamyl transferase levels,0.0,0.009079616761220634,1,2
+rs340874,glucose,GCST90019508,Blood glucose levels,0.0,0.01822881279369678,1,2
+rs340874,HbA1c,GCST90319613,Serum glycated hemoglobin levels,0.0,0.016023480057136053,1,2
+rs340874,BCAA,GCST90501285,Valine levels,0.0,0.047,1,2
+rs340874,albumin,GCST90475100,"Albumin (maximum, inv-norm transformed)",0.0,0.0627,1,2
+rs340874,LDL,GCST90002412,Low density lipoprotein cholesterol levels,0.0,0.007937628434140039,1,2
+rs17712208,alanine,GCST90501096,Alanine levels,0.6449270428502506,0.1754,2,2
+rs17712208,glutamine,GCST90501108,Glutamine levels,0.6325400087828853,0.1549,2,2
+rs17712208,GGT,GCST90692755,Gamma glutamyl transferase levels,0.5780244944142292,0.009079616761220634,2,2
+rs17712208,glucose,GCST90019508,Blood glucose levels,0.5625395468080702,0.01822881279369678,2,2
+rs17712208,HbA1c,GCST90319613,Serum glycated hemoglobin levels,0.5578391573128945,0.016023480057136053,2,2
+rs17712208,BCAA,GCST90501285,Valine levels,0.5388391320963553,0.047,2,2
+rs17712208,albumin,GCST90475100,"Albumin (maximum, inv-norm transformed)",0.5271092376689122,0.0627,2,2
+rs17712208,LDL,GCST90002412,Low density lipoprotein cholesterol levels,0.5128128318439421,0.007937628434140039,2,2
