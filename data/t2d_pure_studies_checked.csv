@@ -1,0 +1,13 @@
+id,studyType,traitFromSource,projectId,publicationFirstAuthor,publicationDate,nSamples,nCases,nControls,pure_t2d,n_credible_sets,n_susie,methods
+GCST90693212,gwas,Type 2 diabetes,GCST,Elashi AA,2024-04-29,6710881,906935,5803946,True,262,0,PICS
+GCST90492734,gwas,Type 2 diabetes,GCST,Suzuki K,2024-02-19,2535601,428452,2107149,True,687,0,PICS
+GCST90479885,gwas,Type 2 diabetes (PheCode 250.2),GCST,Verma A,2024-07-19,612947,230291,382656,True,155,0,PICS
+GCST010557,gwas,Type 2 diabetes,GCST,Vujkovic M,2020-06-15,1407282,228499,1178783,True,482,0,PICS
+GCST90475667,gwas,Type 2 diabetes (PheCode 250.2),GCST,Verma A,2024-07-19,432648,154194,278454,True,951,897,"PICS,SuSiE-inf"
+GCST010555,gwas,Type 2 diabetes,GCST,Vujkovic M,2020-06-15,1114458,148726,965732,True,366,0,PICS
+GCST90018926,gwas,Type 2 diabetes,GCST,Sakaue S,2021-09-30,667504,84224,583280,True,197,0,PICS
+FINNGEN_R12_T2D,gwas,"Type 2 diabetes, definitions combined",FINNGEN_R12,,,486367,82878,403489,True,368,368,SuSie
+GCST010118,gwas,Type 2 diabetes,GCST,Spracklen CN,2020-05-06,433540,77418,356122,True,352,346,"PICS,SuSiE-inf"
+GCST009379,gwas,Type 2 diabetes,GCST,Mahajan A,2018-10-08,898130,74124,824006,True,182,0,PICS
+GCST010552,gwas,Chronic kidney disease x type 2 diabetes interaction,GCST,Vujkovic M,2020-06-15,197230,67403,129827,True,1,0,PICS
+GCST006867,gwas,Type 2 diabetes,GCST,Xue A,2018-07-27,659316,62892,596424,True,121,112,"PICS,SuSiE-inf"

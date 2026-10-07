@@ -1,0 +1,712 @@
+ontology_curie,biosample_name,cage,chip_histone,dnase,rna_seq,splice_junctions,splice_site_usage,chip_tf,atac,procap,total
+EFO:0001187,HepG2,2,10,1,5,2,4,539,1,0,564
+EFO:0002067,K562,2,10,1,5,2,4,306,1,2,333
+EFO:0002784,GM12878,2,8,1,5,2,4,101,1,0,124
+EFO:0001182,HEK293,2,3,0,0,0,0,106,0,0,111
+EFO:0001203,MCF-7,0,8,1,5,2,4,71,1,0,92
+EFO:0003042,H1,0,14,1,5,2,4,39,0,0,65
+EFO:0002791,HeLa-S3,2,9,1,3,1,2,40,0,0,58
+EFO:0001196,IMR-90,0,26,1,4,2,4,12,1,0,50
+EFO:0003072,SK-N-SH,0,10,1,3,1,2,31,0,0,48
+EFO:0001086,A549,2,4,1,2,1,2,33,1,0,46
+EFO:0002824,HCT116,0,8,1,3,2,4,25,1,0,44
+EFO:0009747,WTC11,0,0,1,3,1,2,34,1,0,42
+UBERON:0002107,liver,2,6,1,5,2,4,18,1,0,39
+CL:0002618,endothelial cell of umbilical vein,2,9,1,5,2,4,8,0,2,33
+EFO:0007950,GM23338,0,9,1,3,2,4,10,1,0,30
+UBERON:0002106,spleen,2,6,1,6,3,6,3,1,0,28
+UBERON:0000945,stomach,2,6,1,6,3,6,3,1,0,28
+UBERON:0002369,adrenal gland,2,6,1,6,3,6,2,1,0,27
+UBERON:0000992,ovary,0,6,1,6,3,6,2,1,0,25
+UBERON:0001159,sigmoid colon,0,5,1,5,3,6,4,1,0,25
+CL:0000236,B cell,0,10,1,4,2,4,1,1,0,23
+CL:0002327,mammary epithelial cell,0,10,1,4,2,4,2,0,0,23
+UBERON:0000473,testis,2,3,1,6,3,6,1,0,0,22
+UBERON:0002084,heart left ventricle,2,6,1,4,2,4,2,1,0,22
+CL:0000515,skeletal muscle myoblast,2,7,1,5,2,4,1,0,0,22
+UBERON:0002048,lung,2,7,1,4,2,4,0,1,0,21
+EFO:0005723,GM23248,0,10,1,3,2,4,1,0,0,21
+CL:0002553,fibroblast of lung,0,8,1,5,2,4,1,0,0,21
+CL:0000134,mesenchymal stem cell,0,14,1,2,1,2,0,0,0,20
+CL:0000623,natural killer cell,2,5,1,4,2,4,1,1,0,20
+UBERON:0004550,gastroesophageal sphincter,0,6,0,3,2,4,4,1,0,20
+EFO:0002713,Panc1,0,4,1,3,2,4,5,1,0,20
+CL:1001606,foreskin keratinocyte,0,7,1,4,2,4,1,1,0,20
+CL:0000351,trophoblast cell,0,14,1,2,1,2,0,0,0,20
+UBERON:0001264,pancreas,2,5,1,4,2,4,1,1,0,20
+UBERON:0002113,kidney,2,5,1,5,2,4,0,1,0,20
+CL:0000182,hepatocyte,2,7,1,3,2,4,1,0,0,20
+UBERON:0001157,transverse colon,0,5,1,3,2,4,4,1,0,20
+UBERON:0001987,placenta,2,6,1,4,2,4,1,0,0,20
+UBERON:0002240,spinal cord,2,5,1,5,2,4,0,0,0,19
+UBERON:0002046,thyroid gland,2,4,1,3,2,4,2,1,0,19
+EFO:0002847,PC-9,0,12,1,2,1,2,1,0,0,19
+CL:0000047,neuronal stem cell,2,11,1,2,1,2,0,0,0,19
+CL:0000625,"CD8-positive, alpha-beta T cell",0,7,1,3,2,4,1,1,0,19
+UBERON:0002080,heart right ventricle,0,6,1,4,2,4,1,1,0,19
+UBERON:0008367,breast epithelium,0,5,1,3,2,4,3,1,0,19
+UBERON:0001323,tibial nerve,0,6,1,3,2,4,3,0,0,19
+CL:0000312,keratinocyte,2,8,1,3,1,2,2,0,0,19
+UBERON:0008952,upper lobe of left lung,0,4,1,3,2,4,4,1,0,19
+CL:0001054,CD14-positive monocyte,0,11,1,3,1,2,1,0,0,19
+EFO:0002074,PC-3,2,9,1,2,1,2,1,1,0,19
+UBERON:0004648,esophagus muscularis mucosa,0,6,0,3,2,4,3,0,0,18
+CL:0000127,astrocyte,0,10,1,2,1,2,2,0,0,18
+CL:0000624,"CD4-positive, alpha-beta T cell",0,6,1,3,2,4,1,1,0,18
+CL:0000084,T-cell,0,6,1,4,2,4,0,1,0,18
+UBERON:0036149,suprapubic skin,0,5,1,3,2,4,3,0,0,18
+CL:0000746,cardiac muscle cell,2,5,1,3,2,4,1,0,0,18
+UBERON:0002168,left lung,0,6,1,3,2,4,1,1,0,18
+UBERON:0011907,gastrocnemius medialis,0,5,1,3,2,4,2,1,0,18
+CL:0000223,endodermal cell,0,6,1,4,2,4,1,0,0,18
+UBERON:0000996,vagina,2,4,0,3,2,4,3,0,0,18
+UBERON:0001255,urinary bladder,2,2,0,5,3,6,0,0,0,18
+UBERON:0002037,cerebellum,2,1,1,5,3,6,0,0,0,18
+UBERON:0008450,psoas muscle,0,5,1,4,2,4,1,1,0,18
+CL:0011020,neural progenitor cell,0,9,1,2,1,2,3,0,0,18
+CL:0000192,smooth muscle cell,0,9,0,3,2,4,0,0,0,18
+UBERON:0002367,prostate gland,2,3,1,3,2,4,3,0,0,18
+UBERON:0000948,heart,2,4,1,5,2,4,0,0,0,18
+UBERON:0001211,Peyer's patch,0,5,1,3,2,4,2,0,0,17
+UBERON:0001114,right lobe of liver,0,4,1,3,2,4,2,1,0,17
+CL:0002372,myotube,2,9,1,2,1,2,0,0,0,17
+UBERON:0006920,esophagus squamous epithelium,0,6,0,3,2,4,2,0,0,17
+CL:0000895,"naive thymus-derived CD4-positive, alpha-beta T cell",2,4,1,3,2,4,0,1,0,17
+UBERON:0000995,uterus,2,2,1,3,2,4,2,1,0,17
+CL:0000062,osteoblast,2,9,0,2,1,2,1,0,0,17
+UBERON:0009834,dorsolateral prefrontal cortex,0,6,1,3,2,4,1,0,0,17
+CL:0002551,fibroblast of dermis,2,7,1,2,1,2,1,0,0,16
+UBERON:0006631,right atrium auricular region,0,5,1,3,2,4,1,0,0,16
+UBERON:0001496,ascending aorta,0,5,1,3,2,4,1,0,0,16
+UBERON:0000947,aorta,2,3,1,4,2,4,0,0,0,16
+UBERON:0001150,body of pancreas,0,3,1,3,2,4,2,1,0,16
+EFO:0005718,Ishikawa,0,0,0,0,0,0,16,0,0,16
+UBERON:0002171,lower lobe of right lung,2,5,1,2,1,2,1,1,0,15
+EFO:0030018,BLaER1,0,9,0,2,1,2,1,0,0,15
+UBERON:0002108,small intestine,2,6,1,3,1,2,0,0,0,15
+UBERON:0002078,right cardiac atrium,0,3,1,4,2,4,0,1,0,15
+UBERON:0002370,thymus,2,6,1,3,1,2,0,0,0,15
+EFO:0005719,Karpas-422,0,9,1,2,1,2,0,0,0,15
+CL:0000909,"CD8-positive, alpha-beta memory T cell",0,4,1,3,2,4,0,0,0,14
+CL:0000897,"CD4-positive, alpha-beta memory T cell",0,4,1,3,2,4,0,0,0,14
+UBERON:0000955,brain,2,5,1,2,1,2,1,0,0,14
+CL:0002319,neural cell,0,4,0,2,1,2,5,0,0,14
+EFO:0006711,OCI-LY7,0,7,1,2,1,2,1,0,0,14
+UBERON:0008953,lower lobe of left lung,0,6,1,2,1,2,1,1,0,14
+UBERON:0000317,colonic mucosa,0,6,1,2,1,2,1,1,0,14
+CL:0000792,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",0,6,1,3,1,2,0,1,0,14
+EFO:0002059,HT1080,2,0,1,4,2,4,0,0,0,13
+CL:0000594,skeletal muscle satellite cell,2,6,0,2,1,2,0,0,0,13
+EFO:0003045,H9,0,6,1,2,1,2,1,0,0,13
+EFO:0003044,NCI-H460,2,0,1,4,2,4,0,0,0,13
+CL:2000045,foreskin melanocyte,0,7,1,2,1,2,0,0,0,13
+EFO:0001099,Caco-2,2,2,1,2,1,2,1,0,2,13
+NTR:0000856,mesendoderm,0,7,1,2,1,2,0,0,0,13
+UBERON:0001383,muscle of leg,0,6,1,3,1,2,0,0,0,13
+CL:1001608,foreskin fibroblast,0,6,1,2,1,2,1,0,0,13
+UBERON:0001134,skeletal muscle tissue,2,6,0,2,1,2,0,0,0,13
+NTR:0000493,left ventricle myocardium inferior,0,6,1,2,1,2,1,0,0,13
+UBERON:0007610,tibial artery,0,6,1,1,1,2,1,1,0,13
+EFO:0002106,A673,0,3,1,2,1,2,1,0,2,12
+EFO:0007089,HUES64,0,7,0,2,1,2,0,0,0,12
+EFO:0007074,DND-41,0,9,1,0,0,0,1,1,0,12
+CL:2000001,peripheral blood mononuclear cell,0,7,0,2,1,2,0,0,0,12
+UBERON:0001043,esophagus,2,5,0,2,1,2,0,0,0,12
+UBERON:0001871,temporal lobe,2,5,0,2,1,2,0,0,0,12
+UBERON:0001870,frontal cortex,2,0,1,3,2,4,0,0,0,12
+UBERON:0004264,lower leg skin,0,0,1,3,2,4,2,0,0,12
+UBERON:0002170,upper lobe of right lung,0,4,1,2,1,2,1,1,0,12
+UBERON:0010414,omental fat pad,0,0,1,3,2,4,1,1,0,12
+CL:0001059,"common myeloid progenitor, CD34-positive",0,6,1,1,1,2,0,0,0,11
+CL:0000900,"naive thymus-derived CD8-positive, alpha-beta T cell",0,0,1,3,2,4,0,1,0,11
+CL:0000775,neutrophil,4,6,0,0,0,0,1,0,0,11
+CL:0000679,glutamatergic neuron,0,0,1,2,1,2,5,0,0,11
+UBERON:0004992,mucosa of descending colon,0,3,1,2,1,2,1,1,0,11
+EFO:0002785,GM12891,0,0,1,1,1,2,6,0,0,11
+EFO:0005720,SK-MEL-5,0,0,1,4,2,4,0,0,0,11
+EFO:0005724,MM.1S,0,9,1,0,0,0,1,0,0,11
+EFO:0006270,AG04450,0,4,1,2,1,2,1,0,0,11
+UBERON:0001515,thoracic aorta,0,4,1,2,1,2,1,0,0,11
+EFO:0006710,OCI-LY3,0,10,0,0,0,0,1,0,0,11
+UBERON:0002038,substantia nigra,2,5,0,1,1,2,0,0,0,11
+UBERON:0001873,caudate nucleus,2,5,0,1,1,2,0,0,0,11
+CL:0002324,myoepithelial cell of mammary gland,0,6,0,2,1,2,0,0,0,11
+CL:0002328,bronchial epithelial cell,2,2,1,2,1,2,1,0,0,11
+UBERON:0001774,muscle of trunk,0,6,1,1,1,2,0,0,0,11
+NTR:0000427,neurosphere,0,6,0,2,1,2,0,0,0,11
+EFO:0002330,SJSA1,0,4,1,2,1,2,0,0,0,10
+EFO:0002779,BJ,0,3,1,2,1,2,1,0,0,10
+EFO:0002167,DOHH2,0,9,0,0,0,0,1,0,0,10
+UBERON:0002190,subcutaneous adipose tissue,0,0,0,3,2,4,0,1,0,10
+UBERON:0000305,amnion,2,3,0,2,1,2,0,0,0,10
+UBERON:0000016,endocrine pancreas,0,5,0,2,1,2,0,0,0,10
+EFO:0005714,LHCN-M2,0,0,1,3,2,4,0,0,0,10
+EFO:0005725,BE2C,0,4,1,1,1,2,1,0,0,10
+CL:0002547,fibroblast of the aortic adventitia,2,1,1,2,1,2,1,0,0,10
+EFO:0001221,NCI-H929,0,8,1,0,0,0,0,1,0,10
+UBERON:0003124,chorion,0,4,1,2,1,2,0,0,0,10
+CL:0000187,myocyte,0,0,1,3,2,4,0,0,0,10
+CL:0000222,mesodermal cell,0,5,0,2,1,2,0,0,0,10
+CL:0002306,epithelial cell of proximal tubule,2,1,1,2,1,2,1,0,0,10
+CL:0002558,fibroblast of villous mesenchyme,2,1,1,2,1,2,1,0,0,10
+EFO:0005722,SJCRH30,0,4,1,2,1,2,0,0,0,10
+EFO:0002793,HL-60,2,2,1,0,0,0,4,0,0,9
+CL:0000221,ectodermal cell,0,4,0,2,1,2,0,0,0,9
+EFO:0002819,Calu3,0,0,1,2,1,2,1,0,2,9
+UBERON:0002079,left cardiac atrium,2,0,1,2,1,2,0,1,0,9
+EFO:0005907,OCI-LY1,0,7,0,0,0,0,2,0,0,9
+EFO:0005904,H7,0,3,1,2,1,2,0,0,0,9
+CL:0002326,luminal epithelial cell of mammary gland,0,4,0,2,1,2,0,0,0,9
+EFO:0001200,MCF 10A,0,0,1,2,1,2,1,0,2,9
+EFO:0002860,SK-N-MC,2,5,1,0,0,0,1,0,0,9
+CL:0002518,kidney epithelial cell,0,2,1,2,1,2,1,0,0,9
+CL:0000138,chondrocyte,2,0,1,2,1,2,1,0,0,9
+CL:0002584,renal cortical epithelial cell,2,0,1,2,1,2,0,0,0,8
+UBERON:0001723,tongue,2,0,1,2,1,2,0,0,0,8
+UBERON:0001621,coronary artery,0,2,1,1,1,2,1,0,0,8
+CL:0000842,mononuclear cell,0,3,0,2,1,2,0,0,0,8
+EFO:0002786,GM12892,0,0,0,1,1,2,4,0,0,8
+EFO:0007112,Loucy,0,7,0,0,0,0,1,0,0,8
+UBERON:0000059,large intestine,0,6,1,1,0,0,0,0,0,8
+UBERON:0000088,trophoblast,0,3,0,2,1,2,0,0,0,8
+CL:0000100,motor neuron,0,3,0,1,1,2,0,1,0,8
+EFO:0005234,PFSK-1,0,0,0,1,1,2,4,0,0,8
+UBERON:0002331,umbilical cord,2,0,1,2,1,2,0,0,0,8
+EFO:0002179,G401,2,0,1,2,1,2,0,0,0,8
+EFO:0005236,NT2/D1,0,6,1,0,0,0,1,0,0,8
+EFO:0002234,MG63,0,2,1,2,1,2,0,0,0,8
+EFO:0002101,A172,2,0,1,2,1,2,0,0,0,8
+CL:0000136,adipocyte,0,6,1,0,0,0,0,0,0,7
+CL:0002591,smooth muscle cell of the pulmonary artery,2,0,0,2,1,2,0,0,0,7
+CL:0002583,subcutaneous preadipocyte,2,0,0,2,1,2,0,0,0,7
+CL:0002597,smooth muscle cell of bladder,2,0,0,2,1,2,0,0,0,7
+CL:0000307,tracheal epithelial cell,2,0,0,2,1,2,0,0,0,7
+CL:0002600,smooth muscle cell of trachea,2,0,0,2,1,2,0,0,0,7
+UBERON:0008971,left colon,0,0,1,2,1,2,0,1,0,7
+UBERON:0014455,subcutaneous abdominal adipose tissue,0,7,0,0,0,0,0,0,0,7
+UBERON:0015143,mesenteric fat pad,0,0,1,2,1,2,0,1,0,7
+UBERON:0000320,duodenal mucosa,0,7,0,0,0,0,0,0,0,7
+CL:0011012,neural crest cell,0,0,1,2,1,2,1,0,0,7
+UBERON:0001322,sciatic nerve,0,0,1,2,1,2,0,1,0,7
+NTR:0000494,left ventricle myocardium superior,0,0,1,2,1,2,0,1,0,7
+EFO:0009318,HFFc6,0,0,1,2,1,2,1,0,0,7
+CL:0002545,thoracic aorta endothelial cell,2,0,0,2,1,2,0,0,0,7
+UBERON:0001954,Ammon's horn,2,0,1,1,1,2,0,0,0,7
+NTR:0000491,Right ventricle myocardium inferior,0,0,1,2,1,2,0,1,0,7
+UBERON:0000019,camera-type eye,2,0,0,2,1,2,0,0,0,7
+UBERON:0002021,occipital lobe,2,0,0,2,1,2,0,0,0,7
+CL:0002351,progenitor cell of endocrine pancreas,0,0,1,2,1,2,1,0,0,7
+UBERON:0002099,cardiac septum,0,0,1,2,1,2,0,1,0,7
+EFO:0007086,HUES6,0,7,0,0,0,0,0,0,0,7
+EFO:0007083,HUES48,0,7,0,0,0,0,0,0,0,7
+EFO:0007070,ACC112,0,7,0,0,0,0,0,0,0,7
+EFO:0007108,iPS-20b,0,7,0,0,0,0,0,0,0,7
+UBERON:0000056,ureter,0,0,1,2,1,2,0,1,0,7
+CL:0002540,mesenchymal stem cell of the bone marrow,2,0,0,2,1,2,0,0,0,7
+UBERON:0001874,putamen,2,0,1,1,1,2,0,0,0,7
+UBERON:0001894,diencephalon,2,0,0,2,1,2,0,0,0,7
+CL:0002592,smooth muscle cell of the coronary artery,2,0,0,2,1,2,0,0,0,7
+CL:0011019,mesothelial cell of epicardium,0,0,1,2,1,2,1,0,0,7
+CL:0002577,placental epithelial cell,2,0,0,2,1,2,0,0,0,7
+CL:0002568,mesenchymal stem cell of Wharton's jelly,2,0,0,2,1,2,0,0,0,7
+CL:0002570,mesenchymal stem cell of adipose,2,0,0,2,1,2,0,0,0,7
+CL:0002601,uterine smooth muscle cell,2,0,0,2,1,2,0,0,0,7
+UBERON:0001013,adipose tissue,2,0,0,2,1,2,0,0,0,7
+UBERON:0001872,parietal lobe,2,0,0,2,1,2,0,0,0,7
+UBERON:0001072,posterior vena cava,0,0,1,2,1,2,0,1,0,7
+UBERON:0001115,left lobe of liver,0,0,1,2,1,2,0,1,0,7
+CL:0002598,bronchial smooth muscle cell,2,0,0,2,1,2,0,0,0,7
+CL:0002594,smooth muscle cell of the umbilical artery,2,0,0,2,1,2,0,0,0,7
+CL:0000650,mesangial cell,2,0,0,2,1,2,0,0,0,7
+CL:0000115,endothelial cell,0,0,1,2,1,2,1,0,0,7
+CL:0002188,glomerular endothelial cell,2,0,0,2,1,2,0,0,0,7
+EFO:0005694,KMS-11,0,6,0,0,0,0,1,0,0,7
+CL:0000540,neuron,2,5,0,0,0,0,0,0,0,7
+UBERON:0005033,mucosa of gallbladder,0,0,1,2,1,2,0,1,0,7
+CL:0002543,vein endothelial cell,2,0,0,2,1,2,0,0,0,7
+CL:0002539,aortic smooth muscle cell,2,0,0,2,1,2,0,0,0,7
+NTR:0001226,parathyroid adenoma,0,6,0,0,0,0,1,0,0,7
+NTR:0000492,Right ventricle myocardium superior,0,0,1,2,1,2,0,1,0,7
+EFO:0005712,RPMI7951,0,0,1,2,1,2,0,0,0,6
+EFO:0002798,NB4,0,1,1,0,0,0,4,0,0,6
+EFO:0002184,H4,0,0,1,2,1,2,0,0,0,6
+EFO:0002150,Caki2,0,0,1,2,1,2,0,0,0,6
+EFO:0002357,SU-DHL-6,0,6,0,0,0,0,0,0,0,6
+EFO:0007105,iPS-18a,0,6,0,0,0,0,0,0,0,6
+EFO:0005698,Daoy,0,0,1,2,1,2,0,0,0,6
+EFO:0005721,SK-N-DZ,0,0,1,2,1,2,0,0,0,6
+UBERON:0001882,nucleus accumbens,2,0,0,1,1,2,0,0,0,6
+UBERON:0001876,amygdala,2,0,0,1,1,2,0,0,0,6
+NTR:0003013,placental basal plate,0,1,0,2,1,2,0,0,0,6
+CL:0000837,hematopoietic multipotent progenitor cell,0,0,1,2,1,2,0,0,0,6
+CL:0000788,naive B cell,0,0,1,1,1,2,0,1,0,6
+CL:0000169,type B pancreatic cell,0,0,0,2,1,2,1,0,0,6
+CL:2000041,dermis microvascular lymphatic vessel endothelial cell,0,0,1,2,1,2,0,0,0,6
+CL:2000016,lung microvascular endothelial cell,0,0,1,2,1,2,0,0,0,6
+CL:0000137,osteocyte,0,0,0,2,1,2,1,0,0,6
+CL:1001568,pulmonary artery endothelial cell,0,0,1,2,1,2,0,0,0,6
+UBERON:0007106,chorionic villus,0,1,0,2,1,2,0,0,0,6
+UBERON:0004222,stomach smooth muscle,0,6,0,0,0,0,0,0,0,6
+EFO:0001193,HT-29,0,0,1,2,1,2,0,0,0,6
+UBERON:0002469,esophagus mucosa,0,0,0,2,1,2,0,1,0,6
+CL:2000010,dermis blood vessel endothelial cell,0,0,1,2,1,2,0,0,0,6
+CLO:0007045,"Jurkat, Clone E6-1",0,1,1,1,1,2,0,0,0,6
+EFO:0007610,RWPE2,0,3,1,0,0,0,1,1,0,6
+EFO:0005715,WERI-Rb-1,0,4,1,0,0,0,1,0,0,6
+UBERON:0000007,pituitary gland,2,0,0,1,1,2,0,0,0,6
+EFO:0005697,M059J,0,0,1,2,1,2,0,0,0,6
+CL:0002368,airway epithelial cell,0,0,0,2,1,2,0,0,0,5
+UBERON:0003346,mucosa of rectum,0,5,0,0,0,0,0,0,0,5
+UBERON:0018116,right renal pelvis,0,0,1,1,1,2,0,0,0,5
+UBERON:0018115,left renal pelvis,0,0,1,1,1,2,0,0,0,5
+UBERON:0018118,right renal cortex interstitium,0,0,1,1,1,2,0,0,0,5
+UBERON:0018117,left renal cortex interstitium,0,0,1,1,1,2,0,0,0,5
+UBERON:0003663,hindlimb muscle,0,0,1,1,1,2,0,0,0,5
+CL:2000013,fibroblast of skin of abdomen,0,0,1,1,1,2,0,0,0,5
+CL:2000040,bladder microvascular endothelial cell,0,0,0,2,1,2,0,0,0,5
+CL:2000018,endothelial cell of coronary artery,0,0,0,2,1,2,0,0,0,5
+CL:0002586,retinal pigment epithelial cell,2,1,1,0,0,0,1,0,0,5
+UBERON:0012488,muscle layer of duodenum,0,5,0,0,0,0,0,0,0,5
+CL:0000346,hair follicle dermal papilla cell,0,0,0,2,1,2,0,0,0,5
+UBERON:0012489,muscle layer of colon,0,5,0,0,0,0,0,0,0,5
+CL:2000044,brain microvascular endothelial cell,0,3,1,0,0,0,1,0,0,5
+CL:0010002,epithelial cell of umbilical artery,0,0,0,2,1,2,0,0,0,5
+CL:0010003,epithelial cell of alveolus of lung,0,0,0,2,1,2,0,0,0,5
+CL:0002231,epithelial cell of prostate,2,1,1,0,0,0,1,0,0,5
+EFO:0007598,HAP-1,0,4,1,0,0,0,0,0,0,5
+CL:1000458,melanocyte of skin,0,0,0,2,1,2,0,0,0,5
+UBERON:0001224,renal pelvis,0,0,1,1,1,2,0,0,0,5
+UBERON:0001499,muscle of arm,0,0,1,1,1,2,0,0,0,5
+CL:0011022,fibroblast of skin of back,0,0,1,1,1,2,0,0,0,5
+CL:2000066,cardiac ventricle fibroblast,0,0,0,2,1,2,0,0,0,5
+CL:2000007,articular chondrocyte of knee joint,0,0,0,2,1,2,0,0,0,5
+UBERON:0000081,metanephros,0,0,0,2,1,2,0,0,0,5
+UBERON:0002967,cingulate gyrus,0,5,0,0,0,0,0,0,0,5
+UBERON:0002686,angular gyrus,0,5,0,0,0,0,0,0,0,5
+UBERON:0002167,right lung,0,0,1,1,1,2,0,0,0,5
+CL:0000823,immature natural killer cell,0,0,1,1,1,2,0,0,0,5
+EFO:0001184,HEK293T,0,0,0,0,0,0,5,0,0,5
+UBERON:0005270,renal cortex interstitium,0,0,1,1,1,2,0,0,0,5
+EFO:0002103,A375,0,0,0,2,1,2,0,0,0,5
+UBERON:0003662,forelimb muscle,0,0,1,1,1,2,0,0,0,5
+NTR:0001407,germinal matrix,0,5,0,0,0,0,0,0,0,5
+UBERON:0002097,skin of body,0,0,0,2,1,2,0,0,0,5
+EFO:0007116,UCSF-4,0,5,0,0,0,0,0,0,0,5
+NTR:0000524,fibroblast of skin of scalp,0,0,1,1,1,2,0,0,0,5
+CL:0002555,fibroblast of mammary gland,2,1,1,0,0,0,1,0,0,5
+EFO:0007102,iPS-15b,0,5,0,0,0,0,0,0,0,5
+CL:0002366,myometrial cell,0,0,0,2,1,2,0,0,0,5
+CL:0002548,cardiac fibroblast,2,1,1,0,0,0,1,0,0,5
+CL:0002557,fibroblast of pulmonary artery,2,1,1,0,0,0,1,0,0,5
+CL:2000078,placental pericyte,0,0,0,2,1,2,0,0,0,5
+CL:2000093,bronchus fibroblast of lung,0,0,0,2,1,2,0,0,0,5
+CL:2000092,hair follicular keratinocyte,0,0,0,2,1,2,0,0,0,5
+CL:2000094,nasal cavity respiratory epithelium epithelial cell of viscerocranial mucosa,0,0,0,2,1,2,0,0,0,5
+CL:2000011,dermis lymphatic vessel endothelial cell,0,0,0,2,1,2,0,0,0,5
+CL:2000071,mammary microvascular endothelial cell,0,0,0,2,1,2,0,0,0,5
+CL:2000068,pericardium fibroblast,0,0,0,2,1,2,0,0,0,5
+CL:0002098,regular cardiac myocyte,0,0,0,2,1,2,0,0,0,5
+CL:0002451,mammary stem cell,0,0,0,2,1,2,0,0,0,5
+CL:2000067,cardiac atrium fibroblast,0,0,0,2,1,2,0,0,0,5
+UBERON:0003889,fallopian tube,0,0,0,1,1,2,0,1,0,5
+UBERON:0002305,layer of hippocampus,0,5,0,0,0,0,0,0,0,5
+UBERON:0004538,left kidney,0,0,1,1,1,2,0,0,0,5
+UBERON:0002324,muscle of back,0,0,1,1,1,2,0,0,0,5
+UBERON:0013756,venous blood,0,0,0,1,1,2,0,0,0,4
+UBERON:0000458,endocervix,0,0,0,1,1,2,0,0,0,4
+UBERON:0001225,cortex of kidney,0,0,0,1,1,2,0,0,0,4
+UBERON:0001199,mucosa of stomach,0,4,0,0,0,0,0,0,0,4
+CL:0002677,naive regulatory T cell,4,0,0,0,0,0,0,0,0,4
+CL:0002603,astrocyte of the cerebellum,2,1,1,0,0,0,0,0,0,4
+UBERON:0006566,left ventricle myocardium,0,0,0,1,1,2,0,0,0,4
+UBERON:0012249,ectocervix,0,0,0,1,1,2,0,0,0,4
+UBERON:0001293,outer medulla of kidney,0,0,0,1,1,2,0,0,0,4
+EFO:0000572,lymphoblast,0,0,0,1,1,2,0,0,0,4
+CL:0002252,epithelial cell of esophagus,2,1,1,0,0,0,0,0,0,4
+EFO:0007096,iPS DF 19.11,0,4,0,0,0,0,0,0,0,4
+UBERON:0001898,hypothalamus,0,0,0,1,1,2,0,0,0,4
+CL:0002397,"CD14-positive, CD16-positive monocyte",4,0,0,0,0,0,0,0,0,4
+NTR:0003079,fibroblast of breast,0,4,0,0,0,0,0,0,0,4
+CL:0002167,olfactory epithelial cell,4,0,0,0,0,0,0,0,0,4
+CL:0000905,"effector memory CD4-positive, alpha-beta T cell",0,3,1,0,0,0,0,0,0,4
+CL:0000840,immature conventional dendritic cell,4,0,0,0,0,0,0,0,0,4
+CL:0000899,T-helper 17 cell,0,0,1,2,0,0,0,1,0,4
+EFO:0005237,U-87 MG,0,0,0,1,1,2,0,0,0,4
+UBERON:0002245,cerebellar hemisphere,0,0,0,1,1,2,0,0,0,4
+CL:0001053,IgD-negative memory B cell,0,0,0,1,1,2,0,0,0,4
+CL:0002166,epithelial cell of Malassez,4,0,0,0,0,0,0,0,0,4
+CL:0000784,plasmacytoid dendritic cell,4,0,0,0,0,0,0,0,0,4
+CL:0000767,basophil,4,0,0,0,0,0,0,0,0,4
+UBERON:0006330,anterior lingual gland,0,0,0,1,1,2,0,0,0,4
+UBERON:0006469,C1 segment of cervical spinal cord,0,0,0,1,1,2,0,0,0,4
+EFO:0002009,fibroblast derived cell line,0,0,0,1,1,2,0,0,0,4
+EFO:0002783,GM06990,0,2,1,0,0,0,1,0,0,4
+CL:0000121,Purkinje cell,0,0,0,1,1,2,0,0,0,4
+UBERON:0018112,rectal smooth muscle tissue,0,4,0,0,0,0,0,0,0,4
+UBERON:0009835,anterior cingulate cortex,0,0,0,1,1,2,0,0,0,4
+CL:0000077,mesothelial cell,4,0,0,0,0,0,0,0,0,4
+EFO:0002285,NCI-H226,2,0,1,0,0,0,0,0,0,3
+EFO:0005337,GM12864,0,1,1,0,0,0,1,0,0,3
+CL:0000706,choroid plexus epithelial cell,0,1,1,0,0,0,1,0,0,3
+EFO:0006365,C4-2B,0,1,0,0,0,0,2,0,0,3
+EFO:0007076,ES-I3,0,3,0,0,0,0,0,0,0,3
+EFO:0006283,KOPT-K1,0,3,0,0,0,0,0,0,0,3
+EFO:0005726,LNCaP clone FGC,0,1,1,0,0,0,1,0,0,3
+CLO:0034837,AG04449,0,1,1,0,0,0,1,0,0,3
+EFO:0002323,RWPE1,0,1,1,0,0,0,1,0,0,3
+CL:0002590,smooth muscle cell of the brain vasculature,2,0,1,0,0,0,0,0,0,3
+CLO:0021511,AG10803,0,1,1,0,0,0,1,0,0,3
+EFO:0002324,Raji,2,0,0,0,0,0,1,0,0,3
+CLO:0021754,AG09319,0,1,1,0,0,0,1,0,0,3
+CLO:0021752,AG09309,0,1,1,0,0,0,1,0,0,3
+UBERON:0000966,retina,2,0,1,0,0,0,0,0,0,3
+UBERON:0000988,pons,2,0,1,0,0,0,0,0,0,3
+CL:0002536,amniotic epithelial cell,2,0,1,0,0,0,0,0,0,3
+CL:0002606,astrocyte of the spinal cord,0,1,1,0,0,0,1,0,0,3
+UBERON:0001875,globus pallidus,2,0,1,0,0,0,0,0,0,3
+CL:0002552,fibroblast of gingiva,2,0,1,0,0,0,0,0,0,3
+EFO:0007098,iPS DF 6.9,0,2,1,0,0,0,0,0,0,3
+CL:0002565,iris pigment epithelial cell,2,0,1,0,0,0,0,0,0,3
+CL:0002304,non-pigmented ciliary epithelial cell,2,0,1,0,0,0,0,0,0,3
+UBERON:0008198,nail plate,2,0,0,0,0,0,0,0,0,2
+UBERON:0003729,mouth mucosa,2,0,0,0,0,0,0,0,0,2
+EFO:0005338,GM12865,0,1,1,0,0,0,0,0,0,2
+EFO:0001162,GM12875,0,1,0,0,0,0,1,0,0,2
+CL:0000708,leptomeningeal cell,2,0,0,0,0,0,0,0,0,2
+CL:0000771,eosinophil,2,0,0,0,0,0,0,0,0,2
+UBERON:0003701,calcaneal tendon,2,0,0,0,0,0,0,0,0,2
+UBERON:0003112,olfactory region,2,0,0,0,0,0,0,0,0,2
+UBERON:0003126,trachea,2,0,0,0,0,0,0,0,0,2
+CL:0000913,"effector memory CD8-positive, alpha-beta T cell",0,0,1,0,0,0,0,1,0,2
+CL:0000907,"central memory CD8-positive, alpha-beta T cell",0,0,1,0,0,0,0,1,0,2
+EFO:0005710,HFF-Myc,0,1,1,0,0,0,0,0,0,2
+UBERON:0002902,occipital pole,2,0,0,0,0,0,0,0,0,2
+UBERON:0002771,middle temporal gyrus,2,0,0,0,0,0,0,0,0,2
+UBERON:0002702,middle frontal gyrus,2,0,0,0,0,0,0,0,0,2
+UBERON:0002581,postcentral gyrus,2,0,0,0,0,0,0,0,0,2
+CL:0001016,immature CD1a-positive Langerhans cell,2,0,0,0,0,0,0,0,0,2
+UBERON:0002448,fungiform papilla,2,0,0,0,0,0,0,0,0,2
+UBERON:0013777,skin of palm of manus,2,0,0,0,0,0,0,0,0,2
+CL:0000558,reticulocyte,2,0,0,0,0,0,0,0,0,2
+CL:0000453,Langerhans cell,2,0,0,0,0,0,0,0,0,2
+UBERON:0005795,embryonic uterus,2,0,0,0,0,0,0,0,0,2
+UBERON:0004225,respiratory system smooth muscle,2,0,0,0,0,0,0,0,0,2
+UBERON:0006323,superior rectus extraocular muscle,2,0,0,0,0,0,0,0,0,2
+UBERON:0006322,inferior rectus extraocular muscle,2,0,0,0,0,0,0,0,0,2
+CL:0000787,memory B cell,0,0,1,0,0,0,0,1,0,2
+CL:0000798,gamma-delta T cell,2,0,0,0,0,0,0,0,0,2
+CL:0000731,urothelial cell,2,0,0,0,0,0,0,0,0,2
+UBERON:1000010,mole,0,0,0,2,0,0,0,0,0,2
+CL:0000136,fat cell,2,0,0,0,0,0,0,0,0,2
+UBERON:0012168,umbilical cord blood,2,0,0,0,0,0,0,0,0,2
+CL:0000134,mesenchymal cell,2,0,0,0,0,0,0,0,0,2
+CL:0000097,mast cell,2,0,0,0,0,0,0,0,0,2
+CL:0002138,endothelial cell of lymphatic vessel,2,0,0,0,0,0,0,0,0,2
+CL:0002140,acinar cell of sebaceous gland,2,0,0,0,0,0,0,0,0,2
+CL:0002092,bone marrow cell,2,0,0,0,0,0,0,0,0,2
+UBERON:0002360,meninx,2,0,0,0,0,0,0,0,0,2
+UBERON:0002336,corpus callosum,2,0,0,0,0,0,0,0,0,2
+CL:0002224,lens epithelial cell,2,0,0,0,0,0,0,0,0,2
+CL:0002193,myelocyte,2,0,0,0,0,0,0,0,0,2
+CL:0002144,capillary endothelial cell,2,0,0,0,0,0,0,0,0,2
+UBERON:0002371,bone marrow,2,0,0,0,0,0,0,0,0,2
+UBERON:0002363,dura mater,2,0,0,0,0,0,0,0,0,2
+UBERON:0002372,tonsil,2,0,0,0,0,0,0,0,0,2
+EFO:0005441,DU 145,2,0,0,0,0,0,0,0,0,2
+EFO:0001260,WI38,0,1,0,0,0,0,1,0,0,2
+EFO:0001253,THP-1,2,0,0,0,0,0,0,0,0,2
+EFO:0001247,T47D,0,0,1,0,0,0,1,0,0,2
+CL:0002057,"CD14-positive, CD16-negative classical monocyte",2,0,0,0,0,0,0,0,0,2
+EFO:0007107,iPS-18c,0,2,0,0,0,0,0,0,0,2
+CL:0002327,mammary gland epithelial cell,2,0,0,0,0,0,0,0,0,2
+CL:0002367,trabecular meshwork cell,2,0,0,0,0,0,0,0,0,2
+CL:0002544,aortic endothelial cell,2,0,0,0,0,0,0,0,0,2
+CL:0002537,amnion mesenchymal stem cell,2,0,0,0,0,0,0,0,0,2
+CL:0002521,subcutaneous fat cell,2,0,0,0,0,0,0,0,0,2
+CL:0002504,enteric smooth muscle cell,2,0,0,0,0,0,0,0,0,2
+UBERON:0002134,tricuspid valve,2,0,0,0,0,0,0,0,0,2
+UBERON:0002114,duodenum,2,0,0,0,0,0,0,0,0,2
+UBERON:0002118,right ovary,2,0,0,0,0,0,0,0,0,2
+UBERON:0002110,gallbladder,2,0,0,0,0,0,0,0,0,2
+CL:0002368,respiratory epithelial cell,2,0,0,0,0,0,0,0,0,2
+CL:0002363,keratocyte,2,0,0,0,0,0,0,0,0,2
+UBERON:0002119,left ovary,2,0,0,0,0,0,0,0,0,2
+UBERON:0002146,pulmonary valve,2,0,0,0,0,0,0,0,0,2
+UBERON:0002148,locus ceruleus,2,0,0,0,0,0,0,0,0,2
+EFO:0007752,VCaP,0,1,0,0,0,0,1,0,0,2
+CL:0002550,fibroblast of the conjuctiva,2,0,0,0,0,0,0,0,0,2
+UBERON:0001905,pineal body,2,0,0,0,0,0,0,0,0,2
+CL:0002549,fibroblast of choroid plexus,2,0,0,0,0,0,0,0,0,2
+UBERON:0001897,dorsal plus ventral thalamus,2,0,0,0,0,0,0,0,0,2
+UBERON:0001896,medulla oblongata,2,0,0,0,0,0,0,0,0,2
+UBERON:0001831,parotid gland,2,0,0,0,0,0,0,0,0,2
+UBERON:0001797,vitreous humor,2,0,0,0,0,0,0,0,0,2
+CL:0002582,visceral preadipocyte,2,0,0,0,0,0,0,0,0,2
+CL:0002581,perirenal preadipocyte,2,0,0,0,0,0,0,0,0,2
+CL:0002580,preadipocyte of the breast,2,0,0,0,0,0,0,0,0,2
+CL:0002579,omentum preadipocyte,2,0,0,0,0,0,0,0,0,2
+CL:0002576,perineural cell,2,0,0,0,0,0,0,0,0,2
+CL:0002575,central nervous system pericyte,2,0,0,0,0,0,0,0,0,2
+CL:0002574,stromal cell of pancreas,2,0,0,0,0,0,0,0,0,2
+CL:0002573,Schwann cell,2,0,0,0,0,0,0,0,0,2
+CL:0002572,vertebral mesenchymal stem cell,2,0,0,0,0,0,0,0,0,2
+CL:0002571,hepatic mesenchymal stem cell,2,0,0,0,0,0,0,0,0,2
+CL:0002569,mesenchymal stem cell of umbilical cord,2,0,0,0,0,0,0,0,0,2
+CL:0002567,light melanocyte,2,0,0,0,0,0,0,0,0,2
+CL:0002566,dark melanocyte,2,0,0,0,0,0,0,0,0,2
+UBERON:0001736,submandibular gland,2,0,0,0,0,0,0,0,0,2
+UBERON:0001638,vein,2,0,0,0,0,0,0,0,0,2
+UBERON:0002022,insula,2,0,0,0,0,0,0,0,0,2
+CL:0002453,oligodendrocyte precursor cell,2,0,0,0,0,0,0,0,0,2
+CL:0002564,nucleus pulposus cell of intervertebral disc,2,0,0,0,0,0,0,0,0,2
+CL:0002561,outer root sheath cell,2,0,0,0,0,0,0,0,0,2
+CL:0002563,intestinal epithelial cell,2,0,0,0,0,0,0,0,0,2
+CL:0002556,fibroblast of periodontium,2,0,0,0,0,0,0,0,0,2
+CL:0002554,fibroblast of lymphatic vessel,2,0,0,0,0,0,0,0,0,2
+CL:0002553,lung fibroblast,2,0,0,0,0,0,0,0,0,2
+UBERON:0002135,mitral valve,2,0,0,0,0,0,0,0,0,2
+CL:0002595,smooth muscle cell of the subclavian artery,2,0,0,0,0,0,0,0,0,2
+CL:0002596,smooth muscle cell of the carotid artery,2,0,0,0,0,0,0,0,0,2
+CL:0002599,smooth muscle cell of the esophagus,2,0,0,0,0,0,0,0,0,2
+UBERON:0001301,epididymis,2,0,0,0,0,0,0,0,0,2
+UBERON:0001359,cerebrospinal fluid,2,0,0,0,0,0,0,0,0,2
+UBERON:0001389,soleus muscle,2,0,0,0,0,0,0,0,0,2
+UBERON:0001602,medial rectus extraocular muscle,2,0,0,0,0,0,0,0,0,2
+UBERON:0001603,lateral rectus extra-ocular muscle,2,0,0,0,0,0,0,0,0,2
+UBERON:0001637,artery,2,0,0,0,0,0,0,0,0,2
+CL:0002622,prostate stromal cell,2,0,0,0,0,0,0,0,0,2
+CL:0002623,acinar cell of salivary gland,2,0,0,0,0,0,0,0,0,2
+CL:0002589,smooth muscle cell of the brachiocephalic vasculature,2,0,0,0,0,0,0,0,0,2
+UBERON:0001155,colon,2,0,0,0,0,0,0,0,0,2
+UBERON:0001154,vermiform appendix,2,0,0,0,0,0,0,0,0,2
+UBERON:0001135,smooth muscle tissue,2,0,0,0,0,0,0,0,0,2
+CL:0002593,smooth muscle cell of the internal thoracic artery,2,0,0,0,0,0,0,0,0,2
+CL:0002615,adipocyte of omentum tissue,2,0,0,0,0,0,0,0,0,2
+CL:0002605,astrocyte of the cerebral cortex,2,0,0,0,0,0,0,0,0,2
+UBERON:0001103,diaphragm,2,0,0,0,0,0,0,0,0,2
+CL:0002602,annulus pulposus cell,2,0,0,0,0,0,0,0,0,2
+UBERON:0001044,saliva-secreting gland,2,0,0,0,0,0,0,0,0,2
+UBERON:0001003,skin epidermis,0,2,0,0,0,0,0,0,0,2
+UBERON:0001000,vas deferens,2,0,0,0,0,0,0,0,0,2
+UBERON:0001052,rectum,2,0,0,0,0,0,0,0,0,2
+UBERON:0000998,seminal vesicle,2,0,0,0,0,0,0,0,0,2
+UBERON:0000992,female gonad,2,0,0,0,0,0,0,0,0,2
+CL:0002620,skin fibroblast,2,0,0,0,0,0,0,0,0,2
+CL:0002621,gingival epithelial cell,2,0,0,0,0,0,0,0,0,2
+CL:0002617,adipocyte of breast,2,0,0,0,0,0,0,0,0,2
+CL:0002616,perirenal adipocyte cell,2,0,0,0,0,0,0,0,0,2
+NTR:0000512,nephron progenitor cell,0,0,1,0,0,0,1,0,0,2
+CL:0002588,smooth muscle cell of the umbilical vein,2,0,0,0,0,0,0,0,0,2
+CL:1000280,smooth muscle cell of colon,2,0,0,0,0,0,0,0,0,2
+CL:1000413,endothelial cell of artery,2,0,0,0,0,0,0,0,0,2
+CL:1000428,stem cell of epidermis,2,0,0,0,0,0,0,0,0,2
+CL:1000487,smooth muscle cell of prostate,2,0,0,0,0,0,0,0,0,2
+CL:1000494,nephron tubule epithelial cell,2,0,0,0,0,0,0,0,0,2
+UBERON:0000989,penis,2,0,0,0,0,0,0,0,0,2
+UBERON:0000341,throat,2,0,0,0,0,0,0,0,0,2
+UBERON:0000310,breast,2,0,0,0,0,0,0,0,0,2
+UBERON:0000057,urethra,2,0,0,0,0,0,0,0,0,2
+UBERON:0000178,blood,2,0,0,0,0,0,0,0,0,2
+UBERON:0000014,zone of skin,2,0,0,0,0,0,0,0,0,2
+UBERON:0000029,lymph node,2,0,0,0,0,0,0,0,0,2
+UBERON:0000002,uterine cervix,2,0,0,0,0,0,0,0,0,2
+UBERON:0007190,paracentral gyrus,2,0,0,0,0,0,0,0,0,2
+UBERON:0000941,cranial nerve II,2,0,0,0,0,0,0,0,0,2
+UBERON:0000920,egg chorion,2,0,0,0,0,0,0,0,0,2
+UBERON:0006659,cruciate ligament of knee,2,0,0,0,0,0,0,0,0,2
+UBERON:0007023,adult organism,2,0,0,0,0,0,0,0,0,2
+CL:0000388,tendon cell,2,0,0,0,0,0,0,0,0,2
+CL:0000322,pneumocyte,2,0,0,0,0,0,0,0,0,2
+CL:0000214,synovial cell,2,0,0,0,0,0,0,0,0,2
+CL:0000188,skeletal muscle cell,0,1,1,0,0,0,0,0,0,2
+CL:0000235,macrophage,2,0,0,0,0,0,0,0,0,2
+CL:0000216,Sertoli cell,2,0,0,0,0,0,0,0,0,2
+CL:0000576,monocyte,2,0,0,0,0,0,0,0,0,2
+CL:0000188,cell of skeletal muscle,2,0,0,0,0,0,0,0,0,2
+CL:0000575,corneal epithelial cell,2,0,0,0,0,0,0,0,0,2
+CL:0000569,cardiac mesenchymal cell,2,0,0,0,0,0,0,0,0,2
+EFO:0002095,22Rv1,0,1,0,0,0,0,1,0,0,2
+EFO:0002796,Jurkat,2,0,0,0,0,0,0,0,0,2
+EFO:0002717,SH-SY5Y,0,0,0,0,0,0,2,0,0,2
+EFO:0002782,H54,0,0,0,0,0,0,2,0,0,2
+EFO:0002071,LNCAP,0,0,0,0,0,0,1,0,0,1
+EFO:0002083,SW480,0,0,1,0,0,0,0,0,0,1
+EFO:0002108,ACHN,0,0,1,0,0,0,0,0,0,1
+EFO:0002140,COLO829,0,0,1,0,0,0,0,0,0,1
+EFO:0002788,GM19238,0,0,1,0,0,0,0,0,0,1
+EFO:0002789,GM19239,0,0,1,0,0,0,0,0,0,1
+EFO:0002790,GM19240,0,0,1,0,0,0,0,0,0,1
+EFO:0003037,CMK,0,0,1,0,0,0,0,0,0,1
+EFO:0005282,HS-5,0,0,1,0,0,0,0,0,0,1
+EFO:0005283,HS-27A,0,0,1,0,0,0,0,0,0,1
+CL:0000632,hepatic stellate cell,0,0,1,0,0,0,0,0,0,1
+CL:0000653,glomerular visceral epithelial cell,0,0,1,0,0,0,0,0,0,1
+EFO:0002322,RPMI8226,0,0,1,0,0,0,0,0,0,1
+CLO:0024877,GM18511,0,0,0,0,0,0,0,1,0,1
+CLO:0003771,HK-2,0,0,1,0,0,0,0,0,0,1
+CLO:0011092,AG20443,0,0,1,0,0,0,0,0,0,1
+CLO:0013950,GM21619,0,0,0,0,0,0,0,1,0,1
+CLO:0014043,GM21717,0,0,0,0,0,0,0,1,0,1
+CLO:0014078,GM21529,0,0,0,0,0,0,0,1,0,1
+CLO:0014080,GM21528,0,0,0,0,0,0,0,1,0,1
+CLO:0014083,GM21526,0,0,0,0,0,0,0,1,0,1
+NTR:0001484,islet precursor cell,0,0,1,0,0,0,0,0,0,1
+CL:2000000,epidermal melanocyte,0,0,1,0,0,0,0,0,0,1
+CL:2000017,fibroblast of peridontal ligament,0,0,1,0,0,0,0,0,0,1
+CL:2000043,brain pericyte,0,0,1,0,0,0,0,0,0,1
+UBERON:0000970,eye,0,0,1,0,0,0,0,0,0,1
+UBERON:0000981,femur,0,0,1,0,0,0,0,0,0,1
+CL:0011021,fibroblast of upper back skin,0,0,1,0,0,0,0,0,0,1
+NTR:0000522,fibroblast of skin of left quadriceps,0,0,1,0,0,0,0,0,0,1
+NTR:0000523,fibroblast of skin of right quadriceps,0,0,1,0,0,0,0,0,0,1
+NTR:0000525,fibroblast of skin of right biceps,0,0,1,0,0,0,0,0,0,1
+CLO:0014097,GM21576,0,0,0,0,0,0,0,1,0,1
+CLO:0014163,GM21447,0,0,0,0,0,0,0,1,0,1
+CLO:0014886,GM21723,0,0,0,0,0,0,0,1,0,1
+CLO:0014941,GM21825,0,0,0,0,0,0,0,1,0,1
+CLO:0015884,GM21390,0,0,0,0,0,0,0,1,0,1
+CLO:0015895,GM21381,0,0,0,0,0,0,0,1,0,1
+CLO:0015900,GM21367,0,0,0,0,0,0,0,1,0,1
+CLO:0015908,GM21360,0,0,0,0,0,0,0,1,0,1
+CLO:0015947,GM21423,0,0,0,0,0,0,0,1,0,1
+CLO:0016536,GM03348,0,0,1,0,0,0,0,0,0,1
+CLO:0018812,GM04504,0,0,1,0,0,0,0,0,0,1
+CLO:0018813,GM04503,0,0,1,0,0,0,0,0,0,1
+CL:1000507,kidney tubule cell,0,0,1,0,0,0,0,0,0,1
+CL:1000892,kidney capillary endothelial cell,0,0,1,0,0,0,0,0,0,1
+CL:0002604,astrocyte of the hippocampus,0,0,1,0,0,0,0,0,0,1
+EFO:0010875,HG03280,0,0,0,0,0,0,0,1,0,1
+EFO:0010876,HG03342,0,0,0,0,0,0,0,1,0,1
+EFO:0010878,HG03378,0,0,0,0,0,0,0,1,0,1
+EFO:0010879,HG03432,0,0,0,0,0,0,0,1,0,1
+EFO:0010880,HG03439,0,0,0,0,0,0,0,1,0,1
+EFO:0010881,HG03442,0,0,0,0,0,0,0,1,0,1
+EFO:0010882,HG03457,0,0,0,0,0,0,0,1,0,1
+EFO:0010883,HG03460,0,0,0,0,0,0,0,1,0,1
+EFO:0010884,HG03469,0,0,0,0,0,0,0,1,0,1
+EFO:0010885,HG03520,0,0,0,0,0,0,0,1,0,1
+EFO:0010886,HG03521,0,0,0,0,0,0,0,1,0,1
+EFO:0010888,HG03565,0,0,0,0,0,0,0,1,0,1
+EFO:0010889,HG03571,0,0,0,0,0,0,0,1,0,1
+NTR:0000474,ecto neural progenitor cell,0,0,1,0,0,0,0,0,0,1
+NTR:0000521,fibroblast of skin of left biceps,0,0,1,0,0,0,0,0,0,1
+CL:0010001,stromal cell of bone marrow,0,0,1,0,0,0,0,0,0,1
+UBERON:0001259,mucosa of urinary bladder,0,0,0,0,0,0,0,1,0,1
+UBERON:0001285,nephron,0,0,0,0,0,0,1,0,0,1
+EFO:0010859,HG02981,0,0,0,0,0,0,0,1,0,1
+EFO:0010860,HG03025,0,0,0,0,0,0,0,1,0,1
+EFO:0010861,HG03039,0,0,0,0,0,0,0,1,0,1
+EFO:0010862,HG03045,0,0,0,0,0,0,0,1,0,1
+EFO:0010863,HG03060,0,0,0,0,0,0,0,1,0,1
+EFO:0010864,HG03064,0,0,0,0,0,0,0,1,0,1
+EFO:0010865,HG03066,0,0,0,0,0,0,0,1,0,1
+EFO:0010866,HG03095,0,0,0,0,0,0,0,1,0,1
+EFO:0010867,HG03097,0,0,0,0,0,0,0,1,0,1
+EFO:0010868,HG03103,0,0,0,0,0,0,0,1,0,1
+EFO:0010869,HG03108,0,0,0,0,0,0,0,1,0,1
+EFO:0010870,HG03135,0,0,0,0,0,0,0,1,0,1
+EFO:0010871,HG03139,0,0,0,0,0,0,0,1,0,1
+EFO:0010872,HG03159,0,0,0,0,0,0,0,1,0,1
+EFO:0010873,HG03175,0,0,0,0,0,0,0,1,0,1
+EFO:0010874,HG03196,0,0,0,0,0,0,0,1,0,1
+EFO:0010840,GM21786,0,0,0,0,0,0,0,1,0,1
+EFO:0010841,HG02571,0,0,0,0,0,0,0,1,0,1
+EFO:0010842,HG02588,0,0,0,0,0,0,0,1,0,1
+EFO:0010843,HG02610,0,0,0,0,0,0,0,1,0,1
+EFO:0010844,HG02623,0,0,0,0,0,0,0,1,0,1
+EFO:0010846,HG02678,0,0,0,0,0,0,0,1,0,1
+EFO:0010847,HG02759,0,0,0,0,0,0,0,1,0,1
+EFO:0010848,HG02763,0,0,0,0,0,0,0,1,0,1
+EFO:0010850,HG02840,0,0,0,0,0,0,0,1,0,1
+EFO:0010851,HG02852,0,0,0,0,0,0,0,1,0,1
+EFO:0010852,HG02870,0,0,0,0,0,0,0,1,0,1
+EFO:0010853,HG02884,0,0,0,0,0,0,0,1,0,1
+EFO:0010855,HG02938,0,0,0,0,0,0,0,1,0,1
+EFO:0010856,HG02943,0,0,0,0,0,0,0,1,0,1
+EFO:0010857,HG02970,0,0,0,0,0,0,0,1,0,1
+EFO:0010858,HG02973,0,0,0,0,0,0,0,1,0,1
+CLO:0026258,GM18858,0,0,0,0,0,0,0,1,0,1
+CLO:0026782,GM19397,0,0,0,0,0,0,0,1,0,1
+CLO:0026790,GM19395,0,0,0,0,0,0,0,1,0,1
+EFO:0007599,L1-S8,0,0,1,0,0,0,0,0,0,1
+EFO:0007600,L1-S8R,0,0,1,0,0,0,0,0,0,1
+EFO:0007748,EH,0,0,1,0,0,0,0,0,0,1
+EFO:0007749,EL,0,0,1,0,0,0,0,0,0,1
+EFO:0007750,ELR,0,0,1,0,0,0,0,0,0,1
+EFO:0007952,iPS-NIHi11,0,0,1,0,0,0,0,0,0,1
+EFO:0009500,HCEC 1CT,0,0,1,0,0,0,0,0,0,1
+EFO:0010835,GM19023,0,0,0,0,0,0,0,1,0,1
+EFO:0010836,GM19025,0,0,0,0,0,0,0,1,0,1
+EFO:0010837,GM19043,0,0,0,0,0,0,0,1,0,1
+EFO:0010838,GM21515,0,0,0,0,0,0,0,1,0,1
+EFO:0010839,GM21737,0,0,0,0,0,0,0,1,0,1
+CL:0002550,fibroblast of the conjunctiva,0,0,1,0,0,0,0,0,0,1
+EFO:0007099,iPS-11a,0,1,0,0,0,0,0,0,0,1
+CLO:0024886,GM18519,0,0,0,0,0,0,0,1,0,1
+CLO:0024890,GM18517,0,0,0,0,0,0,0,1,0,1
+CLO:0024898,GM18520,0,0,0,0,0,0,0,1,0,1
+CLO:0024919,GM18508,0,0,0,0,0,0,0,1,0,1
+CLO:0024933,GM18499,0,0,0,0,0,0,0,1,0,1
+CLO:0024937,GM18498,0,0,0,0,0,0,0,1,0,1
+CLO:0025816,GM19035,0,0,0,0,0,0,0,1,0,1
+CLO:0026238,GM18907,0,0,0,0,0,0,0,1,0,1
+CLO:0026245,GM18873,0,0,0,0,0,0,0,1,0,1
+CLO:0026249,GM18870,0,0,0,0,0,0,0,1,0,1
+CLO:0026250,GM18867,0,0,0,0,0,0,0,1,0,1
+CLO:0026253,GM18868,0,0,0,0,0,0,0,1,0,1
+CLO:0026256,GM18861,0,0,0,0,0,0,0,1,0,1
+UBERON:0002129,cerebellar cortex,0,0,1,0,0,0,0,0,0,1
+CL:0002038,T follicular helper cell,0,0,1,0,0,0,0,0,0,1
+CLO:0027429,GM19372,0,0,0,0,0,0,0,1,0,1
+CLO:0027432,GM19351,0,0,0,0,0,0,0,1,0,1
+CLO:0027443,GM19324,0,0,0,0,0,0,0,1,0,1
+CLO:0027445,GM19328,0,0,0,0,0,0,0,1,0,1
+CLO:0033902,AG08396,0,0,1,0,0,0,0,0,0,1
+CLO:0033911,AG08395,0,0,1,0,0,0,0,0,0,1
+EFO:0000681,RCC,0,0,1,0,0,0,0,0,0,1
+EFO:0005901,ELF-1,0,0,1,0,0,0,0,0,0,1
+EFO:0005903,KBM-7,0,0,1,0,0,0,0,0,0,1
+EFO:0005913,urothelium cell line,0,0,1,0,0,0,0,0,0,1
+EFO:0006639,LoVo,0,0,1,0,0,0,0,0,0,1
+CL:0002061,T-helper 9 cell,0,0,1,0,0,0,0,0,0,1
+UBERON:0002394,bile duct,0,0,0,0,0,0,0,1,0,1
+CL:0000862,suppressor macrophage,0,0,1,0,0,0,0,0,0,1
+CL:0000863,inflammatory macrophage,0,0,1,0,0,0,0,0,0,1
+EFO:0005352,GM20000,0,0,1,0,0,0,0,0,0,1
+EFO:0005384,HuH-7,0,0,1,0,0,0,0,0,0,1
+EFO:0005696,D721Med,0,0,1,0,0,0,0,0,0,1
+EFO:0005704,HuH-7.5,0,0,1,0,0,0,0,0,0,1
+EFO:0005707,RCC 7860,0,0,1,0,0,0,0,0,0,1
+EFO:0005709,HTR-8/SVneo,0,0,1,0,0,0,0,0,0,1
+CLO:0026824,GM19438,0,0,0,0,0,0,0,1,0,1
+CLO:0026846,GM19452,0,0,0,0,0,0,0,1,0,1
+CLO:0026863,GM19455,0,0,0,0,0,0,0,1,0,1
+CLO:0026874,GM19463,0,0,0,0,0,0,0,1,0,1
+CLO:0026877,GM19467,0,0,0,0,0,0,0,1,0,1
+CL:0000904,"central memory CD4-positive, alpha-beta T cell",0,0,1,0,0,0,0,0,0,1
+CL:0001042,T-helper 22 cell,0,0,1,0,0,0,0,0,0,1
+CL:0001044,"effector CD4-positive, alpha-beta T cell",0,0,1,0,0,0,0,0,0,1
+UBERON:0002626,head of caudate nucleus,0,0,1,0,0,0,0,0,0,1
+UBERON:0002740,posterior cingulate gyrus,0,0,1,0,0,0,0,0,0,1
+EFO:0005332,GM18505,0,0,0,0,0,0,0,1,0,1
+EFO:0005333,GM08714,0,1,0,0,0,0,0,0,0,1
+EFO:0005336,GM10847,0,0,0,0,0,0,1,0,0,1
+EFO:0005345,GM13976,0,0,1,0,0,0,0,0,0,1
+EFO:0005347,GM15510,0,0,0,0,0,0,1,0,0,1
+EFO:0005348,GM18526,0,0,0,0,0,0,1,0,0,1
+EFO:0005349,GM18951,0,0,0,0,0,0,1,0,0,1
+EFO:0005350,GM19099,0,0,0,0,0,0,1,0,0,1
+EFO:0005351,GM19193,0,0,0,0,0,0,1,0,0,1
+EFO:0001159,GM12872,0,0,0,0,0,0,1,0,0,1
+EFO:0001160,GM12873,0,0,0,0,0,0,1,0,0,1
+EFO:0001161,GM12874,0,0,0,0,0,0,1,0,0,1
+EFO:0001232,RKO,0,0,1,0,0,0,0,0,0,1
+CL:0000765,erythroblast,0,0,0,0,0,0,1,0,0,1
+UBERON:0004539,right kidney,0,0,1,0,0,0,0,0,0,1
+CL:0000545,T-helper 1 cell,0,0,1,0,0,0,0,0,0,1
+CL:0000546,T-helper 2 cell,0,0,1,0,0,0,0,0,0,1
+EFO:0002246,NAMALWA,0,0,1,0,0,0,0,0,0,1
+UBERON:8300001,right forelimb,0,0,1,0,0,0,0,0,0,1
+UBERON:8300002,left forelimb,0,0,1,0,0,0,0,0,0,1
+UBERON:8300003,right hindlimb,0,0,1,0,0,0,0,0,0,1
+UBERON:8300004,left hindlimb,0,0,1,0,0,0,0,0,0,1

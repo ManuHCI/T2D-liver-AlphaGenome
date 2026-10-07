@@ -1,0 +1,335 @@
+id,studyType,traitFromSource,projectId,publicationFirstAuthor,publicationDate,nSamples,nCases,nControls,pure_t2d
+GCST90693212,gwas,Type 2 diabetes,GCST,Elashi AA,2024-04-29,6710881,906935,5803946,True
+GCST90020177,gwas,Neuroticism and type 2 diabetes,GCST,Torgersen K,2021-06-17,591317,458785,132532,False
+GCST90492734,gwas,Type 2 diabetes,GCST,Suzuki K,2024-02-19,2535601,428452,2107149,True
+GCST90103991,gwas,Peripheral artery disease or coronary artery disease or type 2 diabetes (pleiotropy),GCST,Bellomo TR,2022-02-02,2705046,375241,2329805,False
+GCST90624697,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder or Anorexia nervosa or Major depressive disorder or schyzophrenia or obsessive compulsive disorder,GCST,Ding H,2023-01-28,1400368,313102,1087266,False
+GCST90624692,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder or Anorexia nervosa or Major depressive disorder or schyzophrenia,GCST,Ding H,2023-01-28,1390643,310414,1080229,False
+GCST90624695,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder or Major depressive disorder or schyzophrenia or obsessive compulsive disorder,GCST,Ding H,2023-01-28,1327851,296110,1031741,False
+GCST90624696,gwas,Type 2 diabetes and Anorexia nervosa or Major depressive disorder or schyzophrenia or obsessive compulsive disorder,GCST,Ding H,2023-01-28,1347075,294003,1053072,False
+GCST90624685,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder or Major depressive disorder or schyzophrenia,GCST,Ding H,2023-01-28,1318126,293422,1024704,False
+GCST90624688,gwas,Type 2 diabetes and Anorexia nervosa or Major depressive disorder or schyzophrenia,GCST,Ding H,2023-01-28,1337350,291315,1046035,False
+GCST90624691,gwas,Type 2 diabetes and Major depressive disorder or schyzophrenia or obsessive compulsive disorder,GCST,Ding H,2023-01-28,1274558,277011,997547,False
+GCST90624679,gwas,Type 2 diabetes and Major depressive disorder or schyzophrenia,GCST,Ding H,2023-01-28,1264833,274323,990510,False
+GCST90624693,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder or Anorexia nervosa or Major depressive disorder or obsessive compulsive disorder,GCST,Ding H,2023-01-28,1295050,272427,1022623,False
+GCST90624682,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder or Anorexia nervosa or Major depressive disorder,GCST,Ding H,2023-01-28,1285325,269739,1015586,False
+GCST90451698,gwas,Type 2 diabetes mellitus or coronary artery disease (pleiotropy),GCST,Zhang W,2023-12-08,2063820,255646,1808174,False
+GCST90624686,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder or Major depressive disorder or obsessive compulsive disorder,GCST,Ding H,2023-01-28,1222533,255435,967098,False
+GCST90624689,gwas,Type 2 diabetes and Anorexia nervosa or Major depressive disorder or obsessive compulsive disorder,GCST,Ding H,2023-01-28,1241757,253328,988429,False
+GCST90624673,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder or Major depressive disorder,GCST,Ding H,2023-01-28,1212808,252747,960061,False
+GCST90103998,gwas,Peripheral artery disease or smoking (pleiotropy),GCST,Bellomo TR,2022-02-02,1582274,252508,1329766,False
+GCST90624676,gwas,Type 2 diabetes and Anorexia nervosa or Major depressive disorder,GCST,Ding H,2023-01-28,1232032,250640,981392,False
+GCST90624680,gwas,Type 2 diabetes and Major depressive disorder or obsessive compulsive disorder,GCST,Ding H,2023-01-28,1169240,236336,932904,False
+GCST90624669,gwas,Type 2 diabetes and Major depressive disorder,GCST,Ding H,2023-01-28,1159515,233648,925867,False
+GCST90451699,gwas,Type 2 diabetes mellitus adjusted for BMI or coronary artery disease (pleiotropy),GCST,Zhang W,2023-12-08,1739996,231931,1508065,False
+GCST90479885,gwas,Type 2 diabetes (PheCode 250.2),GCST,Verma A,2024-07-19,612947,230291,382656,True
+GCST010557,gwas,Type 2 diabetes,GCST,Vujkovic M,2020-06-15,1407282,228499,1178783,True
+GCST90244709,gwas,Type 2 diabetes or schizophrenia (pleiotropy),GCST,Cai L,2022-11-03,1466906,207960,1258946,False
+GCST009859,gwas,Adult onset asthma or type 2 diabetes,GCST,Zhu Z,2019-10-24,585812,192626,552394,False
+GCST009857,gwas,Nonatopic asthma or type 2 diabetes,GCST,Zhu Z,2019-10-24,610118,188070,581256,False
+GCST90244660,gwas,Migraine or type 2 diabetes,GCST,Islam MR,2022-10-12,1771471,176208,1595263,False
+GCST90475667,gwas,Type 2 diabetes (PheCode 250.2),GCST,Verma A,2024-07-19,432648,154194,278454,True
+GCST90013841,gwas,Alzheimer's disease or type 2 diabetes (pleiotropy),GCST,Bone WP,2021-02-04,1353388,152711,1200677,False
+GCST010555,gwas,Type 2 diabetes,GCST,Vujkovic M,2020-06-15,1114458,148726,965732,True
+GCST90244661,gwas,Headache or type 2 diabetes,GCST,Islam MR,2022-10-12,1258521,145796,1112725,False
+GCST90624694,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder or Anorexia nervosa or schyzophrenia or obsessive compulsive disorder,GCST,Ding H,2023-01-28,900169,142346,757823,False
+GCST011320,gwas,Type 2 diabetes or prostate cancer (pleiotropy),GCST,Ray D,2020-12-08,801622,142086,659536,False
+GCST90624683,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder or Anorexia nervosa or schyzophrenia,GCST,Ding H,2023-01-28,890444,139658,750786,False
+GCST90624687,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder or schyzophrenia or obsessive compulsive disorder,GCST,Ding H,2023-01-28,827652,125354,702298,False
+GCST90624690,gwas,Type 2 diabetes and Anorexia nervosa or schyzophrenia or obsessive compulsive disorder,GCST,Ding H,2023-01-28,846876,123247,723629,False
+GCST90624674,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder or schyzophrenia,GCST,Ding H,2023-01-28,817927,122666,695261,False
+GCST90624677,gwas,Type 2 diabetes and Anorexia nervosa or schyzophrenia,GCST,Ding H,2023-01-28,837151,120559,716592,False
+GCST90624681,gwas,Type 2 diabetes and schyzophrenia or obsessive compulsive disorder,GCST,Ding H,2023-01-28,774359,106255,668104,False
+GCST90624670,gwas,Type 2 diabetes and schyzophrenia,GCST,Ding H,2023-01-28,764634,103567,661067,False
+GCST90624684,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder or Anorexia nervosa or obsessive compulsive disorder,GCST,Ding H,2023-01-28,794851,101671,693180,False
+GCST90624672,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder or Anorexia nervosa,GCST,Ding H,2023-01-28,785126,98983,686143,False
+GCST011990,gwas,Psoriasis or type 2 diabetes (trans-disease meta-analysis)(opposite effect),GCST,Patrick MT,2020-12-29,925490,85148,840342,False
+GCST011991,gwas,Psoriasis or type 2 diabetes (trans-disease meta-analysis),GCST,Patrick MT,2020-12-29,925490,85148,840342,False
+GCST90624675,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder or obsessive compulsive disorder,GCST,Ding H,2023-01-28,722334,84679,637655,False
+GCST90018926,gwas,Type 2 diabetes,GCST,Sakaue S,2021-09-30,667504,84224,583280,True
+GCST90134405,gwas,Type 2 diabetes (adjusted for BMI) or polycystic ovary syndrome (pleiotropy),GCST,Liu Q,2022-06-30,1011368,84198,927170,False
+GCST90134404,gwas,Type 2 diabetes or polycystic ovary syndrome (pleiotropy),GCST,Liu Q,2022-06-30,1011368,84198,927170,False
+FINNGEN_R12_T2D,gwas,"Type 2 diabetes, definitions combined",FINNGEN_R12,,,486367,82878,403489,True
+GCST007303,gwas,Alzheimer's disease or cardiovascular risk factors (pleiotropy),GCST,Broce IJ,2018-11-09,1432180,82577,425739,False
+GCST90624678,gwas,Type 2 diabetes and Anorexia nervosa or obsessive compulsive disorder,GCST,Ding H,2023-01-28,741558,82572,658986,False
+GCST90624667,gwas,Type 2 diabetes and Attention deficit hiperactivty disorder,GCST,Ding H,2023-01-28,712609,81991,630618,False
+GCST011539,gwas,Type 1 or type 2 diabetes (pleiotropy),GCST,Inshaw JRJ,2021-04-08,915815,81591,834224,False
+GCST90624668,gwas,Type 2 diabetes and Anorexia nervosa,GCST,Ding H,2023-01-28,731833,79884,651949,False
+GCST010118,gwas,Type 2 diabetes,GCST,Spracklen CN,2020-05-06,433540,77418,356122,True
+GCST009379,gwas,Type 2 diabetes,GCST,Mahajan A,2018-10-08,898130,74124,824006,True
+GCST008976,gwas,Type 2 diabetes or obesity or coronary artery disease (pleiotropy),GCST,Jia X,2018-10-31,620021,70519,315433,False
+GCST010552,gwas,Chronic kidney disease x type 2 diabetes interaction,GCST,Vujkovic M,2020-06-15,197230,67403,129827,True
+GCST90624671,gwas,Type 2 diabetes and obsessive compulsive disorder,GCST,Ding H,2023-01-28,669041,65580,603461,False
+GCST006867,gwas,Type 2 diabetes,GCST,Xue A,2018-07-27,659316,62892,596424,True
+GCST010551,gwas,Coronary heart disease x type 2 diabetes interaction,GCST,Vujkovic M,2020-06-15,197230,56285,140945,True
+FINNGEN_R12_T2D_WIDE,gwas,"Type 2 diabetes, wide definition",FINNGEN_R12,,,460679,55418,405261,True
+GCST90475666,gwas,Type 2 diabetes (PheCode 250.2),GCST,Verma A,2024-07-19,116014,51551,64463,True
+GCST90651113,gwas,Type 2 diabetes (PheCode 250.2),GCST,Liu TY,2025-06-04,634315,50441,583874,True
+GCST009380,gwas,Type 2 diabetes (adjusted for BMI),GCST,Mahajan A,2018-10-08,574306,50409,523897,False
+GCST009372,gwas,Bipolar disorder or type 2 diabetes,GCST,Pisanu C,2019-11-21,210918,47028,163890,False
+GCST010553,gwas,Type 2 diabetes,GCST,Vujkovic M,2020-06-15,216287,46511,169776,True
+GCST90018706,gwas,Type 2 diabetes,GCST,Sakaue S,2021-09-30,177415,45383,132032,True
+GCST004894,gwas,Type 2 diabetes,GCST,Zhao W,2017-09-04,183651,45064,138587,True
+GCST90667974,gwas,ICD10 E11: Non-insulin-dependent diabetes mellitus,GCST,UK Biobank Whole-Genome Sequencing Consortium,2025-08-06,482329,44678,437651,False
+GCST90053824,gwas,Type 2 diabetes,GCST,Polfus LM,2021-03-09,246781,44511,193679,True
+GCST010547,gwas,Neuropathy x type 2 diabetes interaction,GCST,Vujkovic M,2020-06-15,150806,40475,110331,False
+GCST90013693,gwas,Type 2 diabetes,GCST,Ishigaki K,2020-06-08,210865,40250,170615,True
+GCST90473174,gwas,ICD10 E11: Non-insulin-dependent diabetes mellitus,GCST,UK Biobank Whole-Genome Sequencing Consortium,2025-08-06,458440,39733,418707,False
+GCST90681838,gwas,Type 2 diabetes x sex interaction,GCST,Namba S,2026-01-28,160522,39047,121475,True
+GCST90681885,gwas,Type 2 diabetes x age interaction,GCST,Namba S,2026-01-28,160522,39047,121475,True
+GCST90681979,gwas,Type 2 diabetes x ever-smoking interaction,GCST,Namba S,2026-01-28,158359,38583,119776,True
+GCST90681932,gwas,Type 2 diabetes x ever-drinking interaction,GCST,Namba S,2026-01-28,158023,38502,119521,True
+GCST90682026,gwas,Type 2 diabetes x current-smoking interaction,GCST,Namba S,2026-01-28,155000,37759,117241,True
+GCST90682261,gwas,"Type 2 diabetes x commonly-tested environments (Sex, Age, Ever-drinking, Ever-smoking, and Current-smoking) interaction",GCST,Namba S,2026-01-28,154390,37618,116772,False
+GCST007847,gwas,Type 2 diabetes,GCST,Suzuki K,2019-02-04,191764,36614,155150,True
+GCST90854203,gwas,Non-insulin-dependent diabetes mellitus,GCST,Dai J,2025-09-17,459485,36588,422897,False
+GCST90854202,gwas,Non-insulin-dependent diabetes mellitus,GCST,Dai J,2025-09-17,459485,36588,422897,False
+GCST90682167,gwas,Type 2 diabetes x dairy products interaction,GCST,Namba S,2026-01-28,142704,35022,107682,True
+GCST90682073,gwas,Type 2 diabetes x Japanese cuisine (Washoku) interaction,GCST,Namba S,2026-01-28,142704,35022,107682,True
+GCST90682214,gwas,Type 2 diabetes x physical activity interaction,GCST,Namba S,2026-01-28,142704,35022,107682,True
+GCST90682120,gwas,Type 2 diabetes x European cuisine interaction,GCST,Namba S,2026-01-28,142704,35022,107682,True
+GCST90446461,gwas,Type 2 diabetes (AlphaMissense) (Gene-based burden),GCST,Chen Y,2024-08-22,443182,34957,408225,True
+GCST90446462,gwas,Type 2 diabetes (Gene-based burden),GCST,Chen Y,2024-08-22,443182,34957,408225,True
+GCST007359,gwas,Type 2 diabetes or coronary artery disease (pleiotropy),GCST,Zhang Q,2018-09-09,156028,34404,121624,False
+GCST90682308,gwas,"Type 2 diabetes x all environments (Sex, Age, Ever-drinking, Ever-smoking, Current-smoking, Japanese cuisine, European cuisine, Dairy products, and Physical activity) interaction",GCST,Namba S,2026-01-28,139251,34143,105108,False
+GCST005414,gwas,Type 2 diabetes,GCST,Bonas-Guarch S,2018-01-22,168420,34010,134410,True
+GCST90100587,gwas,Type 2 diabetes,GCST,O'Connor MJ,2021-12-03,312646,33139,279507,True
+GCST90651126,gwas,Type 2 diabetes (PheCode 250.2),GCST,Liu TY,2025-06-04,229123,32336,196787,True
+GCST90702482,gwas,Type 2 diabetes,GCST,Dias JA,2025-08-28,207305,31222,176083,True
+GCST90081516,gwas,Type 2 diabetes New,GCST,Backman JD,2021-10-18,386145,30259,355886,True
+GCST90085502,gwas,Type 2 diabetes New (Gene-based burden),GCST,Backman JD,2021-10-18,386145,30259,355886,True
+GCST90053828,gwas,Type 2 diabetes,GCST,Polfus LM,2021-03-09,177201,29832,147369,True
+GCST004880,gwas,Alzheimer's disease or type 2 diabetes (pleiotropy),GCST,Wang XF,2017-08-01,123195,29179,94016,False
+GCST90225532,gwas,COVID-19 or type 2 diabetes (pleiotropy),GCST,Guo H,2022-09-15,166768,28920,137848,False
+GCST011487,gwas,Coronary artery disease x type 2 diabetes interaction,GCST,van Zuydam NR,2020-08-13,66643,27708,38935,True
+GCST90296697,gwas,Type 2 diabetes,GCST,Elliott A,2024-01-05,146294,27607,118687,True
+GCST90179113,gwas,Type 2 diabetes or peripheral artery disease (MTAG),GCST,Xiu X,2022-08-31,729897,27599,702298,False
+GCST90079742,gwas,ICD10 E11: Type 2 diabetes mellitus,GCST,Backman JD,2021-10-18,385300,27324,357976,True
+GCST90083728,gwas,ICD10 E11: Type 2 diabetes mellitus (Gene-based burden),GCST,Backman JD,2021-10-18,385300,27324,357976,True
+GCST004774,gwas,Type 2 diabetes,GCST,Scott RA,2017-05-31,159208,26676,132532,True
+GCST006861,gwas,Femoral neck bone mineral density or type 2 diabetes (pleiotropy),GCST,Hu Y,2018-08-30,212444,26676,132532,False
+GCST004773,gwas,Type 2 diabetes,GCST,Scott RA,2017-05-31,159208,26676,132532,True
+GCST90083727,gwas,ICD10 E11.9: Type 2 diabetes mellitus without complications (Gene-based burden),GCST,Backman JD,2021-10-18,385838,26590,359248,False
+GCST90079741,gwas,ICD10 E11.9: Type 2 diabetes mellitus without complications,GCST,Backman JD,2021-10-18,385838,26590,359248,False
+GCST002352,gwas,Type 2 diabetes,GCST,Mahajan A,2014-02-09,110452,26488,83964,True
+GCST90013735,gwas,Type 2 diabetes,GCST,Ishigaki K,2020-06-08,108479,25705,82774,True
+GCST010556,gwas,Type 2 diabetes,GCST,Vujkovic M,2020-06-15,56092,24646,31446,True
+GCST90693000,gwas,Type 2 diabetes (PheCode 250.2),GCST,Karczewski KJ,2025-09-18,427794,24432,403362,True
+GCST90692987,gwas,ICD10 E11: Non-insulin-dependent diabetes mellitus,GCST,Karczewski KJ,2025-09-18,429407,24296,405111,False
+GCST90691952,gwas,Type 2 diabetes (PheCode 250.2),GCST,Karczewski KJ,2025-09-18,418949,22768,396181,True
+GCST90302887,gwas,Type 2 diabetes,GCST,DeWan AT,2023-06-12,336074,22670,313404,True
+GCST90691927,gwas,ICD10 E11: Non-insulin-dependent diabetes mellitus,GCST,Karczewski KJ,2025-09-18,420531,22634,397897,False
+GCST90475665,gwas,Type 2 diabetes (PheCode 250.2),GCST,Verma A,2024-07-19,57680,22274,35406,True
+GCST90296698,gwas,Type 2 diabetes,GCST,Elliott A,2024-01-05,177979,21507,156472,True
+GCST006868,gwas,Type 2 diabetes,GCST,Xue A,2018-07-27,455607,21147,434460,True
+GCST005716,gwas,Type 2 diabetes,GCST,Zhang H,2016-06-30,130990,19809,111181,True
+GCST90435704,gwas,Type 2 diabetes (PheCode 250.2),GCST,Zhou W,2018-08-13,407701,18945,388756,True
+GCST010766,gwas,Type 2 diabetes (time to event),GCST,Bi W,2020-06-23,282871,18557,264314,True
+GCST008833,gwas,Type 2 diabetes,GCST,Flannick J,2019-05-22,35912,18233,17679,True
+GCST90702469,gwas,Type 2 diabetes,GCST,Dias JA,2025-08-28,324822,18119,306703,True
+GCST90296699,gwas,Type 2 diabetes (with history of pregnancy),GCST,Elliott A,2024-01-05,142269,17912,124357,True
+GCST90081526,gwas,Probable type 2 diabetes,GCST,Backman JD,2021-10-18,426342,17719,408623,True
+GCST90085512,gwas,Probable type 2 diabetes (Gene-based burden),GCST,Backman JD,2021-10-18,426342,17719,408623,True
+GCST90682406,gwas,Type 2 diabetes x age interaction,GCST,Namba S,2026-01-28,270290,17462,252828,True
+GCST90682359,gwas,Type 2 diabetes x sex interaction,GCST,Namba S,2026-01-28,270290,17462,252828,True
+GCST90682735,gwas,Type 2 diabetes x physical activity interaction,GCST,Namba S,2026-01-28,270256,17461,252795,True
+GCST90682594,gwas,Type 2 diabetes x meat and cheese interaction,GCST,Namba S,2026-01-28,270256,17461,252795,False
+GCST90682641,gwas,Type 2 diabetes x vegetable and fish interaction,GCST,Namba S,2026-01-28,270256,17461,252795,False
+GCST90682688,gwas,Type 2 diabetes x tea and coffee interaction,GCST,Namba S,2026-01-28,270256,17461,252795,False
+GCST90682453,gwas,Type 2 diabetes x ever-drinking interaction,GCST,Namba S,2026-01-28,270200,17453,252747,True
+GCST90682547,gwas,Type 2 diabetes x current-smoking interaction,GCST,Namba S,2026-01-28,269690,17407,252283,True
+GCST90682500,gwas,Type 2 diabetes x ever-smoking interaction,GCST,Namba S,2026-01-28,269690,17407,252283,True
+GCST90682782,gwas,"Type 2 diabetes x commonly-tested environments (Sex, Age, Ever-drinking, Ever-smoking, and Current-smoking) interaction",GCST,Namba S,2026-01-28,269605,17398,252207,False
+GCST90682829,gwas,"Type 2 diabetes x all environments (Sex, Age, Ever-drinking, Ever-smoking, Current-smoking, Meat and cheese, Vegetable and fish, Tea and coffee, and Physical activity) interaction",GCST,Namba S,2026-01-28,269571,17397,252174,False
+GCST90093109,gwas,Type ii diabetes,GCST,Loh M,2022-04-07,50533,16677,33856,True
+GCST90101837,gwas,Type 2 diabetes (adjusted for BMI),GCST,Loh M,2022-04-07,50533,16677,33856,False
+GCST90101836,gwas,Type ii diabetes,GCST,Loh M,2022-04-07,50533,16677,33856,True
+GCST90093110,gwas,Type 2 diabetes (adjusted for BMI),GCST,Loh M,2022-04-07,50533,16677,33856,False
+GCST003400,gwas,Type 2 diabetes,GCST,Imamura M,2016-01-28,41646,15463,26183,True
+GCST90274723,gwas,Cardiometabolic multimorbidity,GCST,Zhao C,2024-02-26,367147,14835,352312,False
+GCST90013770,gwas,Type 2 diabetes,GCST,Ishigaki K,2020-06-08,102386,14545,87841,True
+GCST008048,gwas,Type 2 diabetes,GCST,Wojcik GL,2019-06-19,45725,14042,31683,True
+GCST010548,gwas,Retinopathy x type 2 diabetes interaction,GCST,Vujkovic M,2020-06-15,137419,13881,123538,False
+GCST007246,gwas,Latent autoimmune diabetes vs. type 2 diabetes,GCST,Cousminer DL,2018-09-25,13175,13175,0,True
+GCST005413,gwas,Type 2 diabetes,GCST,Bonas-Guarch S,2018-01-22,70127,12931,57196,True
+GCST005047,gwas,Type 2 diabetes,GCST,Morris AP,2012-09-01,69033,12171,56862,True
+GCST90103391,gwas,Source of report of E11 (non-insulin-dependent diabetes mellitus) (UKB data field 130709),GCST,Fitzgerald T,2022-08-10,170757,12037,158720,False
+GCST90085503,gwas,Type 2 diabetes New Strict (Gene-based burden),GCST,Backman JD,2021-10-18,352271,11970,340301,True
+GCST90081517,gwas,Type 2 diabetes New Strict,GCST,Backman JD,2021-10-18,352271,11970,340301,True
+GCST010550,gwas,Acute ischemic stroke x type 2 diabetes interaction,GCST,Vujkovic M,2020-06-15,190277,11796,178481,True
+GCST90727286,gwas,Type 2 diabetes (MULTIPLY codelist),GCST,Kim HI,2026-03-27,44026,11348,32678,True
+GCST90726814,gwas,Type 2 diabetes (GenomicsPLC codelist),GCST,Kim HI,2026-03-27,44026,11259,32767,True
+GCST90854204,gwas,Non-insulin-dependent diabetes mellitus,GCST,Dai J,2025-09-17,141081,10353,130728,False
+GCST90006934,gwas,Type 2 diabetes,GCST,Cai L,2020-11-13,22326,9978,12348,True
+GCST90053829,gwas,Type 2 diabetes,GCST,Polfus LM,2021-03-09,32871,9913,22958,True
+GCST003619,gwas,Type 2 diabetes,GCST,Cook JP,2016-05-18,71604,9747,61857,True
+GCST90026417,gwas,Type 2 diabetes,GCST,Mansour Aly D,2021-11-04,12230,9486,2744,True
+GCST010554,gwas,Type 2 diabetes,GCST,Vujkovic M,2020-06-15,20445,8616,11829,True
+GCST002560,gwas,Type 2 diabetes,GCST,Ng MC,2014-08-07,23827,8284,15543,True
+GCST90255648,gwas,Type 2 diabetes (adjusted for BMI),GCST,Huerta-Chagoya A,2023-05-06,18885,8150,10735,False
+GCST000712,gwas,Type 2 diabetes,GCST,Voight BF,2010-06-27,47117,8130,38987,True
+GCST005899,gwas,Type 2 diabetes,GCST,Bonas-Guarch S,2018-01-22,57968,7522,50446,True
+GCST90726725,gwas,ICD10 E11: Type 2 diabetes mellitus,GCST,Kim HI,2026-03-27,44026,7389,36637,True
+GCST90086070,gwas,Type 2 diabetes,GCST,Guindo-Martinez M,2021-04-23,56637,6967,49670,True
+GCST90086068,gwas,Type 2 diabetes,GCST,Guindo-Martinez M,2021-04-23,56637,6967,49670,True
+GCST90086072,gwas,Type 2 diabetes,GCST,Guindo-Martinez M,2021-04-23,56637,6967,49670,True
+GCST001351,gwas,Type 2 diabetes,GCST,Cho YS,2011-12-11,18817,6952,11865,True
+GCST009875,gwas,Type 1 diabetes,GCST,Marquez A,2018-12-20,28978,6670,22308,False
+GCST90652517,gwas,Statin-associated type 2 diabetes mellitus,GCST,Park YA,2025-08-03,56029,6524,49505,True
+GCST001550,gwas,Type 2 diabetes,GCST,Perry JR,2012-05-31,60647,6235,54412,True
+GCST002128,gwas,Type 2 diabetes,GCST,Hara K,2013-08-14,26805,5976,20829,True
+GCST010549,gwas,Peripheral arterial disease x type 2 diabetes interaction,GCST,Vujkovic M,2020-06-15,167230,5882,161348,True
+GCST90726552,gwas,Type 2 diabetes,GCST,Jo J,2025-11-09,76206,5845,70361,True
+GCST001213,gwas,Type 2 diabetes,GCST,Kooner JS,2011-08-28,20019,5561,14458,True
+GCST90272881,gwas,Non-alcoholic fatty liver disease or type 2 diabetes,GCST,Tan Y,2023-03-22,137039,5523,131516,False
+GCST90137502,gwas,Type 2 diabetes,GCST,Hur HJ,2022-08-06,58701,5383,53318,True
+GCST005898,gwas,Type 2 diabetes,GCST,Bonas-Guarch S,2018-01-22,20979,5277,15702,True
+GCST000167,gwas,Type 2 diabetes,GCST,Zeggini E,2008-03-30,10128,4549,5579,True
+GCST90246053,gwas,Non-insulin-dependent diabetes mellitus (Union E11),GCST,Walters RG,2023-07-20,77178,4528,72650,False
+GCST001461,gwas,Type 2 diabetes,GCST,Imamura M,2012-03-28,7541,4470,3071,True
+GCST000787,gwas,Type 2 diabetes,GCST,Yamauchi T,2010-09-05,7541,4470,3071,True
+GCST90244608,gwas,Type 2 diabetes,GCST,Kim YS,2022-10-06,50808,4364,46444,True
+GCST006145,gwas,Type 2 diabetes,GCST,Mercader JM,2017-08-24,4052,4052,4052,True
+GCST002317,gwas,Type 2 diabetes,GCST,Williams AL,2013-12-25,8214,3848,4366,True
+GCST90161239,gwas,Type 2 diabetes,GCST,Lee CJ,2022-11-03,63177,3844,59333,True
+GCST001033,gwas,Type 2 diabetes,GCST,Sim X,2011-04-07,8135,3781,4354,True
+GCST90296700,gwas,Type 2 diabetes (with no history of pregnancy),GCST,Elliott A,2024-01-05,43758,3595,40163,True
+GCST90081710,gwas,Type 2 diabetes (Gene-based burden),GCST,Backman JD,2021-10-18,331754,3497,328257,True
+GCST90077724,gwas,Type 2 diabetes,GCST,Backman JD,2021-10-18,331754,3497,328257,True
+GCST007949,gwas,Type 2 diabetes and end-stage kidney disease,GCST,Guan M,2019-05-15,10409,3432,6977,False
+GCST90038634,gwas,Type 2 diabetes,GCST,Donertas HM,2021-04-08,484598,3260,481338,True
+GCST001326,gwas,Type 2 diabetes,GCST,Kho AN,2011-11-19,6488,3223,3265,True
+GCST90081711,gwas,ICD10 E11: type 2 diabetes (Gene-based burden),GCST,Backman JD,2021-10-18,329052,3203,325849,True
+GCST90077725,gwas,ICD10 E11: type 2 diabetes,GCST,Backman JD,2021-10-18,329052,3203,325849,True
+GCST90053826,gwas,Type 2 diabetes,GCST,Polfus LM,2021-03-09,7437,3124,4313,True
+GCST012043,gwas,Childhood onset type 2 diabetes,GCST,Srinivasan S,2021-01-21,9067,3006,6061,True
+GCST012042,gwas,Type 2 diabetes,GCST,Srinivasan S,2021-01-21,3862,3006,856,True
+GCST90026416,gwas,Mild age-related type 2 diabetes,GCST,Mansour Aly D,2021-11-04,5605,2861,2744,True
+GCST007950,gwas,Type 2 diabetes and end-stage kidney disease in APOL1 risk genotype negative individuals,GCST,Guan M,2019-05-15,8827,2768,6059,False
+GCST90693210,gwas,Type 2 diabetes,GCST,Elashi AA,2024-04-29,11436,2765,8671,True
+GCST90693211,gwas,Type 2 diabetes (adjusted for BMI),GCST,Elashi AA,2024-04-29,11436,2765,8671,False
+GCST90473175,gwas,ICD10 E11: Non-insulin-dependent diabetes mellitus,GCST,UK Biobank Whole-Genome Sequencing Consortium,2025-08-06,9613,2693,6920,False
+GCST008114,gwas,Type 2 diabetes,GCST,Chen J,2019-05-02,4347,2633,1714,True
+GCST000665,gwas,Type 2 diabetes,GCST,Qi L,2010-04-23,5643,2591,3052,True
+GCST004758,gwas,Type 2 diabetes,GCST,Qi Q,2017-03-02,7746,2499,5247,True
+GCST006494,gwas,"Type 2 diabetes (SNP x SNP interaction, 1df)",GCST,Keaton JM,2018-04-24,6224,2452,3772,True
+GCST006495,gwas,"Type 2 diabetes (SNP x SNP interaction, 2df)",GCST,Keaton JM,2018-04-24,6224,2452,3772,True
+GCST90244609,gwas,Type 2 diabetes,GCST,Kim YS,2022-10-06,19595,2434,17161,True
+GCST008464,gwas,Type 2 diabetes,GCST,Adeyemo AA,2019-07-19,13830,2342,2889,True
+GCST008463,gwas,Type 2 diabetes,GCST,Adeyemo AA,2019-07-19,5231,2342,2889,True
+GCST90081524,gwas,Possible type 2 diabetes,GCST,Backman JD,2021-10-18,410939,2316,408623,True
+GCST90085510,gwas,Possible type 2 diabetes (Gene-based burden),GCST,Backman JD,2021-10-18,410939,2316,408623,True
+GCST90477314,gwas,Type 2 diabetes (PheCode 250.2),GCST,Verma A,2024-07-19,6605,2272,4333,True
+GCST90651214,gwas,Type 2 diabetes with neurological manifestations (PheCode 250.24),GCST,Liu TY,2025-06-04,198879,2092,196787,True
+GCST90244610,gwas,Type 2 diabetes,GCST,Kim YS,2022-10-06,31213,1930,29283,True
+GCST000025,gwas,Type 2 diabetes,GCST,Zeggini E,2007-04-26,4862,1924,2938,True
+GCST000047,gwas,Type 2 diabetes,GCST,Wellcome Trust Case Control Consortium,2007-06-07,4862,1924,2938,True
+GCST000277,gwas,Type 2 diabetes,GCST,Timpson NJ,2008-12-03,4851,1913,2938,True
+GCST004305,gwas,Type 2 diabetes,GCST,Kim J,2017-04-13,7935,1895,6040,True
+GCST001666,gwas,Type 2 diabetes,GCST,Li H,2012-09-06,3712,1839,1873,True
+GCST001843,gwas,Type 2 diabetes (dietary heme iron intake interaction),GCST,Pasquale LR,2013-01-30,4771,1806,2965,True
+GCST001070,gwas,Type 2 diabetes,GCST,Parra EJ,2011-05-15,2584,1804,780,True
+GCST007223,gwas,Schizophrenia vs type 2 diabetes,GCST,Hackinger S,2018-11-23,1746,1746,0,True
+GCST90473171,gwas,ICD10 E11: Non-insulin-dependent diabetes mellitus,GCST,UK Biobank Whole-Genome Sequencing Consortium,2025-08-06,9215,1717,7498,False
+GCST90692417,gwas,Type 2 diabetes (PheCode 250.2),GCST,Karczewski KJ,2025-09-18,8845,1664,7181,True
+GCST90692403,gwas,ICD10 E11: Non-insulin-dependent diabetes mellitus,GCST,Karczewski KJ,2025-09-18,8876,1662,7214,False
+GCST90053827,gwas,Type 2 diabetes,GCST,Polfus LM,2021-03-09,3794,1642,2152,True
+GCST90244615,gwas,Type 2 diabetes,GCST,Kim YS,2022-10-06,9667,1552,8115,True
+GCST000028,gwas,Type 2 diabetes,GCST,Saxena R,2007-04-26,2931,1464,1467,True
+GCST007222,gwas,Schizophrenia vs schizophrenia and type 2 diabetes,GCST,Hackinger S,2018-11-23,1429,1429,0,False
+GCST000027,gwas,Type 2 diabetes,GCST,Steinthorsdottir V,2007-04-26,6674,1399,5275,True
+GCST002718,gwas,Type 2 diabetes,GCST,Ghassibe-Sabbagh M,2014-12-08,3286,1384,1902,True
+GCST90026415,gwas,Mild obesity-related type 2 diabetes,GCST,Mansour Aly D,2021-11-04,4118,1374,2744,True
+GCST007224,gwas,Type 2 diabetes vs schizophrenia and type 2 diabetes,GCST,Hackinger S,2018-11-23,1327,1327,0,False
+GCST000976,gwas,Type 2 diabetes,GCST,Lettre G,2011-02-10,6942,1264,5678,True
+GCST90026413,gwas,Severe insulin-deficient type 2 diabetes,GCST,Mansour Aly D,2021-11-04,3937,1193,2744,True
+GCST90244616,gwas,Type 2 diabetes,GCST,Kim YS,2022-10-06,11207,1183,10024,True
+GCST000024,gwas,Type 2 diabetes,GCST,Scott LJ,2007-04-26,2335,1161,1174,True
+GCST90026414,gwas,Severe insulin-resistant type 2 diabetes,GCST,Mansour Aly D,2021-11-04,3874,1130,2744,True
+GCST001759,gwas,Type 2 diabetes,GCST,Tabassum R,2012-12-03,2128,1101,1027,True
+GCST000796,gwas,Type 2 diabetes,GCST,Shu XO,2010-09-16,2729,1019,1710,True
+GCST000601,gwas,Type 2 diabetes,GCST,Tsai FJ,2010-02-19,1889,995,894,True
+GCST90651603,gwas,Diabetes type 2 with peripheral circulatory disorders (PheCode 250.25),GCST,Liu TY,2025-06-04,197759,972,196787,False
+GCST001369,gwas,Type 2 diabetes,GCST,Palmer ND,2012-01-04,1994,965,1029,True
+GCST004304,gwas,Prevalent type 2 diabetes,GCST,Kim J,2017-04-13,7935,911,7024,True
+GCST001809,gwas,Type 2 diabetes,GCST,Saxena R,2013-01-08,1616,842,774,True
+GCST001092,gwas,Type 2 diabetes,GCST,Below JE,2011-06-07,1273,837,436,True
+GCST007221,gwas,Type 2 diabetes,GCST,Hackinger S,2018-11-23,1947,822,1125,True
+GCST001173,gwas,Type 2 diabetes,GCST,Cui B,2011-07-22,1599,793,806,True
+GCST90244613,gwas,Type 2 diabetes,GCST,Kim YS,2022-10-06,7179,761,6418,True
+GCST90083726,gwas,ICD10 E11.4: Type 2 diabetes mellitus with neurological complications (Gene-based burden),GCST,Backman JD,2021-10-18,387566,751,386815,False
+GCST005912,gwas,Type 2 diabetes,GCST,Spracklen CN,2018-04-05,5731,748,4983,True
+GCST90043638,gwas,Type 2 diabetes (PheCode 250.2),GCST,Jiang L,2021-11-04,456348,714,455634,True
+GCST001919,gwas,Type 2 diabetes,GCST,Ma RC,2013-03-27,1639,684,955,True
+GCST000478,gwas,Type 2 diabetes,GCST,Rung J,2009-09-06,1376,679,697,True
+GCST000012,gwas,Type 2 diabetes,GCST,Sladek R,2007-02-11,1275,661,614,True
+GCST002025,gwas,Cystic fibrosis-related diabetes,GCST,Blackman SM,2013-05-13,3059,644,2415,False
+GCST90244614,gwas,Type 2 diabetes,GCST,Kim YS,2022-10-06,14453,634,13819,True
+GCST000383,gwas,Type 2 diabetes,GCST,Takeuchi F,2009-04-29,1022,519,503,True
+GCST007220,gwas,Schizophrenia and type 2 diabetes,GCST,Hackinger S,2018-11-23,1630,505,1125,False
+GCST000049,gwas,Type 2 diabetes,GCST,Salonen JT,2007-06-26,997,500,497,True
+GCST90043637,gwas,Type 2 diabetes with ophthalmic manifestations (PheCode 250.23),GCST,Jiang L,2021-11-04,456348,455,455893,True
+GCST90026412,gwas,Severe autoimmune type 2 diabetes,GCST,Mansour Aly D,2021-11-04,3196,452,2744,True
+GCST000074,gwas,Type 2 diabetes,GCST,Hanson RL,2007-09-10,895,440,455,True
+GCST90134620,gwas,Type 2 diabetes,GCST,Pipal KV,2022-07-22,1402,418,984,True
+GCST002224,gwas,Type 2 diabetes,GCST,Hanson RL,2013-10-07,831,407,424,True
+GCST003457,gwas,Soluble receptor for advanced glycation end-product levels,GCST,Adams JN,2016-02-23,506,399,107,False
+GCST009732,gwas,Type 2 diabetes,GCST,Grarup N,2018-06-20,2948,317,2631,True
+GCST90473172,gwas,ICD10 E11: Non-insulin-dependent diabetes mellitus,GCST,UK Biobank Whole-Genome Sequencing Consortium,2025-08-06,2863,307,2556,False
+GCST90428871,gwas,Type 2 diabetes in childhood cancer survivors,GCST,Im C,2024-04-23,3676,304,3372,True
+GCST000075,gwas,Type 2 diabetes,GCST,Hayes MG,2007-09-10,561,281,280,True
+GCST90319324,gwas,Type 2 diabetes in childhood cancer survivors,GCST,Im C,2024-04-23,3102,261,2841,True
+GCST90473173,gwas,ICD10 E11: Non-insulin-dependent diabetes mellitus,GCST,UK Biobank Whole-Genome Sequencing Consortium,2025-08-06,2198,228,1970,False
+GCST000221,gwas,Type 2 diabetes,GCST,Unoki H,2008-08-17,1752,194,1558,True
+GCST000219,gwas,Type 2 diabetes,GCST,Yasuda K,2008-08-17,1691,187,1504,True
+GCST000076,gwas,Type 2 diabetes,GCST,Rampersaud E,2007-09-10,419,124,295,True
+GCST90244611,gwas,Type 2 diabetes,GCST,Kim YS,2022-10-06,2749,121,2628,True
+GCST90244612,gwas,Type 2 diabetes,GCST,Kim YS,2022-10-06,5553,113,5440,True
+GCST002339,gwas,Type 2 diabetes (young onset) and obesity,GCST,Ma RC,2014-01-20,200,99,101,False
+GCST90444481,gwas,Type 2 diabetes,GCST,Li J,2023-10-25,297,98,199,True
+GCST000064,gwas,Type 2 diabetes nephropathy,GCST,Maeda S,2007-08-01,188,94,94,False
+GCST002806,gwas,Type 2 diabetes,GCST,Anderson D,2015-03-11,391,89,302,True
+GCST90043636,gwas,Type 2 diabetes with ketoacidosis (PheCode 250.21),GCST,Jiang L,2021-11-04,456348,86,456262,True
+GCST004782,gwas,Type 2 diabetes,GCST,Dajani R,2017-08-17,281,67,214,True
+GCST002123,gwas,Type 2 diabetes,GCST,Al Safar HS,2013-08-13,66,66,66,True
+GCST006484,gwas,Type 2 diabetes,GCST,Dominguez-Cruz MG,2018-08-18,92,45,47,True
+GCST90319325,gwas,Type 2 diabetes in childhood cancer survivors,GCST,Im C,2024-04-23,574,43,531,True
+GCST008434,gwas,Type 2 diabetes,GCST,Watson AL,2015-02-26,36,18,18,True
+GCST90013942,gwas,Type 2 diabetes (SPA correction),GCST,Mbatchou J,2021-05-20,406831,0,0,True
+GCST90668072,gwas,T2D (2+ condition: 201826),GCST,Newbury A,2025-08-02,405811,0,0,False
+GCST90013892,gwas,Type 2 diabetes (Firth correction),GCST,Mbatchou J,2021-05-20,406831,0,0,True
+GCST000073,gwas,Type 2 diabetes and 6 quantitative traits,GCST,Florez JC,2007-09-10,1087,0,0,False
+GCST90012181,gwas,Type 2 diabetes,GCST,Zhou J,2020-09-11,2824,0,0,True
+GCST007077,gwas,Type 2 diabetes,GCST,Kichaev G,2018-12-27,459000,0,0,True
+GCST90053830,gwas,Type 2 diabetes,GCST,Polfus LM,2021-03-09,25478,0,0,True
+GCST90053852,gwas,Type 2 diabetes,GCST,Liu YS,2021-08-15,24000,0,0,True
+GCST011321,gwas,Waist-hip ratio and type 2 diabetes (pairwise),GCST,Huang LO,2021-02-22,336862,0,0,False
+GCST007120,gwas,Multiple sclerosis and type 2 diabetes (pleiotropy),GCST,Wang Y,2016-02-26,49192,0,0,False
+GCST011337,gwas,Body fat percentage and type 2 diabetes (pairwise),GCST,Huang LO,2021-02-22,225264,0,0,False
+GCST011329,gwas,Body mass index and type 2 diabetes (pairwise),GCST,Huang LO,2021-02-22,449443,0,0,False
+GCST90029024,gwas,Type 2 diabetes,GCST,Loh PR,2018-07-01,468298,0,0,True
+GCST010436,gwas,Type 2 diabetes,GCST,Cho SB,2020-07-28,14026,0,0,True
+GCST90132186,gwas,Type 2 diabetes,GCST,Mahajan A,2022-05-12,40737,0,0,True
+GCST90132185,gwas,Type 2 diabetes,GCST,Mahajan A,2022-05-12,139705,0,0,True
+GCST90132184,gwas,Type 2 diabetes,GCST,Mahajan A,2022-05-12,251740,0,0,True
+GCST90132183,gwas,Type 2 diabetes,GCST,Mahajan A,2022-05-12,492192,0,0,True
+GCST010272,gwas,Circulating leptin levels or type 2 diabetes,GCST,Wang X,2020-04-01,254263,0,0,False
+GCST90132187,gwas,Type 2 diabetes,GCST,Mahajan A,2022-05-12,27417,0,0,True
+GCST90132188,gwas,Type 2 diabetes,GCST,Mahajan A,2022-05-12,32593,0,0,True
+GCST90245849,gwas,Type 2 diabetes,GCST,Hodgson S,2022-05-19,12875,0,0,True
+GCST008827,gwas,Type 2 diabetes,GCST,Jeon S,2019-09-12,8842,0,0,True
+GCST008776,gwas,Birth weight or type 2 diabetes (pleiotropy),GCST,Tekola-Ayele F,2019-03-11,264233,0,0,False
+GCST90468151,gwas,Type 2 diabetes,GCST,Loya H,2025-01-09,394626,0,0,True
+GCST90310232,gwas,Psycho-cardiometabolic multimorbidity (multivariate analysis),GCST,Baltramonaityte V,2023-06-30,562507,0,0,False
+GCST90319695,gwas,Type 2 diabetes,GCST,Wang X,2023-04-18,98564,0,0,True
+GCST90428469,gwas,Type 2 diabetes,GCST,Campos AI,2023-09-18,340000,0,0,True
+GCST007620,gwas,Type 2 diabetes,GCST,Chen G,2017-03-27,1908,0,0,True
+GCST001397,gwas,Type 2 diabetes,GCST,Huang J,2012-02-01,16179,0,0,True
+GCST000753_5,gwas,Metabolic syndrome,GCST,Zabaneh D,2010-08-04,2554,0,0,False
+GCST001965,gwas,Glycemic traits,GCST,Go MJ,2013-04-11,7696,0,0,False
+GCST004125,gwas,Type 2 diabetes (age of onset),GCST,Hamet P,2017-01-16,3409,0,0,True
+GCST90627777,gwas,Type 2 diabetes in vitamin A intake above Dietary Reference Intake,GCST,Park JM,2025-05-07,9558,0,0,True
+GCST90668070,gwas,T2D (OHDSI: 288),GCST,Newbury A,2025-08-02,405811,0,0,False
+GCST90668071,gwas,T2D (Phecode: 250.2),GCST,Newbury A,2025-08-02,405811,0,0,False
+GCST90627778,gwas,Type 2 diabetes in cholesterol intake above Dietary Reference Intake,GCST,Park JM,2025-05-07,6000,0,0,True
+GCST90837510,gwas,Type 2 diabetes,GCST,Koyama S,2025-11-26,52374,0,0,True

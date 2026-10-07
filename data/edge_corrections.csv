@@ -1,0 +1,4 @@
+source,target,sign,evidence
+HNF4A,ABCG5,1,"HNF4A activates ABCG5/ABCG8 promoter; PMID 17403900, 23790976"
+HNF4A,ABCG8,1,"HNF4A activates ABCG5/ABCG8 promoter; PMID 17403900, 23790976"
+LPA,LPAR2,0,name clash: LPA gene (apolipoprotein(a)) is not the LPAR2 ligand lysophosphatidic acid - edge removed
