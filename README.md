@@ -1,9 +1,13 @@
 # T2D-liver-AlphaGenome
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23219741.svg)](https://doi.org/10.5281/zenodo.23219741)
+
 Variant-to-function analysis of type 2 diabetes (T2D) risk variants in human hepatocytes with the
 AlphaGenome sequence-to-function model, including a liver eQTL benchmark, a hybrid gene-assignment rule,
 an atlas of 108 variant–gene pairs, an interactive regulatory tree, and a case study of an independent
 PROX1 signal (rs17712208) in an HNF1A-bound liver enhancer.
+
+**Archived version (v1.0.0):** https://doi.org/10.5281/zenodo.23219741 (all versions: https://doi.org/10.5281/zenodo.23219740)
 
 **Interactive tree:** https://manuhci.github.io/T2D-liver-AlphaGenome/  (served from `docs/index.html`)
 
