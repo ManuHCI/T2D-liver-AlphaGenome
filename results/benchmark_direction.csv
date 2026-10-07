@@ -1,0 +1,8 @@
+subset,variants,AlphaGenome_correct,95%_CI,p_vs_50%,spearman_r
+all benchmark eQTLs,320,0.681,0.63-0.73,4.0271968938475404e-11,0.487
+eQTL PIP >= 0.9,152,0.711,0.63-0.78,1.0793785418520788e-07,0.506
+AlphaGenome confident (|quantile| >= 0.99),166,0.825,0.76-0.88,2.7417841857590512e-18,0.677
+largest 25% AlphaGenome effects,80,0.95,0.88-0.99,1.3788943646942586e-18,0.763
+eGene well expressed in liver,143,0.699,0.62-0.77,1.0502284150826852e-06,0.447
+stronger eQTLs (|beta| above median),160,0.725,0.65-0.79,5.672268829700227e-09,0.479
+CONTROL: random other gene (should be ~50%),317,0.511,0.45-0.57,0.3680906239190661,0.033

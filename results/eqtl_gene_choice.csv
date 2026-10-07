@@ -1,0 +1,4 @@
+subset,variants,AlphaGenome_correct,nearest_gene_correct,only_AlphaGenome_right,only_nearest_right,p_McNemar,random_gene_correct
+all eQTL variants: AlphaGenome top gene,5,0.4,1.0,0,3,0.25,0.092
+all eQTL variants: AlphaGenome top expressed gene,5,0.0,1.0,0,5,0.0625,0.092
+fine-mapped eQTL (PIP >= 0.2),3,0.0,1.0,0,3,0.25,0.058

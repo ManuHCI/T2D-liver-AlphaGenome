@@ -1,0 +1,7 @@
+label,rule,variants,correct_all,kept,correct_among_kept
+"Hybrid
+(nearest + AG)",nearest,328,0.436,159,0.667
+"AG top
+gene",AG_top,328,0.357,208,0.538
+"AG top
+expressed",AG_top_expressed,328,0.189,114,0.491

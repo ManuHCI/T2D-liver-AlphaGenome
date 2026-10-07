@@ -1,0 +1,8 @@
+subset,pairs,variants,AlphaGenome_correct,chance,p_binomial,spearman_r
+all fine-mapped liver eQTL pairs,5,5,0.4,0.5,0.8125,
+eQTL PIP >= 0.2,3,3,0.667,0.5,0.5,
+eQTL PIP >= 0.5 (likely causal),0,0,,0.5,,
+strong eQTL p < 1e-8,2,2,1.0,0.5,0.25,
+AlphaGenome confident (|quantile| >= 0.99),3,3,0.333,0.5,0.875,
+gene expressed in liver (AlphaGenome level),0,0,,0.5,,
+CONTROL: random other gene at same variant,5,5,0.6,0.5,0.5,

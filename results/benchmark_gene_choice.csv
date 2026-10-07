@@ -1,0 +1,5 @@
+method,variants,AlphaGenome_correct,nearest_gene_correct,only_AlphaGenome_right,only_nearest_right,p_McNemar
+AlphaGenome top gene,328,0.421,0.625,30,97,1.984553317143075e-09
+AlphaGenome top expressed gene,328,0.247,0.625,15,139,2.4078229277102387e-26
+AlphaGenome when nearest gene is WRONG,123,0.122,0.0,15,0,
+"COMBINED: nearest gene, overridden by confident AlphaGenome",328,0.579,0.625,13,28,0.027533155829587486
