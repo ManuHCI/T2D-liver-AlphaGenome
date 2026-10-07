@@ -2,6 +2,7 @@
 Step 14 - Make the manuscript figures (PNG, 300 dpi, 178 mm wide) from the result files.
 
 Reads results/, results_hybrid/, results_prox1/ and the benchmark scores; writes figures/Fig1..Fig6.png
+Manuscript order: 1 design, 2 benchmark, 3 atlas, 4 network (negative), 5 PROX1 mechanism, 6 two signals
 Run:  python 14_make_figures.py
 """
 import glob
@@ -171,7 +172,7 @@ def fig3():
     save(fig, "Fig3_atlas")
 
 
-# ---------------------------------------------------------------- Figure 4: PROX1 mechanism
+# ---------------------------------------------------------------- Figure 5 (manuscript): PROX1 mechanism
 def tissue_class(name):
     n = name.lower()
     if n in ("hepg2", "hepatocyte", "huh-7", "huh-7.5") or ("liver" in n and "stellate" not in n):
@@ -274,10 +275,10 @@ def fig4():
     ax.set_xlabel("Peak (bar) and summit (dot) relative to variant (bp)")
     ax.set_xlim(-300, 300)
     ax.set_title("ENCODE ChIP-seq peaks over the variant", loc="left"); tag(ax, "D", -0.42)
-    save(fig, "Fig4_PROX1_mechanism")
+    save(fig, "Fig5_PROX1_mechanism")
 
 
-# ---------------------------------------------------------------- Figure 5: two signals, colocalisation
+# ---------------------------------------------------------------- Figure 6 (manuscript): two signals, colocalisation
 def fig5():
     o = pd.read_csv("results_prox1/coloc_open_targets.csv")
     traits = ["alanine", "glutamine", "BCAA", "albumin", "GGT", "LDL", "HbA1c", "glucose"]
@@ -304,7 +305,7 @@ def fig5():
             ("cCRE type", "distal enhancer", "promoter-like"),
             ("HNF1A ChIP peak", "yes (2/2)", "no"),
             ("AlphaGenome DNase", "−1.6 (closes)", "+0.02"),
-            ("Top coloc. traits", "alanine,\nglutamine", "glucose,\nHbA1c")]
+            ("Colocalised traits", "alanine,\nglutamine,\nGGT, glucose,\nHbA1c, valine,\nalbumin, LDL-C", "glucose,\nHbA1c")]
     ax.axis("off")
     for i, r in enumerate(rows):
         yy = 1 - i * 0.12
@@ -313,10 +314,10 @@ def fig5():
                     color=INK if j else MUTED, transform=ax.transAxes, va="top")
     tag(ax, "B", -0.02, 1.1)
     fig.tight_layout(w_pad=1.5)
-    save(fig, "Fig5_two_signals")
+    save(fig, "Fig6_two_signals")
 
 
-# ---------------------------------------------------------------- Figure 6: network propagation (negative)
+# ---------------------------------------------------------------- Figure 4 (manuscript): network propagation (negative)
 def fig6():
     cc = pd.read_csv("results_hybrid/control_comparison.csv")
     gd = pd.read_csv("results_hybrid/genetic_direction_test.csv")
@@ -358,7 +359,7 @@ def fig6():
     ax.set_ylabel(f"Sign agreement with FinnGen\nWald ratio ({int(r['genes'])} genes)")
     ax.set_title("Genetic direction (SMR)", loc="left"); tag(ax, "C", -0.38)
     fig.tight_layout(w_pad=1.2)
-    save(fig, "Fig6_network_negative")
+    save(fig, "Fig4_network_negative")
 
 
 if __name__ == "__main__":

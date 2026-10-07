@@ -1,13 +1,13 @@
 # T2D-liver-AlphaGenome
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23219741.svg)](https://doi.org/10.5281/zenodo.23219741)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23219740.svg)](https://doi.org/10.5281/zenodo.23219740)
 
 Variant-to-function analysis of type 2 diabetes (T2D) risk variants in human hepatocytes with the
 AlphaGenome sequence-to-function model, including a liver eQTL benchmark, a hybrid gene-assignment rule,
 an atlas of 108 variant–gene pairs, an interactive regulatory tree, and a case study of an independent
 PROX1 signal (rs17712208) in an HNF1A-bound liver enhancer.
 
-**Archived version (v1.0.0):** https://doi.org/10.5281/zenodo.23219741 (all versions: https://doi.org/10.5281/zenodo.23219740)
+**Zenodo archive:** https://doi.org/10.5281/zenodo.23219740 (always resolves to the latest version; each release also has its own version DOI)
 
 **Interactive tree:** https://manuhci.github.io/T2D-liver-AlphaGenome/  (served from `docs/index.html`)
 
@@ -25,7 +25,7 @@ Author: Manu Kumar Shetty, Department of Pharmacology, Maulana Azad Medical Coll
 | `results/` | Level 0 tables, liver eQTL benchmark, first-version tree, literature check |
 | `results_hybrid/` | Hybrid Level 1 (108 variants → 91 genes), network tree, validation tests |
 | `results_prox1/` | PROX1 locus tests, ENCODE ChIP-seq check, colocalisation |
-| `figures/` | Main figures 1–6 (300 dpi) |
+| `figures/` | Main figures 1–6 (300 dpi), numbered as in the manuscript: 1 design, 2 benchmark, 3 atlas, 4 network (negative), 5 PROX1 mechanism, 6 two signals |
 | `supplementary/` | Supplementary Tables S1–S9 (Excel) |
 | `docs/` | Interactive tree (`index.html`) and its data (`tree_data.json`) |
 | `tree_template.html` | Page template used by step 13 |
