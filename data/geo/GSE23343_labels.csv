@@ -1,0 +1,18 @@
+sample,title,source,char1,char2,char3,group
+GSM572800,Liver_normoglycima_no.1,"Liver, fasting",tissue: liver,gender: male,disease status: normal glucose tolerance,control
+GSM572801,Liver_normoglycima_no.2,"Liver, fasting",tissue: liver,gender: male,disease status: normal glucose tolerance,control
+GSM572802,Liver_normoglycima_no.3,"Liver, fasting",tissue: liver,gender: female,disease status: normal glucose tolerance,control
+GSM572803,Liver_normoglycima_no.4,"Liver, fasting",tissue: liver,gender: female,disease status: normal glucose tolerance,control
+GSM572804,Liver_normoglycima_no.5,"Liver, fasting",tissue: liver,gender: male,disease status: normal glucose tolerance,control
+GSM572805,Liver_normoglycima_no.6,"Liver, fasting",tissue: liver,gender: male,disease status: normal glucose tolerance,control
+GSM572806,Liver_normoglycima_no.7,"Liver, fasting",tissue: liver,gender: female,disease status: normal glucose tolerance,control
+GSM572807,Liver_hyperglycima_no.1,"Liver, fasting",tissue: liver,gender: female,disease status: type 2 diabetes,T2D
+GSM572808,Liver_hyperglycima_no.2,"Liver, fasting",tissue: liver,gender: male,disease status: type 2 diabetes,T2D
+GSM572809,Liver_hyperglycima_no.3,"Liver, fasting",tissue: liver,gender: male,disease status: type 2 diabetes,T2D
+GSM572810,Liver_hyperglycima_no.4,"Liver, fasting",tissue: liver,gender: female,disease status: type 2 diabetes,T2D
+GSM572811,Liver_hyperglycima_no.5,"Liver, fasting",tissue: liver,gender: male,disease status: type 2 diabetes,T2D
+GSM572812,Liver_hyperglycima_no.6,"Liver, fasting",tissue: liver,gender: female,disease status: type 2 diabetes,T2D
+GSM572813,Liver_hyperglycima_no.7,"Liver, fasting",tissue: liver,gender: male,disease status: type 2 diabetes,T2D
+GSM572814,Liver_hyperglycima_no.8,"Liver, fasting",tissue: liver,gender: female,disease status: type 2 diabetes,T2D
+GSM572815,Liver_hyperglycima_no.9,"Liver, fasting",tissue: liver,gender: male,disease status: type 2 diabetes,T2D
+GSM572816,Liver_hyperglycima_no.10,"Liver, fasting",tissue: liver,gender: male,disease status: type 2 diabetes,T2D
