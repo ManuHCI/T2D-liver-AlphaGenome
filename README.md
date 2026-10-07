@@ -84,7 +84,7 @@ python 15_supplementary_tables.py
 * **Network tree (Levels 2+).** Not validated by three independent yardsticks; reported as hypothesis-generating only.
 * **PROX1.** rs17712208 is independent of the known rs340874 signal (r² < 0.05), lies in an ENCODE distal
   enhancer bound by HNF1A (2/2 HepG2 experiments, summits 13–31 bp away), is predicted to close it and lower
-  PROX1, and colocalises with plasma alanine, glutamine and branched-chain amino acids (COLOC H4 ≈ 0.999).
+  PROX1, and colocalises with plasma alanine and glutamine (strongest), glucose, HbA1c, branched-chain amino acids, albumin, γ-glutamyl transferase and LDL cholesterol (COLOC H4 ≥ 0.999; CLPP 0.51–0.64). The known signal rs340874 colocalises with glucose and HbA1c only.
 
 ## Data sources
 
