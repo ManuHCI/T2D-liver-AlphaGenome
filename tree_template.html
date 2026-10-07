@@ -1,0 +1,333 @@
+<title>T2D Hepatocyte Regulatory Tree</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: header strip, then a two-pane workbench — tree canvas (left) and a reading panel (right); stacks on phones. */
+:root{
+  --bg:#f3f5f6; --surface:#ffffff; --ink:#18242b; --muted:#5d6d75; --line:#d5dde1;
+  --up:#1f7a5c; --up-tint:#dff1e9; --down:#b23a48; --down-tint:#f7e1e4;
+  --act:#3d5866; --inh:#c06a17; --var:#4a4f8c; --var-tint:#e6e7f5; --focus:#2463c4;
+  --f-display:"Familjen Grotesk", "Segoe UI", system-ui, sans-serif;
+  --f-body:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --f-mono:"JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11181c; --surface:#18232a; --ink:#e3eaed; --muted:#93a4ac; --line:#2c3a42;
+  --up:#5cc9a1; --up-tint:#173a2f; --down:#ee7f8c; --down-tint:#43232a;
+  --act:#9fb6c2; --inh:#f0a457; --var:#a9adf0; --var-tint:#262a4d; --focus:#6fa3ff; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11181c; --surface:#18232a; --ink:#e3eaed; --muted:#93a4ac; --line:#2c3a42;
+  --up:#5cc9a1; --up-tint:#173a2f; --down:#ee7f8c; --down-tint:#43232a;
+  --act:#9fb6c2; --inh:#f0a457; --var:#a9adf0; --var-tint:#262a4d; --focus:#6fa3ff; color-scheme:dark}
+html,body{height:auto}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5;padding-inline:16px;padding-block:18px 28px}
+.wrap{max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+header{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:10px 24px}
+h1{font-family:var(--f-display);font-weight:700;font-size:1.55rem;letter-spacing:-.01em;margin:0;text-wrap:balance}
+.sub{margin:2px 0 0;color:var(--muted);font-size:.93rem;max-width:70ch}
+.counts{display:flex;flex-wrap:wrap;gap:6px}
+.count{font-family:var(--f-display);font-size:.78rem;border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--muted);background:var(--surface)}
+.count b{color:var(--ink);font-variant-numeric:tabular-nums}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.toolbar input{font:inherit;font-family:var(--f-mono);font-size:.85rem;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink);width:15rem;max-width:100%}
+button{font-family:var(--f-display);font-size:.82rem;font-weight:600;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:6px 11px;border-radius:6px;cursor:pointer}
+button[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+button:focus-visible,input:focus-visible,.node:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-family:var(--f-display);font-size:.78rem;color:var(--muted);align-items:center}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:14px;height:10px;border-radius:3px;display:inline-block;border:1px solid}
+.bench{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:14px;align-items:start}
+@media (max-width:900px){.bench{grid-template-columns:minmax(0,1fr)}}
+.canvas{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:auto;max-height:78vh;position:relative}
+.canvas svg{display:block}
+.colhead{font-family:var(--f-display);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;fill:var(--muted)}
+.colsub{font-family:var(--f-body);font-size:11px;fill:var(--muted)}
+.edge{fill:none;stroke-width:1.2;opacity:.55}
+.edge.act{stroke:var(--act)} .edge.inh{stroke:var(--inh)} .edge.vr{stroke:var(--var);stroke-dasharray:4 3}
+.edge.hl{opacity:1;stroke-width:2.2}
+.dim{opacity:.12}
+.node{cursor:pointer}
+.node rect{stroke-width:1}
+.node text{font-size:11.5px;pointer-events:none}
+.node.gene text{font-family:var(--f-body);font-style:italic;font-weight:600;fill:var(--ink)}
+.node.var text{font-family:var(--f-mono);font-size:10.5px;fill:var(--var)}
+.node.up rect{fill:var(--up-tint);stroke:var(--up)} .node.down rect{fill:var(--down-tint);stroke:var(--down)}
+.node.var rect{fill:var(--var-tint);stroke:var(--var)}
+.node.sel rect{stroke:var(--focus);stroke-width:2.5}
+.node .mk{font-family:var(--f-display);font-style:normal;font-size:9px;font-weight:700}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:flex;flex-direction:column;gap:14px;min-width:0;position:sticky;top:env(safe-area-inset-top,0px)}
+.panel h2{font-family:var(--f-display);font-size:1.3rem;margin:0;display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.gname{font-family:var(--f-body);font-style:italic}
+.pill{font-family:var(--f-display);font-size:.72rem;font-weight:700;letter-spacing:.04em;padding:2px 8px;border-radius:999px;border:1px solid}
+.pill.up{color:var(--up);border-color:var(--up);background:var(--up-tint)}
+.pill.down{color:var(--down);border-color:var(--down);background:var(--down-tint)}
+.pill.neutral{color:var(--muted);border-color:var(--line)}
+.pill.var{color:var(--var);border-color:var(--var);background:var(--var-tint)}
+.panel h3{font-family:var(--f-display);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.story{margin:0;font-size:.98rem}
+ul.links{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+ul.links.scroll{max-height:22rem;overflow-y:auto}
+ul.links li{font-size:.9rem;line-height:1.4;padding:6px 8px;border-radius:6px;background:var(--bg)}
+ul.links a{color:inherit;text-decoration:none;cursor:pointer;border-bottom:1px dotted var(--muted)}
+ul.links a:hover{color:var(--focus)}
+.arrow{font-family:var(--f-mono);font-weight:500}
+.arrow.act{color:var(--act)} .arrow.inh{color:var(--inh)}
+dl.stats{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:0;font-size:.88rem}
+dl.stats dt{color:var(--muted);font-family:var(--f-display);font-size:.8rem}
+dl.stats dd{margin:0;font-family:var(--f-mono);font-size:.82rem;font-variant-numeric:tabular-nums}
+.note{font-size:.82rem;color:var(--muted);margin:0}
+.toplist{display:flex;flex-wrap:wrap;gap:6px}
+.toplist button{font-family:var(--f-body);font-style:italic;font-weight:600}
+.toplist button.up{border-color:var(--up)} .toplist button.down{border-color:var(--down)}
+footer{font-size:.82rem;color:var(--muted);max-width:90ch}
+@media (prefers-reduced-motion:no-preference){.edge,.node{transition:opacity .2s}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>T2D Hepatocyte Regulatory Tree <span style="font-weight:500;font-size:.8em;color:var(--muted)">revised · hybrid Level 1</span></h1>
+      <p class="sub">How fine-mapped type 2 diabetes risk variants (Level 0) change liver genes (Level 1: nearest protein-coding gene, direction from AlphaGenome when confident), and how those changes could spread through transcription-factor and signalling links (Levels 2–3+). Click any node to read its story.</p>
+    </div>
+    <div class="counts" id="counts"></div>
+  </header>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Find gene or rsID…" aria-label="Find gene or variant" list="names">
+    <datalist id="names"></datalist>
+    <button id="modeFull" aria-pressed="true">Whole tree</button>
+    <button id="modeLine" aria-pressed="false">Selected lineage only</button>
+    <button id="clear">Clear selection</button>
+  </div>
+  <div class="legend">
+    <span><i class="sw" style="background:var(--up-tint);border-color:var(--up)"></i>UP in diabetic</span>
+    <span><i class="sw" style="background:var(--down-tint);border-color:var(--down)"></i>DOWN in diabetic</span>
+    <span><i class="sw" style="background:var(--var-tint);border-color:var(--var)"></i>Risk variant</span>
+    <span><svg width="34" height="10" aria-hidden="true"><line x1="0" y1="5" x2="26" y2="5" stroke="var(--act)" stroke-width="1.6"/><path d="M26,1 L33,5 L26,9 z" fill="var(--act)"/></svg>activates</span>
+    <span><svg width="34" height="10" aria-hidden="true"><line x1="0" y1="5" x2="30" y2="5" stroke="var(--inh)" stroke-width="1.6"/><line x1="31" y1="0" x2="31" y2="10" stroke="var(--inh)" stroke-width="2.2"/></svg>represses</span>
+    <span><svg width="34" height="10" aria-hidden="true"><line x1="0" y1="5" x2="28" y2="5" stroke="var(--var)" stroke-width="1.6" stroke-dasharray="4 3"/><circle cx="30" cy="5" r="2.6" fill="var(--var)"/></svg>variant changes gene (AlphaGenome)</span>
+    <span>★ ranked convergence node (exploratory)</span><span>TF = transcription factor</span>
+  </div>
+
+  <div class="bench">
+    <div class="canvas" id="canvas"><svg id="svg" role="img" aria-label="Layered regulatory tree"></svg></div>
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </div>
+
+  <footer>
+    <b>How to read this tree.</b> Level 0 = 108 fine-mapped T2D variants (FinnGen R12 and GCST90475667; PIP ≥ 0.2). Level 1 = the nearest protein-coding gene to each variant, kept only when AlphaGenome (HepG2, liver, hepatocyte tracks) is confident about the direction (|quantile| ≥ 0.99): 91 genes. This hybrid rule was chosen because, on 328 causal GTEx liver eQTLs, the nearest gene identified the target gene more often than AlphaGenome's top gene (62% vs 42%), while confident AlphaGenome directions were correct 82.5% of the time. Levels 2–3+ come from CollecTRI (TF → target) and OmniPath (signalling) restricted to liver-expressed genes (GTEx TPM ≥ 1), with literature corrections (HNF4A → ABCG5/ABCG8 activating; LPA → LPAR2 removed).
+    <b>Validation status.</b> Levels 0–1 are benchmarked. Levels 2+ did <i>not</i> validate against diabetic-liver expression (GSE23343, GSE15653), Open Targets gene sets, or FinnGen genetic direction (concordance 53% vs 50% shuffled, p = 0.39); no node passed FDR &lt; 0.1. ★ nodes are exploratory hypotheses only. Push values are model scores, not percentages.
+  </footer>
+</div>
+
+<script>
+const DATA = __DATA__;
+
+const byId = new Map(DATA.nodes.map(n => [n.id, n]));
+DATA.nodes.forEach(n => { n.dirFinal = n.level === 1 ? Math.sign(n.l1score || n.push) : (n.level === 0 ? 0 : n.dir); });
+const parents = new Map(), children = new Map();
+DATA.nodes.forEach(n => { parents.set(n.id, []); children.set(n.id, []); });
+DATA.edges.forEach(e => { if (byId.has(e.s) && byId.has(e.t)) { children.get(e.s).push(e); parents.get(e.t).push(e); } });
+/* full target lists (all direct targets in the liver network), used by the lineage view and the panel */
+const MAXDRAW = 40;
+const targetEdges = id => { const n = byId.get(id);
+  if (n.targets) return n.targets.filter(z => byId.has(z.t)).map(z => ({s:id, t:z.t, sign:z.sign, type:z.type}));
+  return children.get(id); };
+
+const LEVELS = [
+  {t:"Level 0", s:"risk variant + mechanism"},
+  {t:"Level 1", s:"nearest gene, AlphaGenome direction"},
+  {t:"Level 2", s:"direct targets / partners"},
+  {t:"Level 3+", s:"further steps"}
+];
+const fmt = (x, d=3) => (x === null || x === undefined || Number.isNaN(x)) ? "–" : (Math.abs(x) < 0.001 && x !== 0 ? x.toExponential(1) : x.toFixed(d));
+const dirWord = d => d > 0 ? "UP" : d < 0 ? "DOWN" : "";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+let selected = null, mode = "full";
+
+/* counts */
+const cnt = [0,0,0,0]; DATA.nodes.forEach(n => { if (!n.extra) cnt[n.level]++; });
+document.getElementById("counts").innerHTML = cnt.map((c,i) => `<span class="count">L${i} <b>${c}</b></span>`).join("") +
+  `<span class="count">★ <b>${DATA.nodes.filter(n=>n.explo).length}</b></span>`;
+document.getElementById("names").innerHTML = DATA.nodes.map(n => `<option value="${esc(n.id)}">`).join("");
+
+function lineage(id){
+  const keep = new Set([id]);
+  const up = [id]; while (up.length){ const x = up.pop(); for (const e of parents.get(x)) if (!keep.has(e.s)) { keep.add(e.s); up.push(e.s); } }
+  targetEdges(id).slice(0, MAXDRAW).forEach(e => keep.add(e.t));   // direct targets (strongest first)
+  return keep;
+}
+
+function layout(ids){
+  const cols = [[],[],[],[]];
+  ids.forEach(id => { const n = byId.get(id); cols[n.level].push(n); });
+  // initial order: variants by gene, genes by |push|
+  cols[1].sort((a,b) => Math.abs(b.l1score||0) - Math.abs(a.l1score||0));
+  const pos = new Map(); const setPos = () => cols.forEach(c => c.forEach((n,i) => pos.set(n.id, i)));
+  setPos();
+  for (let pass = 0; pass < 4; pass++){
+    for (const L of [0,2,3]){
+      const bary = n => { const nb = (L === 0 ? children.get(n.id).map(e=>e.t) : parents.get(n.id).map(e=>e.s)).filter(x => pos.has(x) && byId.get(x).level !== L);
+        return nb.length ? nb.reduce((s,x)=>s+pos.get(x),0)/nb.length : 1e6; };
+      cols[L].sort((a,b) => bary(a) - bary(b)); setPos();
+    }
+    const bary1 = n => { const nb = [...parents.get(n.id).map(e=>e.s), ...children.get(n.id).map(e=>e.t)].filter(x=>pos.has(x));
+      return nb.length ? nb.reduce((s,x)=>s+pos.get(x),0)/nb.length : 1e6; };
+    cols[1].sort((a,b)=>bary1(a)-bary1(b)); setPos();
+  }
+  return cols;
+}
+
+const svg = document.getElementById("svg");
+const NS = "http://www.w3.org/2000/svg";
+const el = (t, a={}) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); return e; };
+
+function render(){
+  const ids = (mode === "line" && selected) ? [...lineage(selected)] : DATA.nodes.filter(n => !n.extra).map(n=>n.id);
+  const idSet = new Set(ids);
+  let edgeList = DATA.edges;
+  if (mode === "line" && selected){
+    const seen = new Set(DATA.edges.map(e => e.s + ">" + e.t));
+    edgeList = DATA.edges.concat(targetEdges(selected).filter(e => !seen.has(e.s + ">" + e.t)));
+  }
+  edgeList = edgeList.filter(e => idSet.has(e.s) && idSet.has(e.t));
+  const cols = layout(ids);
+  const colW = 230, nodeW = 132, rowH = mode === "line" ? 30 : 23, top = 52, left = 16;
+  const maxRows = Math.max(...cols.map(c => c.length));
+  // spread shorter columns to centre them against the tallest
+  const xy = new Map();
+  cols.forEach((c, L) => { const off = (maxRows - c.length) * rowH / 2;
+    c.forEach((n, i) => xy.set(n.id, {x: left + L*colW, y: top + off + i*rowH})); });
+  const W = left + 3*colW + nodeW + 40, H = top + maxRows*rowH + 20;
+  svg.setAttribute("width", W); svg.setAttribute("height", H); svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.innerHTML = "";
+  const defs = el("defs");
+  defs.innerHTML = `<marker id="mA" viewBox="0 0 8 8" refX="7" refY="4" markerUnits="userSpaceOnUse" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="var(--act)"/></marker>
+    <marker id="mI" viewBox="0 0 3 10" refX="1.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="3" markerHeight="10" orient="auto"><rect x="0" y="0" width="3" height="10" fill="var(--inh)"/></marker>
+    <marker id="mV" viewBox="0 0 6 6" refX="5" refY="3" markerUnits="userSpaceOnUse" markerWidth="6" markerHeight="6" orient="auto"><circle cx="3" cy="3" r="2.6" fill="var(--var)"/></marker>`;
+  svg.appendChild(defs);
+  LEVELS.forEach((l, L) => {
+    const t = el("text", {x: left + L*colW, y: 20, class: "colhead"}); t.textContent = l.t; svg.appendChild(t);
+    const s = el("text", {x: left + L*colW, y: 35, class: "colsub"}); s.textContent = l.s; svg.appendChild(s);
+  });
+  const hl = selected ? lineage(selected) : null;
+  const gE = el("g"), gN = el("g"); svg.appendChild(gE); svg.appendChild(gN);
+  edgeList.forEach(e => {
+    const a = xy.get(e.s), b = xy.get(e.t); if (!a || !b) return;
+    const y1 = a.y + 9, y2 = b.y + 9; let d;
+    if (byId.get(e.s).level === byId.get(e.t).level){
+      const x = a.x + nodeW; d = `M${x},${y1} C${x+46},${y1} ${x+46},${y2} ${x+4},${y2}`;
+    } else {
+      const x1 = a.x + nodeW, x2 = b.x - 4, mx = (x1 + x2) / 2; d = `M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`;
+    }
+    const on = hl && hl.has(e.s) && hl.has(e.t);
+    const isVar = e.type === "AlphaGenome";
+    const p = el("path", {d, class: `edge ${isVar ? "vr" : e.sign > 0 ? "act" : "inh"}${on ? " hl" : ""}${hl && !on ? " dim" : ""}`,
+      "marker-end": `url(#${isVar ? "mV" : e.sign > 0 ? "mA" : "mI"})`});
+    gE.appendChild(p);
+  });
+  cols.flat().forEach(n => {
+    const p = xy.get(n.id);
+    const cls = n.level === 0 ? "var" : (n.dirFinal > 0 ? "up" : "down");
+    const g = el("g", {class: `node ${n.level === 0 ? "var" : "gene"} ${cls}${selected === n.id ? " sel" : ""}${hl && !hl.has(n.id) ? " dim" : ""}`,
+      transform: `translate(${p.x},${p.y})`, tabindex: "0", role: "button", "aria-label": `${n.id}, level ${n.level}`});
+    g.appendChild(el("rect", {width: nodeW, height: 18, rx: 4}));
+    const t = el("text", {x: 7, y: 13}); t.textContent = n.id; g.appendChild(t);
+    let tag = "";
+    if (n.level > 0){ tag = (n.dirFinal > 0 ? "▲" : "▼") + (n.tf ? " TF" : "") + (n.explo ? " ★" : ""); }
+    else if (n.enh) tag = n.enh.startsWith("CLOSED") ? "closes" : "opens";
+    if (tag){ const m = el("text", {x: nodeW - 6, y: 13, "text-anchor": "end", class: "mk",
+      fill: n.level === 0 ? "var(--var)" : (n.dirFinal > 0 ? "var(--up)" : "var(--down)")}); m.textContent = tag; g.appendChild(m); }
+    g.addEventListener("click", () => select(n.id));
+    g.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " "){ ev.preventDefault(); select(n.id); } });
+    gN.appendChild(g);
+  });
+  if (selected && xy.get(selected)){
+    const c = document.getElementById("canvas"), p = xy.get(selected);
+    const tx = p.x - c.clientWidth/2 + nodeW/2, ty = p.y - c.clientHeight/2;
+    c.scrollTo({left: Math.max(0, tx), top: Math.max(0, ty), behavior: "smooth"});
+  }
+}
+
+function effectText(parentDir, sign){
+  const res = parentDir * sign;
+  if (parentDir < 0 && sign < 0) return {res, why: "a brake is weakened, so the target is released"};
+  if (parentDir > 0 && sign < 0) return {res, why: "a stronger brake holds the target back"};
+  if (parentDir > 0) return {res, why: "more activator pushes the target up"};
+  return {res, why: "less activator lets the target fall"};
+}
+const link = id => `<a data-go="${esc(id)}">${byId.get(id) && byId.get(id).level > 0 ? `<span class="gname">${esc(id)}</span>` : esc(id)}</a>`;
+const arrowTxt = s => s > 0 ? `<span class="arrow act">──▶</span>` : `<span class="arrow inh">──┤</span>`;
+const dirPill = d => d === 0 ? "" : `<span class="pill ${d > 0 ? "up" : "down"}">${dirWord(d)} in diabetic</span>`;
+
+function panelHTML(){
+  if (!selected){
+    const top = DATA.nodes.filter(n => n.explo).sort((a,b) => a.p - b.p);
+    return `<div><h3>Start here</h3><p class="story">Each node is a gene (italic) or a risk variant (rsID). Colour shows the predicted direction in the diabetic hepatocyte. Pick a ranked convergence node to see which Level-1 genes push it and why.</p></div>
+      <div><h3>Ranked convergence nodes ★ (exploratory)</h3><div class="toplist">${top.map(n => `<button data-go="${esc(n.id)}" class="${n.dirFinal > 0 ? "up" : "down"}">${esc(n.id)}</button>`).join("")}</div></div>
+      <div><h3>Suggested first read</h3><p class="story">${link("NR5A2")}: two independent routes, ${link("PROX1")} falling and ${link("HNF1A")} rising, both push it up.</p></div>`;
+  }
+  const n = byId.get(selected);
+  if (n.level === 0){
+    const genes = children.get(n.id);
+    return `<h2>${esc(n.id)} <span class="pill var">risk variant</span></h2>
+      <dl class="stats"><dt>Fine-mapping PIP</dt><dd>${fmt(n.pip,2)}</dd><dt>Enhancer</dt><dd>${esc(n.enh || "no element-wide change")}</dd>
+      <dt>TF binding</dt><dd>${esc(n.tfb || "no TF-specific change")}</dd></dl>
+      <div><h3>What it does</h3><p class="story">${n.enh ? `The risk allele <b>${n.enh.startsWith("CLOSED") ? "closes" : "opens"}</b> a liver regulatory element, so many transcription factors ${n.enh.startsWith("CLOSED") ? "lose" : "gain"} their landing site together. ` : ""}${n.tfb ? `It specifically changes binding of ${esc(n.tfb)}. ` : ""}AlphaGenome predicts this changes:</p></div>
+      <ul class="links">${genes.map(e => `<li>${link(e.t)} ${dirPill(Math.sign(e.ch))} <span class="note">score ${fmt(e.ch,4)}</span></li>`).join("")}</ul>`;
+  }
+  const par = parents.get(n.id), ch = targetEdges(n.id);
+  let story = "";
+  if (n.level === 1){
+    story = `AlphaGenome predicts <span class="gname">${esc(n.id)}</span> goes <b>${dirWord(n.dirFinal)}</b> in the diabetic hepatocyte because of the variant(s) below.`;
+  } else {
+    const agree = par.filter(e => byId.get(e.s).level >= 1 && Math.sign(byId.get(e.s).dirFinal * e.sign) === n.dirFinal).length;
+    story = `<span class="gname">${esc(n.id)}</span> is predicted to go <b>${dirWord(n.dirFinal)}</b>. ${agree >= 2 ? `<b>${agree} incoming links push it the same way</b>: this is convergence.` : agree === 1 ? "One main incoming link sets its direction." : "Its direction comes from weaker, longer paths."}`;
+  }
+  const parList = par.map(e => {
+    const p = byId.get(e.s);
+    if (p.level === 0) return `<li>${link(e.s)} risk allele${p.enh ? ` (${p.enh.startsWith("CLOSED") ? "closes" : "opens"} enhancer)` : ""} → ${dirWord(Math.sign(e.ch))} <span class="note">PIP ${fmt(p.pip,2)}</span></li>`;
+    const ef = effectText(p.dirFinal, e.sign);
+    return `<li>${link(e.s)} is <b>${dirWord(p.dirFinal)}</b> ${arrowTxt(e.sign)} ${e.sign > 0 ? "activates" : "represses"} it: ${ef.why} → <b class="${ef.res > 0 ? "" : ""}">${dirWord(ef.res)}</b>${ef.res !== n.dirFinal && n.level > 1 ? ' <span class="note">(opposes the net direction)</span>' : ""}</li>`;
+  }).join("");
+  const chList = ch.map(e => {
+    const c = byId.get(e.t); const res = n.dirFinal * e.sign;
+    return `<li>${arrowTxt(e.sign)} ${e.sign > 0 ? "activates" : "represses"} ${link(e.t)} → pushes it <b>${dirWord(res)}</b>${c.dirFinal !== res ? ' <span class="note">(other inputs win)</span>' : ""}</li>`;
+  }).join("");
+  const fdrTxt = n.fdr == null ? "not tested (Level 1)" : fmt(n.fdr, 2);
+  return `<h2><span class="gname">${esc(n.id)}</span> ${dirPill(n.dirFinal)} ${n.tf ? '<span class="pill neutral">TF</span>' : ""} ${n.explo ? '<span class="pill neutral">★ exploratory</span>' : ""}</h2>
+    <p class="story">${story}</p>
+    <div><h3>Pushed by</h3><ul class="links">${parList || '<li class="note">No upstream link inside this view.</li>'}</ul></div>
+    <div><h3>Acts on: ${ch.length} direct target${ch.length === 1 ? "" : "s"}${ch.length > MAXDRAW ? ` (map draws the strongest ${MAXDRAW})` : ""}</h3><ul class="links scroll">${chList || '<li class="note">No downstream link shown.</li>'}</ul></div>
+    <div><h3>Numbers</h3><dl class="stats">
+      ${n.level === 1 ? `<dt>AlphaGenome change</dt><dd>${fmt(n.l1score,4)}</dd>` : `<dt>Net push</dt><dd>${fmt(n.push,4)}</dd>`}
+      <dt>Normal liver (GTEx TPM)</dt><dd>${fmt(n.tpm,1)}</dd>
+      <dt>Level-1 genes reaching it</dt><dd>${n.nL1}</dd>
+      <dt>Agreement</dt><dd>${fmt(n.agree,2)}</dd>
+      <dt>p (vs random sets)</dt><dd>${n.level > 1 ? fmt(n.p,4) : "–"}</dd>
+      <dt>FDR</dt><dd>${fdrTxt}</dd></dl>
+      <p class="note">${n.level > 1 ? (n.fdr != null && n.fdr < 0.1 ? "Passes FDR < 0.1." : "Hypothesis only: does not pass FDR < 0.1 after testing about 5,200 nodes.") : "Level-1 direction is a direct AlphaGenome prediction."}</p></div>`;
+}
+
+function select(id){
+  selected = id; if (mode === "line") setMode("line", true);
+  render(); document.getElementById("panel").innerHTML = panelHTML();
+}
+function setMode(m, silent){
+  mode = m; document.getElementById("modeFull").setAttribute("aria-pressed", m === "full");
+  document.getElementById("modeLine").setAttribute("aria-pressed", m === "line");
+  if (!silent){ render(); }
+}
+document.getElementById("panel").addEventListener("click", ev => { const a = ev.target.closest("[data-go]"); if (a) select(a.dataset.go); });
+document.getElementById("modeFull").onclick = () => setMode("full");
+document.getElementById("modeLine").onclick = () => { if (!selected) select("NR5A2"); setMode("line"); };
+document.getElementById("clear").onclick = () => { selected = null; setMode("full"); document.getElementById("panel").innerHTML = panelHTML(); };
+document.getElementById("search").addEventListener("change", ev => {
+  const q = ev.target.value.trim().toUpperCase();
+  const hit = DATA.nodes.find(n => n.id.toUpperCase() === q) || DATA.nodes.find(n => n.id.toUpperCase().startsWith(q));
+  if (hit) select(hit.id);
+});
+render(); document.getElementById("panel").innerHTML = panelHTML();
+</script>

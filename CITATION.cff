@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "T2D-liver-AlphaGenome: variant-to-function analysis of type 2 diabetes risk variants in hepatocytes"
+authors:
+  - family-names: Shetty
+    given-names: Manu Kumar
+    orcid: "https://orcid.org/0000-0002-9767-5092"
+    affiliation: "Department of Pharmacology, Maulana Azad Medical College, New Delhi, India"
+license: MIT
+repository-code: "https://github.com/ManuHCI/T2D-liver-AlphaGenome"
+date-released: 2026-10-04

@@ -1,0 +1,19 @@
+# never publish the API key
+api_key.txt
+.env
+
+# large downloads - every script re-downloads these automatically
+data/finngen_R12_T2D.gz
+data/gencode.basic.gtf.gz
+data/geo/*.gz
+data/prox1/encode/
+data/prox1/cache_*.json
+data/prox1/coloc/
+results/T2D_hepatocyte_level0.xlsx
+
+# old / private files
+T2D Hepatocyte Regulatory Tree.html
+manuscript/
+*.tmp
+__pycache__/
+*.pyc
